@@ -1,0 +1,10088 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "73387af9-184c-40fc-945f-86f7bd06be0b")
+	(paper "A4")
+	(title_block
+		(title "SMD_LED_Board")
+		(rev "1.0")
+		(company "Electronic Cats")
+		(comment 1 "Reviewed by Ignacio Acosta")
+		(comment 2 "Marcelo Arredondo D")
+		(comment 3 "Andrea Zavala G")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x01"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 140.97 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c58ddb-81ef-41f2-baa0-ecab6b71b415")
+	)
+	(junction
+		(at 58.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0616a44c-eee0-45dc-8c7f-d7b31b20d40c")
+	)
+	(junction
+		(at 140.97 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a4bfb2-fa3d-475c-9aae-2f9725db9627")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b2fcbb-3b03-4e56-9910-4dd52301cd37")
+	)
+	(junction
+		(at 140.97 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b5c7a5-7687-4f20-8e00-5e61a2525259")
+	)
+	(junction
+		(at 140.97 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b2a8551-ae91-4029-a1ff-56d310dfd474")
+	)
+	(junction
+		(at 180.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b2f129-5668-405c-ab37-579501ef51d7")
+	)
+	(junction
+		(at 173.99 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1960aa8b-ff69-4578-8ac3-96ebfbc69049")
+	)
+	(junction
+		(at 88.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b7221b2-08be-4d0f-a247-e052bd6cad21")
+	)
+	(junction
+		(at 58.42 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "285be2e5-b8c4-4b70-957b-f293d2cd43be")
+	)
+	(junction
+		(at 52.07 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c3bf9fd-7acf-42a2-a7d4-39c5b48d1a90")
+	)
+	(junction
+		(at 52.07 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352c7c15-4780-4741-b992-d0c6ad236724")
+	)
+	(junction
+		(at 52.07 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358335ae-e091-4fe0-839e-32df51be6199")
+	)
+	(junction
+		(at 52.07 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368cf0ee-2ea3-4f07-bc6a-881c45281c92")
+	)
+	(junction
+		(at 180.34 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a272e51-38d1-4787-9200-8851abc9ee4a")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3fa682-8021-4dff-9157-685151cb9db0")
+	)
+	(junction
+		(at 88.9 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e67e871-9cfa-4ecf-859d-e8ba7ed18f5c")
+	)
+	(junction
+		(at 210.82 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fed4983-b6dd-4359-ba48-135b340e67ad")
+	)
+	(junction
+		(at 140.97 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "421c5079-d715-4c1c-9dc1-9af2c6fa43fe")
+	)
+	(junction
+		(at 173.99 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43dffe3a-e798-4626-b026-a88e833b7b80")
+	)
+	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a2b701-0045-46e5-b169-86a3c9338d97")
+	)
+	(junction
+		(at 88.9 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4771c027-6760-4868-95c8-badb66ec3523")
+	)
+	(junction
+		(at 19.05 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fabcb98-fce4-43c5-9d5d-4e4290d18db2")
+	)
+	(junction
+		(at 52.07 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50294fac-30a8-4edf-8e3d-58b2eabebd99")
+	)
+	(junction
+		(at 140.97 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542a3341-bc1a-4185-a3d6-d35f71437605")
+	)
+	(junction
+		(at 140.97 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5885b6e2-e967-4449-86bd-0b547c4e5b87")
+	)
+	(junction
+		(at 173.99 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a172fea-84bb-44a8-afa8-f7c676136965")
+	)
+	(junction
+		(at 52.07 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd2d550-e1de-47aa-b253-49e5d16dfaff")
+	)
+	(junction
+		(at 210.82 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6513da61-7632-49c2-a758-216036cd60fd")
+	)
+	(junction
+		(at 19.05 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "698a35a8-7346-4fc3-baa6-12693014ea91")
+	)
+	(junction
+		(at 19.05 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730137ed-8d5a-43fd-ae16-a3ecbf83acac")
+	)
+	(junction
+		(at 19.05 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0211e2-9a21-4124-a413-0cbbd78a6c02")
+	)
+	(junction
+		(at 140.97 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca0a820-091b-4830-9904-e7d7d1ac6091")
+	)
+	(junction
+		(at 173.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ab2062-1e27-4693-b4df-0638dae6c810")
+	)
+	(junction
+		(at 52.07 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84ea45ee-1b85-4e21-9a7e-6e38378fae16")
+	)
+	(junction
+		(at 210.82 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ef25e3-880b-4cbc-a679-ece8b04daf3f")
+	)
+	(junction
+		(at 210.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d7d937-5f2a-4f52-bf9d-f72d74e6c0cd")
+	)
+	(junction
+		(at 210.82 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdf1a24-494b-475c-93be-f49d0dadc8a4")
+	)
+	(junction
+		(at 173.99 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d74c22c-455b-43cb-8e66-1752f8e3dc38")
+	)
+	(junction
+		(at 140.97 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f9ed7df-ec1d-4d0f-9c1d-e19c416dde20")
+	)
+	(junction
+		(at 180.34 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "900b4134-aebe-4d58-bbb2-250e883d4d26")
+	)
+	(junction
+		(at 140.97 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924bfa66-439d-4e18-8cab-477d98cfb576")
+	)
+	(junction
+		(at 140.97 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94c73ec7-2b1b-4455-a340-7df0a7781df2")
+	)
+	(junction
+		(at 52.07 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "962a0f65-089b-443b-9ed1-0f2adf704a04")
+	)
+	(junction
+		(at 19.05 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972015ec-eaed-4d1f-878c-9cb2bf4bee16")
+	)
+	(junction
+		(at 19.05 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba2f775-40dc-45d0-8dac-1acae600f03a")
+	)
+	(junction
+		(at 19.05 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2b4ff4-7048-4e94-b656-e1a35c11d9b4")
+	)
+	(junction
+		(at 52.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c69231-0a68-4c2b-b17f-47cb726d247b")
+	)
+	(junction
+		(at 173.99 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d0e5ab-f4fa-40fd-9385-424c3ec57094")
+	)
+	(junction
+		(at 173.99 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abef62ec-555c-449a-9509-32c5186ec60d")
+	)
+	(junction
+		(at 19.05 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3363348-e3a3-4179-b347-939f29d7b125")
+	)
+	(junction
+		(at 173.99 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4bd7c56-86a4-4925-9abd-d760c7985bb3")
+	)
+	(junction
+		(at 140.97 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57a092a-6b67-4042-8a25-b02d24042b6c")
+	)
+	(junction
+		(at 19.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7e69a6a-82d4-4174-b175-2cca19976c4b")
+	)
+	(junction
+		(at 19.05 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b95b6f18-8fc6-4be0-a1f5-680db5076f8b")
+	)
+	(junction
+		(at 180.34 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb13b3a5-d369-46e5-94ba-39df6a88a477")
+	)
+	(junction
+		(at 88.9 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac3629f-0744-405b-a61c-c8a353f7d77a")
+	)
+	(junction
+		(at 19.05 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc3784a-7523-41f5-acac-2dd03527a239")
+	)
+	(junction
+		(at 52.07 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bd99ba-ff99-4698-a21b-c58d88b5993f")
+	)
+	(junction
+		(at 173.99 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4cc072b-6d55-40b5-be49-1fdcc3e27fef")
+	)
+	(junction
+		(at 58.42 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7be0c96-b18c-470a-9091-1a22c0f5e824")
+	)
+	(junction
+		(at 180.34 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c3f36a-4144-4b57-9449-b7d3552ea418")
+	)
+	(junction
+		(at 140.97 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7cf405c-73aa-4e09-9658-00daca183008")
+	)
+	(junction
+		(at 19.05 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec14e14f-28e3-4dbc-a68c-0d651ef74772")
+	)
+	(junction
+		(at 58.42 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecbda749-9041-428c-8c31-2b8501dc222b")
+	)
+	(junction
+		(at 210.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eddeb5d5-2856-43b1-904e-884773c94a8f")
+	)
+	(junction
+		(at 19.05 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeb8587d-3319-4148-8bdf-20f240662cd0")
+	)
+	(junction
+		(at 52.07 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef021991-606a-482d-b322-a93da1e25292")
+	)
+	(junction
+		(at 173.99 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f26572-49bf-45c9-a9c1-87004cf0f691")
+	)
+	(junction
+		(at 173.99 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f83c02ee-fa91-4c12-9ada-f0bfcf4357e8")
+	)
+	(junction
+		(at 88.9 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f85bf532-8764-4d17-af6e-93c7d2e3f929")
+	)
+	(junction
+		(at 19.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6dc4a1-f8ff-4953-9956-7c9067ad9408")
+	)
+	(junction
+		(at 52.07 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf5caeb-618b-461d-8ec3-b50722db5207")
+	)
+	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feece170-d35a-47b1-acae-96abf0dc7667")
+	)
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008ac4f1-496e-4dfc-a799-c4353460ad5f")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008e1420-1767-44b3-acb5-cc770f6d48dd")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01529ab0-d1ed-43e3-bee6-dafbbc4f6598")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019eb717-20e7-4c3c-b3ee-1477ff9fd4dd")
+	)
+	(wire
+		(pts
+			(xy 167.64 168.91) (xy 173.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03870656-1ae7-49cd-b7b5-024b8ceba761")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 78.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04104590-168c-4815-aec3-4e95f824b022")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041e1eba-6098-425a-9eca-e95b71078c71")
+	)
+	(wire
+		(pts
+			(xy 193.04 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04265a1c-c50f-441b-9f85-0fe573331084")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046d3ff5-74c8-481c-94d0-96e49c706c15")
+	)
+	(wire
+		(pts
+			(xy 19.05 171.45) (xy 19.05 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0551482e-025a-4f6c-ae31-9a10674c8b75")
+	)
+	(wire
+		(pts
+			(xy 140.97 160.02) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac47f6-a8ff-4969-81be-3173f8bbca22")
+	)
+	(wire
+		(pts
+			(xy 58.42 72.39) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0823462a-f165-4659-9fa7-c7d4c1187d90")
+	)
+	(wire
+		(pts
+			(xy 19.05 125.73) (xy 19.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087d69ec-cb16-4dbd-a0db-d36910bce121")
+	)
+	(wire
+		(pts
+			(xy 140.97 168.91) (xy 140.97 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b88a24-51b6-4ffd-a532-89d728da6366")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09849bd0-b09e-47f4-8018-301a79b76eb7")
+	)
+	(wire
+		(pts
+			(xy 19.05 144.78) (xy 19.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a81548a-5f8f-4693-8c71-5d6d2ba8ff7b")
+	)
+	(wire
+		(pts
+			(xy 71.12 90.17) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b38d80b-f215-453e-a6f6-8cdb3d387d2c")
+	)
+	(wire
+		(pts
+			(xy 45.72 171.45) (xy 52.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b583abe-5356-47aa-91fb-d004010cd03b")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca524a6-d46c-4ba1-9c15-8b6d8255b29c")
+	)
+	(wire
+		(pts
+			(xy 19.05 90.17) (xy 25.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfbf9a2-9674-496f-a632-db423aa10851")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc08996-f5bd-469b-b4ed-0699746bb6a8")
+	)
+	(wire
+		(pts
+			(xy 140.97 55.88) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5dfda1-2895-447f-a979-fdaf5230cea9")
+	)
+	(wire
+		(pts
+			(xy 19.05 153.67) (xy 25.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dc5fcb-0ba2-401a-a4b2-2be966ae6d0f")
+	)
+	(wire
+		(pts
+			(xy 19.05 107.95) (xy 25.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1195f208-5251-43be-b41b-15aac3777227")
+	)
+	(wire
+		(pts
+			(xy 154.94 160.02) (xy 162.56 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12255299-9318-43a2-84b7-b29ac8e939a7")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 40.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13671424-301e-4033-ad22-18f3aec8e2c5")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137281bc-101a-48e4-8f9a-bccec0d8f07b")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15075f49-7676-4329-adcf-103a9d1f6cef")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fbfba2-23d3-40a3-85d3-5b651d6ad154")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1739a4f2-b799-4458-bf02-26941b96421e")
+	)
+	(wire
+		(pts
+			(xy 167.64 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188be9d8-4cf6-4909-b4be-0b3fd1511a79")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a86610f-00f0-491a-95b3-b62b5980edcb")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae2b1ef-dbc4-446b-8dc1-52e1dba9fe3c")
+	)
+	(wire
+		(pts
+			(xy 173.99 160.02) (xy 173.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be96c52-b479-4bda-9a07-e7a60646a1e8")
+	)
+	(wire
+		(pts
+			(xy 140.97 160.02) (xy 140.97 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22324939-87c7-43aa-9d3e-fc435a200c38")
+	)
+	(wire
+		(pts
+			(xy 19.05 81.28) (xy 25.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238829c5-e5d8-45a8-a2d6-0dca595197a3")
+	)
+	(wire
+		(pts
+			(xy 140.97 177.8) (xy 147.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244525d3-5bfa-43f2-ae3f-d106f63f4f18")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26236248-56a8-4d6b-b775-b3513ef32f7a")
+	)
+	(wire
+		(pts
+			(xy 19.05 72.39) (xy 19.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2640990a-6944-4a6f-a535-fd504d9a555e")
+	)
+	(wire
+		(pts
+			(xy 45.72 63.5) (xy 52.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269ea89e-1c6a-4746-867c-808ebef89f2b")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c1e930-0262-4ee2-8089-bde21e5b45d6")
+	)
+	(wire
+		(pts
+			(xy 45.72 116.84) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292b2c74-95e5-4a31-b467-d101fe8ea044")
+	)
+	(wire
+		(pts
+			(xy 19.05 153.67) (xy 19.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3c0aa1-0301-4689-a3f0-997d01dce9b9")
+	)
+	(wire
+		(pts
+			(xy 140.97 22.86) (xy 140.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6a6d70-2c1b-44df-aa98-9184ac97af50")
+	)
+	(wire
+		(pts
+			(xy 33.02 135.89) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc4adc8-cf51-45f2-ac13-1df8902d8439")
+	)
+	(wire
+		(pts
+			(xy 19.05 116.84) (xy 25.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d0db4b-f4c4-4eaf-bfa6-f8a3c1b6cb03")
+	)
+	(wire
+		(pts
+			(xy 33.02 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344839c0-d532-4d05-8b2a-2d8cb92076cf")
+	)
+	(wire
+		(pts
+			(xy 19.05 135.89) (xy 25.4 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34feb154-4f78-469f-ac9f-141b67a1f536")
+	)
+	(wire
+		(pts
+			(xy 19.05 63.5) (xy 19.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361c77c3-ecd4-4af2-916a-fa0dd22396f7")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3736ae9e-4314-417d-a930-81650d98b407")
+	)
+	(wire
+		(pts
+			(xy 19.05 43.18) (xy 19.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37eaef49-567e-45d3-bb44-d7a639faf7af")
+	)
+	(wire
+		(pts
+			(xy 154.94 133.35) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387b4ab4-07eb-45f7-be00-a910cdb0cfe9")
+	)
+	(wire
+		(pts
+			(xy 58.42 72.39) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397880b0-9da0-4646-a2e9-eb42bb5d423e")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a4b435-e79e-4098-b372-4fc1642f656b")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4f4763-f4f2-4880-a5a6-742eb5ca8f6d")
+	)
+	(wire
+		(pts
+			(xy 52.07 99.06) (xy 52.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb38b6e-1df7-456d-813f-4d54ec3ad333")
+	)
+	(wire
+		(pts
+			(xy 33.02 99.06) (xy 40.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6123c1-9d57-4e22-9766-baf84b4d7811")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f17f45-4115-4bc6-b6bb-71572a47d8f7")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429d856f-be14-4050-aa5c-62ba2a12b730")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44aa7120-dda3-4994-b2d2-2acdc0c37e15")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47988581-bcf0-4811-825e-01cb1d3bf8fd")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aadb736-35cf-4347-9f24-6ebabca86941")
+	)
+	(wire
+		(pts
+			(xy 45.72 144.78) (xy 52.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6da8fc-583c-4322-8ad2-33bf4ef94e6d")
+	)
+	(wire
+		(pts
+			(xy 180.34 60.96) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc42b8f-a159-4e93-925d-f95aee0140be")
+	)
+	(wire
+		(pts
+			(xy 167.64 151.13) (xy 173.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfa9e21-d18b-4b0f-9ef8-899a1f67fab6")
+	)
+	(wire
+		(pts
+			(xy 180.34 69.85) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0332ed-cd0b-40a5-9861-59ef8284a8f7")
+	)
+	(wire
+		(pts
+			(xy 185.42 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f39b24e-330b-44da-b183-dc072664a4f5")
+	)
+	(wire
+		(pts
+			(xy 205.74 78.74) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc37105-893c-4318-a725-324154a029fa")
+	)
+	(wire
+		(pts
+			(xy 19.05 180.34) (xy 25.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504fa9e1-bd7b-4d65-a0f7-125f85cc5006")
+	)
+	(wire
+		(pts
+			(xy 167.64 160.02) (xy 173.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b474aa-e916-4efa-b846-9f29b4b05fb6")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c752d3-15f6-428b-adce-0142a95e4e6e")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ccf5eb-9014-4fd1-81d3-7c4bb391552b")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0febbf-dd24-4111-b7b4-049e0fc5e0eb")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 58.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1fc890-f05c-4c01-b5b0-c9bb543fc8bf")
+	)
+	(wire
+		(pts
+			(xy 173.99 69.85) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c349424-a748-4ed4-9906-7c825cd771da")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600729a8-37db-4559-ae6e-9ed2b0ae74c5")
+	)
+	(wire
+		(pts
+			(xy 45.72 162.56) (xy 52.07 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f78f10-e01a-465b-b521-60b4974bd212")
+	)
+	(wire
+		(pts
+			(xy 154.94 142.24) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e85997-a1a6-46bc-a66f-ba1f811430df")
+	)
+	(wire
+		(pts
+			(xy 19.05 107.95) (xy 19.05 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64046400-8387-4f73-94da-1553120c2fd5")
+	)
+	(wire
+		(pts
+			(xy 19.05 162.56) (xy 19.05 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678b00d0-1c86-48de-a4e9-b11490eda8e8")
+	)
+	(wire
+		(pts
+			(xy 52.07 63.5) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68358a25-f22e-4db6-b401-6dcb043f1e27")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687c250d-e5cc-42e0-afdf-e44150a03c62")
+	)
+	(wire
+		(pts
+			(xy 19.05 144.78) (xy 25.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689cbc53-fc48-4957-a5d4-aac3fa28a14d")
+	)
+	(wire
+		(pts
+			(xy 140.97 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a96af4-455e-4b14-aa95-08361979f14c")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69753940-6580-4766-b6fa-d08cfe9853db")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1f1dda-87a9-451d-9a3d-9d84e309eacc")
+	)
+	(wire
+		(pts
+			(xy 45.72 135.89) (xy 52.07 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2d0b87-6083-43d6-9b95-c65d78129374")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b98c482-7e06-4a6e-aa0e-6b67a6e11b59")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7fda13-9816-4bf8-b860-bae53cc2cfda")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbbef20-9ebc-4a4a-be0c-f56ca609f74b")
+	)
+	(wire
+		(pts
+			(xy 140.97 39.37) (xy 140.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70adb5ed-2d08-4051-a6e0-5b02e017089d")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c7946c-c77a-4aa5-9fa8-f78a72c5cc61")
+	)
+	(polyline
+		(pts
+			(xy 116.84 12.7) (xy 116.84 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715c83c3-a2e2-40b7-8121-8c6fadc20a7c")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 140.97 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d46aec-56af-46f7-9020-bd29baa9ebac")
+	)
+	(wire
+		(pts
+			(xy 33.02 180.34) (xy 40.64 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776849f4-b4f7-48a3-a73f-4d292f9fba7a")
+	)
+	(wire
+		(pts
+			(xy 52.07 144.78) (xy 52.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79248e29-16b6-43cc-9a77-92e51ddecb25")
+	)
+	(wire
+		(pts
+			(xy 19.05 58.42) (xy 19.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a18b878-0dc0-45ef-ba13-6ffe1c0497be")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f551d1-9c30-4b8b-a2ee-f09654e307fc")
+	)
+	(wire
+		(pts
+			(xy 52.07 135.89) (xy 52.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8318359d-0f9b-4080-9d15-69d67f29597f")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a05ea3-01a9-475b-ae45-c739366d3a34")
+	)
+	(wire
+		(pts
+			(xy 52.07 107.95) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e572fe-14d2-4033-85b3-e49acd7b6be4")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a31075-843a-416b-99a8-5af2053b3efc")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 52.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f88fff-5b58-4123-a1f4-6ba621609006")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae03fa9-85bc-48b8-9ff2-4bb1e7b94ad7")
+	)
+	(wire
+		(pts
+			(xy 33.02 144.78) (xy 40.64 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b783e36-1560-4c86-8db0-24c08f68bb2f")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c29599d-a3f9-4ba5-a807-241a77f23403")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.3) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7324ca-d946-47eb-9ff9-645c74c6f8c0")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c77692e-75be-4076-bafc-66e6b4cdb478")
+	)
+	(wire
+		(pts
+			(xy 33.02 90.17) (xy 40.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c812cdb-2024-44f5-a1ff-441dc5e76707")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e927ff1-0c22-48cf-9c15-4d72df73e9bd")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 78.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecbc47d-2a54-476b-8bf1-efc84c30f169")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8e9260-5378-4ddc-8c2f-3b574673be17")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906cac2e-9da3-4e75-84de-121a6b5f3f40")
+	)
+	(wire
+		(pts
+			(xy 140.97 105.41) (xy 140.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9178e304-59cf-44a6-a5a2-c0a2edf61549")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9266626e-ff74-41d2-a12c-0f4c9b2241e5")
+	)
+	(wire
+		(pts
+			(xy 83.82 63.5) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928565c1-3e67-4756-9361-a4cd27e330c6")
+	)
+	(wire
+		(pts
+			(xy 19.05 125.73) (xy 25.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fda7d2-7ed7-4aa4-84ab-4b35aec40611")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b100d6-6515-47c0-ab8e-3fc7aff8a1a7")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 52.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9983fd84-7cf1-4ea9-ba0e-27c6d9b131bf")
+	)
+	(wire
+		(pts
+			(xy 19.05 90.17) (xy 19.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c76b448-ecdb-45f9-bf9e-94892861f8c1")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb155b6-bdfa-4e4f-81cf-97d682b974a7")
+	)
+	(wire
+		(pts
+			(xy 210.82 105.41) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec269c8-cdf6-4d3b-b178-c3a75950ead2")
+	)
+	(wire
+		(pts
+			(xy 205.74 87.63) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6db918-9274-4867-8148-2f1095802798")
+	)
+	(wire
+		(pts
+			(xy 52.07 125.73) (xy 52.07 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9d05f6-0180-47d3-9acb-779b090e798b")
+	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d427ac-b62a-41db-973e-3d5d624719c4")
+	)
+	(wire
+		(pts
+			(xy 193.04 105.41) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c0d8c1-52a6-45bb-882d-993baa03cc9d")
+	)
+	(wire
+		(pts
+			(xy 173.99 96.52) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a321757b-32b6-44dd-9ea4-0813e33b465c")
+	)
+	(wire
+		(pts
+			(xy 45.72 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a589c188-d87b-496f-af06-cb1c97440949")
+	)
+	(wire
+		(pts
+			(xy 52.07 180.34) (xy 45.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d9bbdc-7af6-42fa-b244-b1f3e10e3d0f")
+	)
+	(wire
+		(pts
+			(xy 154.94 168.91) (xy 162.56 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ad8a2b-4c73-42fe-a237-8f415dadd92a")
+	)
+	(wire
+		(pts
+			(xy 19.05 81.28) (xy 19.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbe198c-623b-4f7c-b6fc-062790dd878e")
+	)
+	(wire
+		(pts
+			(xy 205.74 96.52) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac43151c-3271-421f-a1d2-27d37a2a46c1")
+	)
+	(wire
+		(pts
+			(xy 33.02 171.45) (xy 40.64 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acce1c0c-2087-4a7c-979a-44c12ef6c64a")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7f44e9-4024-44f1-8735-def7d5851385")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 52.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada833b2-c422-4055-9952-18971fbe314d")
+	)
+	(wire
+		(pts
+			(xy 45.72 153.67) (xy 52.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af015157-a0a7-4502-8243-6965418156a3")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af072c3b-9cb8-41ac-b27a-741617b44f4f")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02648d7-094c-4d9f-bf2f-d71b15ba005b")
+	)
+	(wire
+		(pts
+			(xy 173.99 133.35) (xy 173.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a27be2-cf5d-4afd-a51e-5dee6dbc78fd")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e76356-019c-4ca7-ae7a-8d274c6fa8dd")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dd15b0-baff-400c-b651-f9a756d3b17f")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b534903e-4785-4757-aacb-f633cb641695")
+	)
+	(wire
+		(pts
+			(xy 180.34 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6001be4-728d-4e51-8879-7cd0fbdaa530")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ea6538-dcf9-4d53-bad2-44c19772e021")
+	)
+	(wire
+		(pts
+			(xy 19.05 72.39) (xy 25.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae960fc-3412-4780-b101-c4a08f7a20c1")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3e643d-e497-4c16-9f48-74df8c60ccfb")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0cf43c-bf29-442e-b082-2c0a5a16d414")
+	)
+	(wire
+		(pts
+			(xy 52.07 162.56) (xy 52.07 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf86a2f-b9d0-45a6-ad58-c0675e870399")
+	)
+	(wire
+		(pts
+			(xy 19.05 171.45) (xy 25.4 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6d317f-69e0-4b22-988e-6a8783c527b3")
+	)
+	(wire
+		(pts
+			(xy 19.05 99.06) (xy 25.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2959aa-d9e6-432a-86bb-82cf22d9cbd2")
+	)
+	(wire
+		(pts
+			(xy 58.42 107.95) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b9f27f-f38a-4198-bfc3-a7282ba6f330")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11ca33b-9df8-4af1-846b-226663b0adeb")
+	)
+	(wire
+		(pts
+			(xy 140.97 151.13) (xy 140.97 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1301f19-7419-44d7-8f74-03d04ef5bc19")
+	)
+	(wire
+		(pts
+			(xy 140.97 142.24) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20cc3f3-ed15-4d31-b0f9-25b0786992ca")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3810bc6-83f3-4749-8cdb-b850db468c8b")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fcc5d9-5c28-41fe-b0bf-4ba7c3c58b73")
+	)
+	(wire
+		(pts
+			(xy 173.99 168.91) (xy 173.99 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b6957a-aaf4-4959-977b-98059305accd")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 140.97 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75637e2-5681-4fd0-a636-9fe0dfc55d92")
+	)
+	(wire
+		(pts
+			(xy 19.05 55.88) (xy 19.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c764d770-744e-4feb-8662-091fef1784c6")
+	)
+	(wire
+		(pts
+			(xy 52.07 171.45) (xy 52.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8de6656-f500-4510-9f48-ebcb8791821b")
+	)
+	(wire
+		(pts
+			(xy 33.02 125.73) (xy 40.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c2b146-86d8-4140-b76e-f3b32a15ee69")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d7b986-764c-4c02-bf59-5d9420f87ff1")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 140.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc84b37a-fece-4732-bb49-21a3ac398890")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce90d75a-ae1f-4d8c-b2e7-d0fd212328d9")
+	)
+	(wire
+		(pts
+			(xy 210.82 60.96) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6332b7-01c2-48b1-985d-33869d931a22")
+	)
+	(wire
+		(pts
+			(xy 19.05 99.06) (xy 19.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04a27d1-209a-4539-8166-b958f7dd612b")
+	)
+	(wire
+		(pts
+			(xy 140.97 168.91) (xy 147.32 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d055ff09-00f1-4d63-b920-fdc3752a25c8")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a93d41-0a03-43ac-b1af-c0feac768a1b")
+	)
+	(wire
+		(pts
+			(xy 19.05 135.89) (xy 19.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c2e503-140a-4042-8c85-83d4e192083a")
+	)
+	(wire
+		(pts
+			(xy 19.05 63.5) (xy 25.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a0a81a-594d-4a93-a81f-1be388081ed6")
+	)
+	(wire
+		(pts
+			(xy 193.04 69.85) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6513d0a-edd1-493a-b662-54c1616afe44")
+	)
+	(wire
+		(pts
+			(xy 83.82 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d713f45c-95ab-44a2-bec4-0b99c98d1cc2")
+	)
+	(wire
+		(pts
+			(xy 140.97 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8751523-b594-4693-bfb3-6611d2c8ffa7")
+	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 19.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dace0eb3-8e12-47de-9cd5-a155fa2424c9")
+	)
+	(wire
+		(pts
+			(xy 173.99 151.13) (xy 173.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3300d0-50d5-4d61-a3e8-8809eca16ed2")
+	)
+	(wire
+		(pts
+			(xy 173.99 105.41) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc4e759-378c-4ff2-891d-52ad084bb9d6")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 63.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf78330-2e63-4c11-a45e-2ec3e29a9c2a")
+	)
+	(wire
+		(pts
+			(xy 210.82 114.3) (xy 210.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddff32b9-6c51-4bf9-9a8f-eb5ba5f0ad8c")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 52.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded42d82-6865-4f52-bedb-74f2172ae187")
+	)
+	(wire
+		(pts
+			(xy 167.64 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df55dd84-ef69-439a-b541-b2e9fa955ec9")
+	)
+	(wire
+		(pts
+			(xy 88.9 116.84) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0150c9f-c93a-496c-90fb-5a486971c60b")
+	)
+	(wire
+		(pts
+			(xy 173.99 177.8) (xy 167.64 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1649202-1bae-4d38-ac12-c4db824bfc07")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c980fe-cc21-460b-9383-ba4772d6d8ab")
+	)
+	(wire
+		(pts
+			(xy 45.72 90.17) (xy 52.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41f7d73-b925-4c47-bb09-3aeae666c660")
+	)
+	(wire
+		(pts
+			(xy 33.02 72.39) (xy 40.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45562f0-41f0-4326-b6be-8bb69b7294ab")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6191471-4d7a-440f-b67f-2c637085151f")
+	)
+	(wire
+		(pts
+			(xy 33.02 162.56) (xy 40.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ea95c3-0152-473d-b28c-1e1070612f97")
+	)
+	(wire
+		(pts
+			(xy 154.94 151.13) (xy 162.56 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98e3b12-13cf-4cd6-bc74-103563f6dff7")
+	)
+	(wire
+		(pts
+			(xy 173.99 142.24) (xy 173.99 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae47852-15e6-4805-9352-ef8b28ba7f57")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb105079-564f-415d-bfc5-bec668d61806")
+	)
+	(wire
+		(pts
+			(xy 33.02 153.67) (xy 40.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb84d1ad-9464-4c33-ab3a-8f4fd4f7aedd")
+	)
+	(wire
+		(pts
+			(xy 52.07 90.17) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7006bc-dedc-47bb-816a-caa3c46cc060")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 52.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3eb464-474f-40e8-bca4-4db3e8ed05e1")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6ef844-f333-4255-8120-0ae17c6a380a")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f180fd13-a6e3-4126-a73e-8acad30505f1")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f183e03a-171e-4a29-a961-520a01723e36")
+	)
+	(wire
+		(pts
+			(xy 19.05 116.84) (xy 19.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19daff9-3491-4681-bdef-a3f81109662e")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e968a5-f9ce-4f6a-a993-572893787258")
+	)
+	(wire
+		(pts
+			(xy 140.97 151.13) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e07452-89dd-4803-88c2-b2ba64fe622c")
+	)
+	(wire
+		(pts
+			(xy 140.97 123.19) (xy 140.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37272b5-73f7-41da-95fc-876a7c8dfc01")
+	)
+	(wire
+		(pts
+			(xy 167.64 142.24) (xy 173.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ca235c-ae65-4120-bbdc-0bf548376abc")
+	)
+	(wire
+		(pts
+			(xy 180.34 60.96) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e460f5-9016-4364-9798-64fe9a4b4001")
+	)
+	(wire
+		(pts
+			(xy 71.12 107.95) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40b56f7-e484-4b5d-91b7-40f9e29fecdd")
+	)
+	(wire
+		(pts
+			(xy 154.94 177.8) (xy 162.56 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43686b3-74c4-4a71-b051-7ac5ad1790c4")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65c600a-70ba-4929-b90f-d6d2f016460e")
+	)
+	(wire
+		(pts
+			(xy 19.05 26.67) (xy 19.05 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f818b783-f3ea-46d9-a99f-fe475abd045a")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b67441-3238-4565-84b3-08b2e952e2d1")
+	)
+	(wire
+		(pts
+			(xy 33.02 116.84) (xy 40.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e5c0bd-f14a-483f-a237-a86c4b4425af")
+	)
+	(wire
+		(pts
+			(xy 19.05 162.56) (xy 25.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbabb470-df4f-4876-addb-64ae48916cc5")
+	)
+	(wire
+		(pts
+			(xy 52.07 153.67) (xy 52.07 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb5d733-a9ff-4c1c-a2c3-e66fe26e344d")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc2a711-6909-4b50-808a-31041ca83a0d")
+	)
+	(text "RED LEDS ARRAY"
+		(exclude_from_sim no)
+		(at 32.766 17.272 0)
+		(effects
+			(font
+				(size 2.66 2.66)
+			)
+		)
+		(uuid "b20f49e9-aea9-4ecb-a19a-945a50dd26d4")
+	)
+	(text "ORANGE LEDS ARRAY"
+		(exclude_from_sim no)
+		(at 158.242 17.272 0)
+		(effects
+			(font
+				(size 2.66 2.66)
+			)
+		)
+		(uuid "bdc68c45-43f5-42ed-9a3c-4d6413a247a2")
+	)
+	(label "O_Signal"
+		(at 140.97 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86982022-1be0-4135-9b7a-dc07ff10d6bb")
+	)
+	(label "R_Signal"
+		(at 19.05 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dfce491-0d46-4659-8f59-19e14e884d2a")
+	)
+	(label "O_Signal"
+		(at 140.97 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f8a8a63-c652-4861-a197-5e3529bb1533")
+	)
+	(label "RG_Signal"
+		(at 88.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8c7c2c3-1417-4679-b446-cd8ff63fefab")
+	)
+	(label "RG_Signal"
+		(at 19.05 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad967b26-1e18-4c18-8780-03de355b8f6c")
+	)
+	(label "OG_Signal"
+		(at 210.82 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af368818-3121-479d-95d7-e78cb924b039")
+	)
+	(label "R_Signal"
+		(at 19.05 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc73ea2-4087-4b09-be60-fb345b6140a6")
+	)
+	(label "OG_Signal"
+		(at 140.97 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbc2ebab-0009-4cec-92bd-954cb43893bf")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02cc24c6-a3ae-4b0d-9fe6-098675d3124c")
+		(property "Reference" "R14"
+			(at 42.926 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3794b6d1-820f-435e-8980-dc8f3408f2cb")
+		)
+		(pin "2"
+			(uuid "41a57fd0-8f31-487c-b975-840cadc5a46e")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0efde5a7-34d5-40fa-80c3-13df7e43e0a0")
+		(property "Reference" "R26"
+			(at 164.846 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3164db1-3d71-4499-b30a-da6390e1db92")
+		)
+		(pin "2"
+			(uuid "e1d59e56-cc53-489c-b05d-511ac1e35c63")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb20aa2-9dc4-41ef-b39b-7ae2ccc3ca53")
+		(property "Reference" "D15"
+			(at 67.31 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED15"
+			(at 67.818 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "843bca9a-0305-4116-ba77-ec84bebc6aec")
+		)
+		(pin "2"
+			(uuid "bf200689-36fa-4d97-916f-8295cb320cc5")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12da5123-bcb1-4851-a5b3-c17e022884da")
+		(property "Reference" "D29"
+			(at 151.13 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN9"
+			(at 151.638 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c04aebc6-a7e9-4e78-bbdd-d2af980f6583")
+		)
+		(pin "2"
+			(uuid "c0728d19-d892-410f-a8f3-e564776e3d45")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12dc9ebc-3ba8-4609-bb05-9abf8fc023b2")
+		(property "Reference" "R27"
+			(at 164.846 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "928a350c-d0dc-4e1d-8e44-9dcb690fd5cf")
+		)
+		(pin "2"
+			(uuid "e3c6f8a7-ba1a-410f-9cb3-ed881806e962")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "143af3ee-a819-4af2-bead-e873250c0d7f")
+		(property "Reference" "D24"
+			(at 151.13 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN4"
+			(at 151.638 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d32c083f-2272-4be4-98bf-bfc8ed6da516")
+		)
+		(pin "2"
+			(uuid "f520d578-e253-4634-8eef-7dc7409f713c")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1468b92a-9ca7-47cf-a605-668f0feb282e")
+		(property "Reference" "R23"
+			(at 164.846 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df3321b5-8c82-42c6-9803-8adc8f1c7fe2")
+		)
+		(pin "2"
+			(uuid "bc20cfd6-c69f-4966-a42a-c71886ae4795")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18141927-a53c-4eee-82e4-952992fc3b06")
+		(property "Reference" "R28"
+			(at 164.846 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8dbbf13-82f9-47a6-820a-d2c8495e2dbf")
+		)
+		(pin "2"
+			(uuid "ea9f1a47-5d3b-453f-8e6d-5e63e0a2ffdb")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "243d8afb-b92c-4bf6-85f0-32aaf61fc68b")
+		(property "Reference" "R38"
+			(at 202.946 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e568ebe9-e61a-4d2b-9598-a440d31fd6f4")
+		)
+		(pin "2"
+			(uuid "1adca785-8979-4ad3-976f-79b79a6c23e1")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25459c87-71bb-4d48-9f78-a9cb554e6513")
+		(property "Reference" "R18"
+			(at 81.026 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ff194c7-0344-42b3-97ca-c31d80b5a5b0")
+		)
+		(pin "2"
+			(uuid "a26bd5a2-8bcf-4916-ba40-e3236cb84efc")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e16c80a-ecd8-4ede-9ba6-5d339e4794e3")
+		(property "Reference" "D10"
+			(at 29.21 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED10"
+			(at 29.718 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c0da0e-493b-4151-848f-4f24aa8f436c")
+		)
+		(pin "2"
+			(uuid "bb0ef376-9947-40e7-b5db-e8949847a1d0")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3035bbd4-84a5-45ae-becf-83d0dea9feb3")
+		(property "Reference" "D38"
+			(at 189.23 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN18"
+			(at 189.738 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81434cc5-2247-4444-8072-3d822ac01b17")
+		)
+		(pin "2"
+			(uuid "a17f4a36-5adc-432b-a7fb-54ef5b269d43")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31317376-3f39-487b-870d-019330547e9a")
+		(property "Reference" "D31"
+			(at 151.13 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN11"
+			(at 151.638 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabc9a7b-922b-409d-a17c-81b9463f5337")
+		)
+		(pin "2"
+			(uuid "2d8a86de-90f1-4741-8bca-cbcd18fe62c6")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32c10e7f-68c6-45e9-8f05-b5a3821dc86d")
+		(property "Reference" "R35"
+			(at 202.946 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d7055a6-6e7b-4711-9776-007731a4b425")
+		)
+		(pin "2"
+			(uuid "79af121a-f080-4fee-ba20-101f32282447")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37235d6d-9611-4b20-b0b7-9f79aa63ed02")
+		(property "Reference" "R13"
+			(at 42.926 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb59e7c7-83f9-4e3e-9438-5793591d1d34")
+		)
+		(pin "2"
+			(uuid "90681de0-f513-4e05-bfa9-91793e5fa80a")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a4bf1aa-c49a-42ab-99bb-2c623150b7af")
+		(property "Reference" "R1"
+			(at 42.926 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35cf4eb2-1780-4b27-a639-9b43a623fcd6")
+		)
+		(pin "2"
+			(uuid "ce229b9a-fdf6-445b-bdf3-455d1317a973")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cef6e72-3b58-494c-87f5-8d7381a49e37")
+		(property "Reference" "D1"
+			(at 29.21 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED1"
+			(at 29.718 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a1cd9d-46c0-4ff8-9181-829d74d60ca7")
+		)
+		(pin "2"
+			(uuid "0af34403-c3fb-417f-9b00-a0da00b43a18")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f030d29-71b9-4ce4-b801-3442f03172da")
+		(property "Reference" "R6"
+			(at 42.926 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f651b41-4d08-42dd-b66e-615b6bb0e1fb")
+		)
+		(pin "2"
+			(uuid "34046b3b-98c3-4213-b151-0db2f2f99ec3")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42fa9535-3a3c-4edb-bae5-796756c53681")
+		(property "Reference" "R37"
+			(at 202.946 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc967e54-8979-4163-8243-07cb204421a0")
+		)
+		(pin "2"
+			(uuid "e4e1e5a9-c0ec-471d-8dd2-655698b5b98b")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46454354-d489-4fca-b5ba-5120ddb8e53d")
+		(property "Reference" "D39"
+			(at 189.23 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN19"
+			(at 189.738 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb849ce5-a615-4fe9-a0d3-ce0a28ba09df")
+		)
+		(pin "2"
+			(uuid "5fdcfc36-bb11-400d-a006-00f6dd7a4d40")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c7f92c-2533-4559-ba88-cf6b393dfd94")
+		(property "Reference" "R7"
+			(at 42.926 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60284c49-aab1-4600-9620-c873bcf8e566")
+		)
+		(pin "2"
+			(uuid "5fc588e7-21ca-4bae-9441-5059b1938f03")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47a0646d-8ae8-4e2f-b944-b5e88c279e3a")
+		(property "Reference" "D5"
+			(at 29.21 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED5"
+			(at 29.718 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ffc3080-4b76-4692-b7ea-e8a6967171c1")
+		)
+		(pin "2"
+			(uuid "f317e292-2f8d-4d89-aebf-55917c58da8b")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b99a3f3-89ec-4fc4-9161-a136bfcee012")
+		(property "Reference" "D26"
+			(at 151.13 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN6"
+			(at 151.638 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b9c801c-00f8-48ea-ad80-0dff180d5aae")
+		)
+		(pin "2"
+			(uuid "12705262-4165-4ff0-965a-ce38e804eaef")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd25db2-ee63-45a6-9c0d-56a58cb92876")
+		(property "Reference" "R10"
+			(at 42.926 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e52f3b4b-3016-4ca2-a90d-f4cea12880fd")
+		)
+		(pin "2"
+			(uuid "17cc231e-d0bf-47bf-add3-88e81a1e3fbc")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "612db17d-a5ca-4e87-9b8f-9911748e87a1")
+		(property "Reference" "D4"
+			(at 29.21 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED4"
+			(at 29.718 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab83679-ad17-4c10-8155-064a1a824760")
+		)
+		(pin "2"
+			(uuid "281d3af5-cb89-4444-812b-78e1b52feb47")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "615cb389-fea9-4916-a3d0-1bacf6a11d95")
+		(property "Reference" "R9"
+			(at 42.926 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6bde046-016c-47de-aa9c-0043287d13a7")
+		)
+		(pin "2"
+			(uuid "f54e8c52-5554-41a3-872c-ba74d6296e8c")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64bf49e1-2f05-4624-b341-2ba83b944170")
+		(property "Reference" "D7"
+			(at 29.21 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED7"
+			(at 29.718 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fa0915f-78a9-4695-a144-ff2324b3cb17")
+		)
+		(pin "2"
+			(uuid "1a9a0310-8c8f-4bac-8b3f-c7a420f34efa")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b4c58ea-0e4a-438b-a116-b7a246abef26")
+		(property "Reference" "R20"
+			(at 81.026 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d037488a-4da3-4426-b828-b87efae91f71")
+		)
+		(pin "2"
+			(uuid "88cb2323-a842-4769-8346-5e1c2e0b2dbc")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c9ccbd0-dd00-4d38-aa15-bb8c36955fd1")
+		(property "Reference" "R24"
+			(at 164.846 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d760820-c4d2-4601-96db-8c6a66814196")
+		)
+		(pin "2"
+			(uuid "54b15534-0848-47b0-9cd8-065e492625ff")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6deaabef-cdcf-4b62-8df7-c2128ea677da")
+		(property "Reference" "D12"
+			(at 29.21 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED12"
+			(at 29.718 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3759f51d-db86-4170-8184-a87ff75d7305")
+		)
+		(pin "2"
+			(uuid "6ed4dbc2-c055-4e17-b57a-42dd94849ea2")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e2e4318-a7ce-4a82-8aea-8ffe857916b6")
+		(property "Reference" "R17"
+			(at 81.026 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92060e54-f912-4e2d-bfd2-4f3d435604c7")
+		)
+		(pin "2"
+			(uuid "b2f352b4-2e0d-408d-a2bf-263aa4c9c49c")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f3f6b63-22c8-41d3-9096-600f9d2293af")
+		(property "Reference" "R39"
+			(at 202.946 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d9a726-b81f-452d-82cf-952ee8a46f15")
+		)
+		(pin "2"
+			(uuid "7db17ea8-6be3-4ca1-9cf8-250f78cf74db")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "706341ed-4fe5-4206-9520-b3061f5471d6")
+		(property "Reference" "R36"
+			(at 202.946 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09314ae3-7b25-4477-a90e-cf20d1aecfc5")
+		)
+		(pin "2"
+			(uuid "59533d5e-db3c-4a72-8135-df6ad158d1fa")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74576333-4ec3-4822-b55d-8acd31ea6c11")
+		(property "Reference" "D33"
+			(at 151.13 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN13"
+			(at 151.638 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb70250f-4483-4263-b710-fa3b6ee3d7e0")
+		)
+		(pin "2"
+			(uuid "aefa980e-5ad1-43bf-93e6-1fadbf9bbe7c")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bdcb086-c243-48fe-bd09-cfde1c9f9c0a")
+		(property "Reference" "R32"
+			(at 164.846 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d55774a-789c-4851-aa58-bcd6a4dafb0f")
+		)
+		(pin "2"
+			(uuid "7390c30f-ac94-47af-be61-93d99a5868eb")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dadce8d-ecd9-49a7-8394-a3b6e0fb8ebf")
+		(property "Reference" "D34"
+			(at 151.13 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN14"
+			(at 151.638 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "931506fe-be0d-400a-b10c-6a82bd227707")
+		)
+		(pin "2"
+			(uuid "5f21d1fd-1052-4346-8295-551c24e8d29a")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7deb0ecd-a2a7-4ca5-8847-58dec5e2146f")
+		(property "Reference" "D27"
+			(at 151.13 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN7"
+			(at 151.638 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01cb5837-273d-432a-8f28-4a39ccb7ab25")
+		)
+		(pin "2"
+			(uuid "39c47642-b121-44ff-8a32-2b883f0d21f8")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ebc34e4-ae63-413d-a4c8-38ea93b3d876")
+		(property "Reference" "R22"
+			(at 164.846 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a29484c-a322-429e-957a-a7de97956c98")
+		)
+		(pin "2"
+			(uuid "dc9e12de-eb01-42b1-94b8-ff0315009090")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80000099-f6b6-46dd-bb3e-f5b98b703dc8")
+		(property "Reference" "D13"
+			(at 29.21 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED13"
+			(at 29.718 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb942919-b085-4ecd-bc87-bed0dff06b23")
+		)
+		(pin "2"
+			(uuid "0ec2fdf9-98ea-45ef-ab9d-cc15c17a1401")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "820cf44d-78f1-420b-bc48-1a1007c5971a")
+		(property "Reference" "D36"
+			(at 189.23 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN16"
+			(at 189.738 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4afc8d43-5a49-4933-9f1b-ae64fab0eaef")
+		)
+		(pin "2"
+			(uuid "b577ffe3-adf6-4b22-aaef-60845b4876ac")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8298a83d-bda4-46f2-bcc9-52b5a31b9d4b")
+		(property "Reference" "D18"
+			(at 67.31 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED18"
+			(at 67.818 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d71779b-eb47-494f-91fc-0dba0111d41e")
+		)
+		(pin "2"
+			(uuid "80403ac1-a1ff-4dcb-a873-093b7279810e")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ca9947-2113-4a85-bdf9-13d663ac97ce")
+		(property "Reference" "R11"
+			(at 42.926 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c5620a-2377-45c9-86df-c6470958f104")
+		)
+		(pin "2"
+			(uuid "2b9b1f7a-585f-4dd3-8aba-7cf46d222869")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "881ffb17-85ed-4944-9116-f5e55713a3b4")
+		(property "Reference" "D40"
+			(at 189.23 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN20"
+			(at 189.738 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "defd08ba-580a-4d80-9e79-5bae24e1ee00")
+		)
+		(pin "2"
+			(uuid "414a84c1-98aa-4caf-b727-b93f8bdfe478")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 19.05 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95349e4d-27a9-4a0f-8902-ff92dd9cea02")
+		(property "Reference" "J1"
+			(at 16.51 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RedL_Conn"
+			(at 21.844 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C295747"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa0b108c-daca-4f34-a5f9-f9306b96fc8e")
+		)
+		(pin "2"
+			(uuid "cbc51c80-754c-4270-bd83-dd2627be4557")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "962ce0da-1360-4dd6-b359-9f26deea551a")
+		(property "Reference" "D6"
+			(at 29.21 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED6"
+			(at 29.718 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb9fb47-0122-4c6c-a55f-7e4e8e037d87")
+		)
+		(pin "2"
+			(uuid "2843105a-2760-404c-af1f-11e78e81385b")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "986ef8aa-e1ce-442a-ae5e-0854c4dd189f")
+		(property "Reference" "D28"
+			(at 151.13 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN8"
+			(at 151.638 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "300f5280-3460-4ebd-9699-729ed9863b52")
+		)
+		(pin "2"
+			(uuid "eb334e43-12cd-4a1f-aa55-934b8e9b80c6")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "996e1795-d75d-48d2-8c5a-cd5c84341826")
+		(property "Reference" "D2"
+			(at 29.21 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED2"
+			(at 29.718 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39968111-6d4f-451d-833b-077344a91362")
+		)
+		(pin "2"
+			(uuid "d8935293-f579-4d5d-8549-08992cb617d4")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ecc23c-c6e5-4481-bf83-0489dc8ba2c6")
+		(property "Reference" "D14"
+			(at 29.21 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED14"
+			(at 29.718 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a54938e-c3e7-4ad7-bde8-13b379381eab")
+		)
+		(pin "2"
+			(uuid "af930a53-97ae-4f21-8f67-09dc1166d5df")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da9d413-b44e-4358-9ef7-e6b8c18bc99a")
+		(property "Reference" "R8"
+			(at 42.926 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9b9f2d6-9704-4b9b-8488-d5bc812671b6")
+		)
+		(pin "2"
+			(uuid "53ebaaea-060c-48e1-af5c-54c6769c6d94")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e55bee4-8477-4f5b-8cb6-26e697b7968a")
+		(property "Reference" "D25"
+			(at 151.13 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN5"
+			(at 151.638 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cbca61f-2ec7-46a2-af79-797fcc465ad3")
+		)
+		(pin "2"
+			(uuid "783e47c1-e307-4747-93bb-0032d35ca7c3")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ed204f0-3db7-4512-8b9d-d262e0f00ec9")
+		(property "Reference" "D9"
+			(at 29.21 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED9"
+			(at 29.718 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29db68ab-db08-49a2-aedb-e95a96263ee5")
+		)
+		(pin "2"
+			(uuid "24ccdab2-80ce-4daa-9135-2b9f4e5860af")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fbc41e5-05a4-47d3-8a18-89f670369309")
+		(property "Reference" "R12"
+			(at 42.926 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f0c11b7-7de4-490b-ad09-298f7ac6a957")
+		)
+		(pin "2"
+			(uuid "b7e7a7c4-337d-41c9-a130-28756821e76d")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1e3c222-59d8-4068-9211-f4c6f109050e")
+		(property "Reference" "D35"
+			(at 189.23 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN15"
+			(at 189.738 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ec78ce-644a-4b58-96ac-65e4a209b7ab")
+		)
+		(pin "2"
+			(uuid "4974c67b-ddb0-48ca-a122-da904f75f733")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a953f5f8-d282-4f39-9f10-cbd990ebb688")
+		(property "Reference" "R21"
+			(at 164.846 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a1eaee9-c40f-4890-976b-7b2fe811994b")
+		)
+		(pin "2"
+			(uuid "f009884d-a5c5-4cc4-a635-18f62ba2d8d5")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a98a7107-ffbb-4086-8de2-0ef3883ec979")
+		(property "Reference" "R30"
+			(at 164.846 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6fce6b-5c9b-4a9b-9609-3d40240f8c1e")
+		)
+		(pin "2"
+			(uuid "a776c9cd-8203-4d8d-af7b-4d6afdae217f")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb2124a-0bf4-47f6-93f3-3a35b835f3ec")
+		(property "Reference" "R5"
+			(at 42.926 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6285a00c-aa2f-4d3a-bfac-8d56375f301e")
+		)
+		(pin "2"
+			(uuid "e52369d3-6546-4dd8-8583-c91db1118f42")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b975d402-bb72-469c-86db-2e420765b75e")
+		(property "Reference" "D17"
+			(at 67.31 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED17"
+			(at 67.818 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118b5683-f665-4378-ae6b-34eaa4d8d65a")
+		)
+		(pin "2"
+			(uuid "15103aa0-3f8e-489d-8692-e35d388f0e32")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc033e23-9207-485b-a56d-fae249aa1c5f")
+		(property "Reference" "R16"
+			(at 81.026 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cafe4f91-4713-4302-9b84-39178bbefe0c")
+		)
+		(pin "2"
+			(uuid "f49553e8-a765-462e-a293-d771403901a5")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc36acb3-4241-4960-9797-6346cb44595a")
+		(property "Reference" "D30"
+			(at 151.13 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN10"
+			(at 151.638 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919875d3-1479-4292-8ca4-9058b54d8e0a")
+		)
+		(pin "2"
+			(uuid "b675f720-8812-4b99-9135-671aa26288ed")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2e328a-fb16-4e41-9efe-a1289a1f14e7")
+		(property "Reference" "D22"
+			(at 151.13 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN2"
+			(at 151.638 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82f74424-bea2-40b8-bcce-6a9e34751848")
+		)
+		(pin "2"
+			(uuid "2b918373-51b6-4383-8ff7-1348153bc8b2")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0258d73-b27d-4080-8b9e-9c3a3857131a")
+		(property "Reference" "D11"
+			(at 29.21 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED11"
+			(at 29.718 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c60c3e35-0fd0-4bf8-a4d6-425f5adb5fa3")
+		)
+		(pin "2"
+			(uuid "601f49f8-ed42-4b21-9c29-343724245145")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c07199be-5e62-4d93-a3e9-67579dc70175")
+		(property "Reference" "D3"
+			(at 29.21 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED3"
+			(at 29.718 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88b6726b-6e43-4825-ba31-6315bc92ff50")
+		)
+		(pin "2"
+			(uuid "b0e2334d-e7bd-4595-92d5-8e9907e9daba")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 29.21 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c38d24bc-1ac3-44e1-a390-6e4a91cfc4a6")
+		(property "Reference" "D8"
+			(at 29.21 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED8"
+			(at 29.718 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c2b0cc-9620-4629-b44f-cc0f4a6abd9e")
+		)
+		(pin "2"
+			(uuid "110d46e8-6ce8-4266-b0fd-61d0b35030e9")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5715a21-2e1b-4faf-b052-ff61269989f8")
+		(property "Reference" "D23"
+			(at 151.13 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN3"
+			(at 151.638 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19e964b0-f53c-4afd-bf58-ce4b75cebecc")
+		)
+		(pin "2"
+			(uuid "1eed9be4-d1aa-4c23-b62d-9da15905b598")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4fa4b7-b0c3-4194-9eef-4a413062bdaf")
+		(property "Reference" "D37"
+			(at 189.23 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN17"
+			(at 189.738 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b08924-c9be-459c-9f73-2080f1dbbf19")
+		)
+		(pin "2"
+			(uuid "67718148-4036-448d-a051-b67df1db910a")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cebc8e20-9810-4d86-8416-e53c602c6ced")
+		(property "Reference" "D21"
+			(at 151.13 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN1"
+			(at 151.638 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9694e9d-5ea5-4d3c-ac16-314e094269dc")
+		)
+		(pin "2"
+			(uuid "e2370f56-923f-420a-aa4f-053b90166aef")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d326df09-86b7-49f4-a160-5214c0e4733f")
+		(property "Reference" "R2"
+			(at 42.926 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aecbff2-fb08-4107-a5de-a3946c78e76b")
+		)
+		(pin "2"
+			(uuid "b9a4ac81-a5da-4c9b-9ef7-e259a16cf813")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4b187e2-f236-4c64-ba08-5ebb8e6698c9")
+		(property "Reference" "R15"
+			(at 81.026 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c77be6f-d90a-4cd1-8b51-e06977d16aad")
+		)
+		(pin "2"
+			(uuid "bfdc91c8-de52-447a-8527-6a95f35183dd")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d50ad516-b70b-47e6-86ee-3fe7f625df5a")
+		(property "Reference" "R34"
+			(at 164.846 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e059e442-ac0d-467b-ac20-181feb553a82")
+		)
+		(pin "2"
+			(uuid "3cee383c-7fab-4de7-9124-1dc12d32bb04")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9746c12-6232-470b-837e-c907ce3e43f3")
+		(property "Reference" "R29"
+			(at 164.846 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8797a6b-e29a-4602-9b4a-4092699360cf")
+		)
+		(pin "2"
+			(uuid "e583cb97-80c3-4c6d-a033-da6f2d18e6a7")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dae5f2e8-40ff-4ecf-85fe-fcdd0d344646")
+		(property "Reference" "R33"
+			(at 164.846 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d9690a-bfa2-4f7b-af33-fd68e957f785")
+		)
+		(pin "2"
+			(uuid "d587c837-27dc-4b0f-b8a6-87e464038cbb")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 151.13 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df31973b-04d5-4f3f-af24-97b2b06aa3ea")
+		(property "Reference" "D32"
+			(at 151.13 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN12"
+			(at 151.638 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32164a94-f0ba-4df1-aa3c-c0ceab868eb1")
+		)
+		(pin "2"
+			(uuid "766ccc51-ab8c-4db5-b3dc-36c6f277cec9")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2d33789-92ad-41c9-8cdb-00a4c5cf2f9c")
+		(property "Reference" "R4"
+			(at 42.926 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e21fb4-3514-4bb2-8f24-0f8cb36eeb2c")
+		)
+		(pin "2"
+			(uuid "0a06f4b0-7f63-48d4-8d4f-cab630779ff7")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3868547-10fc-432e-b5f5-34b98260e6d1")
+		(property "Reference" "R25"
+			(at 164.846 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d84a536f-a7af-4c14-8d4f-9a2a1f3e86ef")
+		)
+		(pin "2"
+			(uuid "eefa9fa4-ba3e-4015-b490-6544a1758975")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3fbe829-6bb7-4683-b784-f02bc2b909b3")
+		(property "Reference" "R40"
+			(at 202.946 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 202.946 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9670df-17f5-4f20-9992-3b3013811f6a")
+		)
+		(pin "2"
+			(uuid "3e8c7b35-f983-4bae-9369-d8cb48fa07e0")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 81.28 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e44f502f-d137-4736-8a6f-50904bd6548e")
+		(property "Reference" "R19"
+			(at 81.026 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 81.026 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "413bf9f2-46c2-4eff-9c17-0ee67de381bb")
+		)
+		(pin "2"
+			(uuid "6968c890-6dfc-4d78-9e62-76c2d0381641")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 140.97 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea5abf94-ee16-47d4-9123-4ba3fa4ae146")
+		(property "Reference" "J2"
+			(at 138.43 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OranL_Conn"
+			(at 143.764 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C295747"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b2a2af5-d33f-4618-9da2-34bc4ea92ba3")
+		)
+		(pin "2"
+			(uuid "68a1c57e-e472-47cd-aecf-8444037e3ec4")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed913fc4-9b32-4e58-ad33-79a5c269e828")
+		(property "Reference" "R3"
+			(at 42.926 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 42.926 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 43.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455bedbd-7ebe-4f56-8fb7-38f14d1bce19")
+		)
+		(pin "2"
+			(uuid "387d8beb-e28d-4804-9068-5292b31b92e6")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 165.1 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edacd538-9499-4b06-a974-910191d18868")
+		(property "Reference" "R31"
+			(at 164.846 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 164.846 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c469bdac-b91c-4bbb-8409-e1d3701063bf")
+		)
+		(pin "2"
+			(uuid "3358c645-5074-45ce-a6ae-922022b6efc1")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f29168c1-7185-43b5-999b-28f255032beb")
+		(property "Reference" "D16"
+			(at 67.31 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED16"
+			(at 67.818 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a3db9d-fdd2-4834-b53d-1b835fb88e27")
+		)
+		(pin "2"
+			(uuid "a79a6abf-0f76-4904-a121-16cfe20c0ac2")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6cf8104-fe00-4ecd-93c4-4e028ea6b58b")
+		(property "Reference" "D19"
+			(at 67.31 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED19"
+			(at 67.818 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adb90134-6dea-4ebe-804b-fa57355af56b")
+		)
+		(pin "2"
+			(uuid "46ba2252-5d40-479d-9646-29ba030364ae")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa083b43-4bd9-4863-a54f-28f6b392af0f")
+		(property "Reference" "D20"
+			(at 67.31 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED20"
+			(at 67.818 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811092313_Orient-ORH-G36G_C205443.pdf"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C205443"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfe151e0-a123-4cd2-b949-20043caf0a89")
+		)
+		(pin "2"
+			(uuid "836092cd-fbf3-4d82-b909-9ce444b8bd6a")
+		)
+		(instances
+			(project "VeinFinder_SMDLedBoard"
+				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

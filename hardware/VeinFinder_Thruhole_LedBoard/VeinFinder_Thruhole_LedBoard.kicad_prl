@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "800ffff_ffffffff",
+    "visible_layers": "8007fff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "VeinFinder_SMDLedBoard.kicad_prl",
+    "filename": "VeinFinder_Thruhole_LedBoard.kicad_prl",
     "version": 3
   },
   "project": {

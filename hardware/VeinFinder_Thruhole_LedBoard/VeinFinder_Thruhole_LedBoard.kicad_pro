@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VeinFinder_SMDLedBoard.kicad_pro",
+    "filename": "VeinFinder_Thruhole_LedBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -484,7 +484,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "VeinFinder_Thruhole_LedBoard.step",
       "svg": "",
       "vrml": ""
     },
@@ -507,7 +507,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -525,16 +525,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         },
         {
           "group_by": false,
@@ -543,27 +537,15 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "LCSC#",
-          "name": "LCSC#",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "manf#",
-          "name": "manf#",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -608,7 +590,7 @@
   },
   "sheets": [
     [
-      "73387af9-184c-40fc-945f-86f7bd06be0b",
+      "d4ba6bb6-d969-451b-baf6-947e76a296d3",
       "Root"
     ]
   ],

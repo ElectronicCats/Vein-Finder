@@ -2,16 +2,8 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "73387af9-184c-40fc-945f-86f7bd06be0b")
+	(uuid "d4ba6bb6-d969-451b-baf6-947e76a296d3")
 	(paper "A4")
-	(title_block
-		(title "SMD_LED_Board")
-		(rev "1.0")
-		(company "Electronic Cats")
-		(comment 1 "Reviewed by Ignacio Acosta")
-		(comment 2 "Marcelo Arredondo D")
-		(comment 3 "Andrea Zavala G")
-	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x01"
 			(pin_names
@@ -541,1301 +533,1301 @@
 		)
 	)
 	(junction
-		(at 140.97 60.96)
+		(at 184.15 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04c58ddb-81ef-41f2-baa0-ecab6b71b415")
+		(uuid "0b6cef43-c3a7-4e3f-9f04-86a1bf069d6a")
 	)
 	(junction
-		(at 140.97 69.85)
+		(at 151.13 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08a4bfb2-fa3d-475c-9aae-2f9725db9627")
+		(uuid "0e15ccf2-35e8-425e-993e-69b4c1f761dc")
 	)
 	(junction
-		(at 173.99 87.63)
+		(at 29.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09b2fcbb-3b03-4e56-9910-4dd52301cd37")
+		(uuid "10da0b3a-058a-44b4-9d64-70cbf85a6785")
 	)
 	(junction
-		(at 140.97 123.19)
+		(at 29.21 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b2a8551-ae91-4029-a1ff-56d310dfd474")
+		(uuid "11c71f29-9969-4a29-8335-c8262206b472")
 	)
 	(junction
-		(at 173.99 69.85)
+		(at 29.21 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1960aa8b-ff69-4578-8ac3-96ebfbc69049")
+		(uuid "28d38ce2-36dc-4b37-805e-4b16b113b306")
 	)
 	(junction
-		(at 52.07 107.95)
+		(at 151.13 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c3bf9fd-7acf-42a2-a7d4-39c5b48d1a90")
+		(uuid "2b8d7c6b-85b0-4c53-9cd8-f140f2caa8f9")
 	)
 	(junction
-		(at 52.07 99.06)
+		(at 29.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "352c7c15-4780-4741-b992-d0c6ad236724")
+		(uuid "3d1c8a9a-6ae0-4cca-9229-fac13468e3fe")
 	)
 	(junction
-		(at 52.07 72.39)
+		(at 184.15 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "368cf0ee-2ea3-4f07-bc6a-881c45281c92")
+		(uuid "41183c9c-12c1-4eda-affa-9287ee635c7a")
 	)
 	(junction
-		(at 140.97 87.63)
+		(at 29.21 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b3fa682-8021-4dff-9157-685151cb9db0")
+		(uuid "4266161f-0de1-4f15-b4bc-80eb010eb2f7")
 	)
 	(junction
-		(at 19.05 72.39)
+		(at 151.13 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fabcb98-fce4-43c5-9d5d-4e4290d18db2")
+		(uuid "45af034d-d148-4853-b305-9e8a51ca8ed7")
 	)
 	(junction
-		(at 52.07 125.73)
+		(at 184.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50294fac-30a8-4edf-8e3d-58b2eabebd99")
+		(uuid "7d5e0e7b-1cea-4021-87aa-4d3f1de01007")
 	)
 	(junction
-		(at 52.07 135.89)
+		(at 62.23 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cd2d550-e1de-47aa-b253-49e5d16dfaff")
+		(uuid "7ed5591e-fdb0-43d0-b117-f371a47cc792")
 	)
 	(junction
-		(at 19.05 135.89)
+		(at 184.15 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "730137ed-8d5a-43fd-ae16-a3ecbf83acac")
+		(uuid "7f5b7f8a-a61e-4309-8c04-541e53e2f5fa")
 	)
 	(junction
-		(at 140.97 96.52)
+		(at 62.23 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ca0a820-091b-4830-9904-e7d7d1ac6091")
+		(uuid "880a39f3-289f-4951-87f5-d1e2766c9279")
 	)
 	(junction
-		(at 173.99 96.52)
+		(at 184.15 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80ab2062-1e27-4693-b4df-0638dae6c810")
+		(uuid "8d9774d7-a72f-445e-bfc0-00a50735d276")
 	)
 	(junction
-		(at 52.07 90.17)
+		(at 184.15 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84ea45ee-1b85-4e21-9a7e-6e38378fae16")
+		(uuid "9238133e-2fd0-471a-aa5f-681571dd7274")
 	)
 	(junction
-		(at 173.99 123.19)
+		(at 62.23 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d74c22c-455b-43cb-8e66-1752f8e3dc38")
+		(uuid "9301ac75-2d34-446a-ac28-b090e1a04237")
 	)
 	(junction
-		(at 140.97 105.41)
+		(at 151.13 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f9ed7df-ec1d-4d0f-9c1d-e19c416dde20")
+		(uuid "9609c1e7-c6c1-4ffd-a621-cc78b4ec4ad6")
 	)
 	(junction
-		(at 140.97 133.35)
+		(at 151.13 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "924bfa66-439d-4e18-8cab-477d98cfb576")
+		(uuid "9ca7458d-a31a-4093-af76-836d40accf3f")
 	)
 	(junction
-		(at 140.97 78.74)
+		(at 29.21 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "94c73ec7-2b1b-4455-a340-7df0a7781df2")
+		(uuid "a0b35b85-b2d8-4dfa-b3ee-03ad990c954a")
 	)
 	(junction
-		(at 19.05 81.28)
+		(at 62.23 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "972015ec-eaed-4d1f-878c-9cb2bf4bee16")
+		(uuid "b03377ea-47d0-4e13-b17d-96bcde9ea00e")
 	)
 	(junction
-		(at 19.05 90.17)
+		(at 184.15 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ba2f775-40dc-45d0-8dac-1acae600f03a")
+		(uuid "bc7137aa-7056-49a2-9f06-0986fe74efed")
 	)
 	(junction
-		(at 19.05 99.06)
+		(at 151.13 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f2b4ff4-7048-4e94-b656-e1a35c11d9b4")
+		(uuid "c73d06e6-3d0a-4ff1-8517-da7b40342b4d")
 	)
 	(junction
-		(at 52.07 81.28)
+		(at 62.23 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3c69231-0a68-4c2b-b17f-47cb726d247b")
+		(uuid "d4b0909f-a021-437a-b0e6-3f08bc22d82b")
 	)
 	(junction
-		(at 173.99 114.3)
+		(at 62.23 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3d0e5ab-f4fa-40fd-9385-424c3ec57094")
+		(uuid "d57cc956-8f13-4c6e-8e48-6cf4b43dd4ad")
 	)
 	(junction
-		(at 173.99 105.41)
+		(at 62.23 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4bd7c56-86a4-4925-9abd-d760c7985bb3")
+		(uuid "dde2879c-dd36-4f52-9234-418c01b984c3")
 	)
 	(junction
-		(at 19.05 125.73)
+		(at 29.21 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7e69a6a-82d4-4174-b175-2cca19976c4b")
+		(uuid "e0d334dd-7c5e-4f7b-bf9f-5c332b6f4885")
 	)
 	(junction
-		(at 19.05 107.95)
+		(at 151.13 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfc3784a-7523-41f5-acac-2dd03527a239")
+		(uuid "e49170d4-f940-4034-8e8e-969e18d99dca")
 	)
 	(junction
-		(at 173.99 133.35)
+		(at 29.21 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4cc072b-6d55-40b5-be49-1fdcc3e27fef")
+		(uuid "e62f4865-9f33-4dee-ba53-428f2aeb7a4b")
 	)
 	(junction
-		(at 140.97 114.3)
+		(at 29.21 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7cf405c-73aa-4e09-9658-00daca183008")
+		(uuid "e90cf372-677e-4d6f-8665-2cdf884df987")
 	)
 	(junction
-		(at 19.05 116.84)
+		(at 62.23 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec14e14f-28e3-4dbc-a68c-0d651ef74772")
+		(uuid "ed267566-3f33-4a07-b846-17bb28520641")
 	)
 	(junction
-		(at 52.07 116.84)
+		(at 184.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef021991-606a-482d-b322-a93da1e25292")
+		(uuid "eeb01b6c-9b16-43db-839e-12afad229937")
 	)
 	(junction
-		(at 173.99 78.74)
+		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6f26572-49bf-45c9-a9c1-87004cf0f691")
+		(uuid "fd1c0e0e-4111-4cc1-921b-4eae8ec05183")
 	)
 	(junction
-		(at 19.05 63.5)
+		(at 151.13 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa6dc4a1-f8ff-4953-9956-7c9067ad9408")
+		(uuid "fdc3b7ef-54f6-411b-881b-ff5adb1a9bca")
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 162.56 69.85)
+			(xy 29.21 49.53) (xy 29.21 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "008ac4f1-496e-4dfc-a799-c4353460ad5f")
+		(uuid "001e07fe-a413-4599-a75d-fb606b2d30a5")
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 140.97 87.63)
+			(xy 177.8 129.54) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "008e1420-1767-44b3-acb5-cc770f6d48dd")
+		(uuid "00ac47fe-8bd7-4c9e-978d-573c6631b945")
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 140.97 78.74)
+			(xy 29.21 132.08) (xy 29.21 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01529ab0-d1ed-43e3-bee6-dafbbc4f6598")
+		(uuid "02defdd5-81c0-4b46-af87-9e2188c72967")
 	)
 	(wire
 		(pts
-			(xy 19.05 125.73) (xy 19.05 135.89)
+			(xy 43.18 78.74) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "087d69ec-cb16-4dbd-a0db-d36910bce121")
+		(uuid "03805f8f-2441-4415-ba72-d37c2a281ce4")
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 173.99 96.52)
+			(xy 184.15 129.54) (xy 184.15 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09849bd0-b09e-47f4-8018-301a79b76eb7")
+		(uuid "051a628b-d933-4dfe-a5dd-97b0ecee26ec")
 	)
 	(wire
 		(pts
-			(xy 19.05 90.17) (xy 25.4 90.17)
+			(xy 151.13 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cfbf9a2-9674-496f-a632-db423aa10851")
+		(uuid "054b54eb-e654-4bce-8aad-0f19bbf660c6")
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 162.56 96.52)
+			(xy 151.13 59.69) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dc08996-f5bd-469b-b4ed-0699746bb6a8")
+		(uuid "055770f9-63cd-4838-89aa-6999bf922934")
 	)
 	(wire
 		(pts
-			(xy 19.05 107.95) (xy 25.4 107.95)
+			(xy 29.21 151.13) (xy 35.56 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1195f208-5251-43be-b41b-15aac3777227")
+		(uuid "068220b8-616d-4fa0-8e6b-2cde04ea54ae")
 	)
 	(wire
 		(pts
-			(xy 33.02 63.5) (xy 40.64 63.5)
+			(xy 184.15 120.65) (xy 220.98 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13671424-301e-4033-ad22-18f3aec8e2c5")
+		(uuid "0b0cd8ff-3ac6-4181-9c3d-3ff24e30261a")
 	)
 	(wire
 		(pts
-			(xy 173.99 60.96) (xy 173.99 69.85)
+			(xy 151.13 85.09) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "137281bc-101a-48e4-8f9a-bccec0d8f07b")
+		(uuid "0c20aa77-4200-456b-a0af-be5b42003804")
 	)
 	(wire
 		(pts
-			(xy 173.99 87.63) (xy 173.99 96.52)
+			(xy 151.13 129.54) (xy 151.13 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15fbfba2-23d3-40a3-85d3-5b651d6ad154")
+		(uuid "12cbb16a-e1dc-4888-ac04-eed6e9c94731")
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 147.32 69.85)
+			(xy 55.88 105.41) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1739a4f2-b799-4458-bf02-26941b96421e")
+		(uuid "13ae67aa-cbff-425b-81c9-b1a72b472bf7")
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 173.99 123.19)
+			(xy 29.21 142.24) (xy 29.21 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "188be9d8-4cf6-4909-b4be-0b3fd1511a79")
+		(uuid "13b2aebe-f1ef-41bc-8f36-b2616628f156")
 	)
 	(wire
 		(pts
-			(xy 52.07 116.84) (xy 52.07 125.73)
+			(xy 151.13 93.98) (xy 157.48 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a86610f-00f0-491a-95b3-b62b5980edcb")
+		(uuid "15b807c3-9fa5-42cf-909a-ddc4a143f114")
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 210.82 114.3)
+			(xy 29.21 78.74) (xy 35.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ae2b1ef-dbc4-446b-8dc1-52e1dba9fe3c")
+		(uuid "193ba972-5bc6-46f6-b151-83ebe424ca72")
 	)
 	(wire
 		(pts
-			(xy 19.05 81.28) (xy 25.4 81.28)
+			(xy 165.1 139.7) (xy 172.72 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "238829c5-e5d8-45a8-a2d6-0dca595197a3")
+		(uuid "2030e362-4a1f-4950-9803-263e1b12c873")
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 173.99 87.63)
+			(xy 62.23 132.08) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26236248-56a8-4d6b-b775-b3513ef32f7a")
+		(uuid "2259b110-524d-4b50-a5dd-a15b6ceb0794")
 	)
 	(wire
 		(pts
-			(xy 19.05 72.39) (xy 19.05 81.28)
+			(xy 29.21 87.63) (xy 29.21 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2640990a-6944-4a6f-a535-fd504d9a555e")
+		(uuid "249886cc-f838-4cf8-b150-c711ecd0c858")
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 52.07 63.5)
+			(xy 165.1 148.59) (xy 172.72 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "269ea89e-1c6a-4746-867c-808ebef89f2b")
+		(uuid "261be347-4e0a-42fe-9f7f-a361052b13cb")
 	)
 	(wire
 		(pts
-			(xy 173.99 123.19) (xy 173.99 133.35)
+			(xy 184.15 139.7) (xy 184.15 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26c1e930-0262-4ee2-8089-bde21e5b45d6")
+		(uuid "28cd4954-18ac-4eac-8c5e-965e9d00f6a4")
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 52.07 116.84)
+			(xy 29.21 142.24) (xy 35.56 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "292b2c74-95e5-4a31-b467-d101fe8ea044")
+		(uuid "2b2ed560-d5af-4ba7-a245-9ccd7a4476bb")
 	)
 	(wire
 		(pts
-			(xy 140.97 22.86) (xy 140.97 26.67)
+			(xy 165.1 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d6a6d70-2c1b-44df-aa98-9184ac97af50")
+		(uuid "2cd2feeb-8ac1-43de-9c38-5d119815ada6")
 	)
 	(wire
 		(pts
-			(xy 33.02 135.89) (xy 40.64 135.89)
+			(xy 165.1 93.98) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fc4adc8-cf51-45f2-ac13-1df8902d8439")
+		(uuid "2dd3ea24-1e61-4fd0-ae82-1aba2d0fe40e")
 	)
 	(wire
 		(pts
-			(xy 19.05 116.84) (xy 25.4 116.84)
+			(xy 165.1 76.2) (xy 172.72 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33d0db4b-f4c4-4eaf-bfa6-f8a3c1b6cb03")
+		(uuid "2fa1e183-cd0f-43b5-9095-547cca77bba2")
 	)
 	(wire
 		(pts
-			(xy 33.02 107.95) (xy 40.64 107.95)
+			(xy 62.23 87.63) (xy 62.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "344839c0-d532-4d05-8b2a-2d8cb92076cf")
+		(uuid "308bb27d-fb2a-4056-b9b3-8e049cc941c3")
 	)
 	(wire
 		(pts
-			(xy 19.05 135.89) (xy 25.4 135.89)
+			(xy 177.8 148.59) (xy 184.15 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34feb154-4f78-469f-ac9f-141b67a1f536")
+		(uuid "31c33f3c-5df8-484b-a7c9-9d7404879ffb")
 	)
 	(wire
 		(pts
-			(xy 19.05 63.5) (xy 19.05 72.39)
+			(xy 55.88 69.85) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "361c77c3-ecd4-4af2-916a-fa0dd22396f7")
-	)
-	(wire
-		(pts
-			(xy 52.07 116.84) (xy 88.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3736ae9e-4314-417d-a930-81650d98b407")
-	)
-	(wire
-		(pts
-			(xy 19.05 43.18) (xy 19.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37eaef49-567e-45d3-bb44-d7a639faf7af")
-	)
-	(wire
-		(pts
-			(xy 154.94 133.35) (xy 162.56 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387b4ab4-07eb-45f7-be00-a910cdb0cfe9")
-	)
-	(wire
-		(pts
-			(xy 52.07 99.06) (xy 52.07 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb38b6e-1df7-456d-813f-4d54ec3ad333")
-	)
-	(wire
-		(pts
-			(xy 33.02 99.06) (xy 40.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6123c1-9d57-4e22-9766-baf84b4d7811")
-	)
-	(wire
-		(pts
-			(xy 140.97 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44aa7120-dda3-4994-b2d2-2acdc0c37e15")
-	)
-	(wire
-		(pts
-			(xy 45.72 144.78) (xy 52.07 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6da8fc-583c-4322-8ad2-33bf4ef94e6d")
-	)
-	(wire
-		(pts
-			(xy 140.97 60.96) (xy 140.97 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c752d3-15f6-428b-adce-0142a95e4e6e")
-	)
-	(wire
-		(pts
-			(xy 140.97 96.52) (xy 140.97 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ccf5eb-9014-4fd1-81d3-7c4bb391552b")
-	)
-	(wire
-		(pts
-			(xy 154.94 105.41) (xy 162.56 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0febbf-dd24-4111-b7b4-049e0fc5e0eb")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 173.99 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c349424-a748-4ed4-9906-7c825cd771da")
-	)
-	(wire
-		(pts
-			(xy 140.97 96.52) (xy 147.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600729a8-37db-4559-ae6e-9ed2b0ae74c5")
-	)
-	(wire
-		(pts
-			(xy 154.94 142.24) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e85997-a1a6-46bc-a66f-ba1f811430df")
-	)
-	(wire
-		(pts
-			(xy 19.05 107.95) (xy 19.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64046400-8387-4f73-94da-1553120c2fd5")
-	)
-	(wire
-		(pts
-			(xy 52.07 63.5) (xy 52.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68358a25-f22e-4db6-b401-6dcb043f1e27")
-	)
-	(wire
-		(pts
-			(xy 154.94 78.74) (xy 162.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687c250d-e5cc-42e0-afdf-e44150a03c62")
-	)
-	(wire
-		(pts
-			(xy 19.05 144.78) (xy 25.4 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "689cbc53-fc48-4957-a5d4-aac3fa28a14d")
-	)
-	(wire
-		(pts
-			(xy 140.97 123.19) (xy 147.32 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a96af4-455e-4b14-aa95-08361979f14c")
-	)
-	(wire
-		(pts
-			(xy 140.97 105.41) (xy 147.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69753940-6580-4766-b6fa-d08cfe9853db")
-	)
-	(wire
-		(pts
-			(xy 154.94 60.96) (xy 162.56 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a1f1dda-87a9-451d-9a3d-9d84e309eacc")
-	)
-	(wire
-		(pts
-			(xy 45.72 135.89) (xy 52.07 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2d0b87-6083-43d6-9b95-c65d78129374")
-	)
-	(wire
-		(pts
-			(xy 140.97 39.37) (xy 140.97 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70adb5ed-2d08-4051-a6e0-5b02e017089d")
+		(uuid "355696e3-e352-47c9-aa35-0fbd49f52697")
 	)
 	(polyline
 		(pts
-			(xy 116.84 12.7) (xy 116.84 196.85)
+			(xy 127 19.05) (xy 127 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "715c83c3-a2e2-40b7-8121-8c6fadc20a7c")
+		(uuid "35ee472e-62e0-4b08-aaa2-6c826c2a2b56")
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 140.97 60.96)
+			(xy 62.23 123.19) (xy 99.06 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71d46aec-56af-46f7-9020-bd29baa9ebac")
+		(uuid "36f005e2-f438-432b-9f62-11f4e2b1a968")
 	)
 	(wire
 		(pts
-			(xy 52.07 135.89) (xy 52.07 144.78)
+			(xy 55.88 78.74) (xy 62.23 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8318359d-0f9b-4080-9d15-69d67f29597f")
+		(uuid "3936eb44-f623-4789-82d5-850365c11c6a")
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 173.99 123.19)
+			(xy 43.18 132.08) (xy 50.8 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84a05ea3-01a9-475b-ae45-c739366d3a34")
+		(uuid "3e94b70a-0e91-4946-97a7-9d33582938af")
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 52.07 116.84)
+			(xy 151.13 85.09) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85e572fe-14d2-4033-85b3-e49acd7b6be4")
+		(uuid "3ec6705a-853b-44d0-bc63-8527f7e11454")
 	)
 	(wire
 		(pts
-			(xy 45.72 72.39) (xy 52.07 72.39)
+			(xy 184.15 111.76) (xy 184.15 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86f88fff-5b58-4123-a1f4-6ba621609006")
+		(uuid "3f679168-a0b0-4a39-b34f-aa752dafea10")
 	)
 	(wire
 		(pts
-			(xy 33.02 144.78) (xy 40.64 144.78)
+			(xy 165.1 129.54) (xy 172.72 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b783e36-1560-4c86-8db0-24c08f68bb2f")
+		(uuid "3f6aaa85-31ca-49c5-b566-a83cfe2dddc1")
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 173.99 114.3)
+			(xy 151.13 129.54) (xy 157.48 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c7324ca-d946-47eb-9ff9-645c74c6f8c0")
+		(uuid "3f6e3f9d-abc0-43ad-b155-d97837b4c3f9")
 	)
 	(wire
 		(pts
-			(xy 33.02 90.17) (xy 40.64 90.17)
+			(xy 55.88 114.3) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c812cdb-2024-44f5-a1ff-441dc5e76707")
+		(uuid "408b564c-47ac-4399-bf2a-ab0a2c73f1bc")
 	)
 	(wire
 		(pts
-			(xy 140.97 105.41) (xy 140.97 114.3)
+			(xy 29.21 114.3) (xy 35.56 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9178e304-59cf-44a6-a5a2-c0a2edf61549")
+		(uuid "41542f15-46e9-499f-a189-290f5df3de61")
 	)
 	(wire
 		(pts
-			(xy 19.05 125.73) (xy 25.4 125.73)
+			(xy 29.21 96.52) (xy 29.21 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92fda7d2-7ed7-4aa4-84ab-4b35aec40611")
+		(uuid "41a19f89-3be7-4a4b-bc09-fecc22140b0f")
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 173.99 69.85)
+			(xy 184.15 85.09) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94b100d6-6515-47c0-ab8e-3fc7aff8a1a7")
+		(uuid "47933e5c-234b-4730-a5cd-a6060c386a42")
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 52.07 81.28)
+			(xy 151.13 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9983fd84-7cf1-4ea9-ba0e-27c6d9b131bf")
+		(uuid "49a8a241-b4a4-48b7-998f-37d41d8c764e")
 	)
 	(wire
 		(pts
-			(xy 19.05 90.17) (xy 19.05 99.06)
+			(xy 29.21 123.19) (xy 35.56 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c76b448-ecdb-45f9-bf9e-94892861f8c1")
+		(uuid "4a53f536-e9d9-478d-b25e-bb4869231cd0")
 	)
 	(wire
 		(pts
-			(xy 167.64 105.41) (xy 173.99 105.41)
+			(xy 55.88 96.52) (xy 62.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cb155b6-bdfa-4e4f-81cf-97d682b974a7")
+		(uuid "522c1da5-359e-4f26-8983-a382504c01fa")
 	)
 	(wire
 		(pts
-			(xy 52.07 125.73) (xy 52.07 135.89)
+			(xy 151.13 111.76) (xy 151.13 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f9d05f6-0180-47d3-9acb-779b090e798b")
+		(uuid "54579407-57ab-4609-844c-ea2753f1b23b")
 	)
 	(wire
 		(pts
-			(xy 33.02 81.28) (xy 40.64 81.28)
+			(xy 177.8 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0d427ac-b62a-41db-973e-3d5d624719c4")
+		(uuid "5680c719-f87c-4a0b-9f49-a59d8c34daa0")
 	)
 	(wire
 		(pts
-			(xy 173.99 96.52) (xy 173.99 105.41)
+			(xy 29.21 78.74) (xy 29.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a321757b-32b6-44dd-9ea4-0813e33b465c")
+		(uuid "62665408-43bc-4323-8350-717828c97a99")
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 52.07 125.73)
+			(xy 184.15 102.87) (xy 184.15 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a589c188-d87b-496f-af06-cb1c97440949")
+		(uuid "628a916c-6521-483d-a7c1-78f39a11b18c")
 	)
 	(wire
 		(pts
-			(xy 19.05 81.28) (xy 19.05 90.17)
+			(xy 177.8 93.98) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abbe198c-623b-4f7c-b6fc-062790dd878e")
+		(uuid "656aaf05-ccea-4921-bb4c-b74d6ed0ce18")
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 52.07 81.28)
+			(xy 29.21 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ada833b2-c422-4055-9952-18971fbe314d")
+		(uuid "65de8c9d-3ce2-42f4-8509-87a730172db2")
 	)
 	(wire
 		(pts
-			(xy 45.72 99.06) (xy 52.07 99.06)
+			(xy 29.21 105.41) (xy 29.21 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b02648d7-094c-4d9f-bf2f-d71b15ba005b")
+		(uuid "679308c7-b620-42a0-bd7e-6e21a5c856e4")
 	)
 	(wire
 		(pts
-			(xy 173.99 133.35) (xy 173.99 142.24)
+			(xy 29.21 105.41) (xy 35.56 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a27be2-cf5d-4afd-a51e-5dee6dbc78fd")
+		(uuid "6e6d5c38-bbf0-49c4-a532-060ea00662d4")
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 162.56 114.3)
+			(xy 43.18 123.19) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4dd15b0-baff-400c-b651-f9a756d3b17f")
+		(uuid "70dc53af-a1c9-40d6-a133-e8b7cbc4267a")
 	)
 	(wire
 		(pts
-			(xy 19.05 72.39) (xy 25.4 72.39)
+			(xy 151.13 76.2) (xy 151.13 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bae960fc-3412-4780-b101-c4a08f7a20c1")
+		(uuid "72f22336-96ed-4449-93c7-9435dd0ba118")
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 147.32 133.35)
+			(xy 62.23 69.85) (xy 62.23 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb3e643d-e497-4c16-9f48-74df8c60ccfb")
+		(uuid "77433c27-16d1-4307-a303-6839e1a8988c")
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 173.99 133.35)
+			(xy 62.23 114.3) (xy 62.23 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc0cf43c-bf29-442e-b082-2c0a5a16d414")
+		(uuid "774b43a8-ae2f-452f-b681-d3a0b959bd81")
 	)
 	(wire
 		(pts
-			(xy 19.05 99.06) (xy 25.4 99.06)
+			(xy 220.98 120.65) (xy 220.98 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf2959aa-d9e6-432a-86bb-82cf22d9cbd2")
+		(uuid "7854e73d-ba10-4632-9d99-b8151c6d064a")
 	)
 	(wire
 		(pts
-			(xy 140.97 142.24) (xy 147.32 142.24)
+			(xy 151.13 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c20cc3f3-ed15-4d31-b0f9-25b0786992ca")
+		(uuid "7a41442f-100e-4b56-b661-c1142ac89d3b")
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 140.97 123.19)
+			(xy 177.8 67.31) (xy 184.15 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c75637e2-5681-4fd0-a636-9fe0dfc55d92")
+		(uuid "7cf2fe98-65b9-4f8a-b4c1-66545280859f")
 	)
 	(wire
 		(pts
-			(xy 19.05 55.88) (xy 19.05 63.5)
+			(xy 29.21 114.3) (xy 29.21 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c764d770-744e-4feb-8662-091fef1784c6")
+		(uuid "7e064bc4-282b-4e97-8634-11138e3518a7")
 	)
 	(wire
 		(pts
-			(xy 33.02 125.73) (xy 40.64 125.73)
+			(xy 29.21 87.63) (xy 35.56 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9c2b146-86d8-4140-b76e-f3b32a15ee69")
+		(uuid "7fbb4209-3b29-45b8-8fdd-20c45e432209")
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 140.97 142.24)
+			(xy 184.15 120.65) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc84b37a-fece-4732-bb49-21a3ac398890")
+		(uuid "82c008ca-54ad-451a-a6ca-038f5fb074c5")
 	)
 	(wire
 		(pts
-			(xy 173.99 78.74) (xy 173.99 87.63)
+			(xy 151.13 45.72) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce90d75a-ae1f-4d8c-b2e7-d0fd212328d9")
+		(uuid "833c5637-8026-41d1-94a5-108784e1a43b")
 	)
 	(wire
 		(pts
-			(xy 19.05 99.06) (xy 19.05 107.95)
+			(xy 151.13 29.21) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d04a27d1-209a-4539-8166-b958f7dd612b")
+		(uuid "89634074-c0f3-4735-9594-829ff11973d4")
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 147.32 87.63)
+			(xy 99.06 123.19) (xy 99.06 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0a93d41-0a03-43ac-b1af-c0feac768a1b")
+		(uuid "8ee13394-bae6-4fcd-9038-849b2861eece")
 	)
 	(wire
 		(pts
-			(xy 19.05 135.89) (xy 19.05 144.78)
+			(xy 62.23 96.52) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2c2e503-140a-4042-8c85-83d4e192083a")
+		(uuid "8f89b29e-7ccc-47f3-ad3b-6bd765d0276d")
 	)
 	(wire
 		(pts
-			(xy 19.05 63.5) (xy 25.4 63.5)
+			(xy 29.21 123.19) (xy 29.21 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4a0a81a-594d-4a93-a81f-1be388081ed6")
+		(uuid "8f9607a9-68aa-4780-a193-5dceaa11edb0")
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 147.32 78.74)
+			(xy 151.13 102.87) (xy 151.13 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8751523-b594-4693-bfb3-6611d2c8ffa7")
+		(uuid "921fc08c-c577-46a6-9573-68a4666082b0")
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 173.99 114.3)
+			(xy 29.21 69.85) (xy 35.56 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbc4e759-378c-4ff2-891d-52ad084bb9d6")
+		(uuid "92d3530b-6f42-4eb4-a606-2932c8a8ec0b")
 	)
 	(wire
 		(pts
-			(xy 210.82 114.3) (xy 210.82 124.46)
+			(xy 177.8 139.7) (xy 184.15 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddff32b9-6c51-4bf9-9a8f-eb5ba5f0ad8c")
+		(uuid "95c67fdb-8a79-452d-958b-04da56d56543")
 	)
 	(wire
 		(pts
-			(xy 52.07 81.28) (xy 52.07 90.17)
+			(xy 177.8 120.65) (xy 184.15 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ded42d82-6865-4f52-bedb-74f2172ae187")
+		(uuid "a088e6d2-b16c-42d5-b566-e7db851796cd")
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 173.99 60.96)
+			(xy 43.18 96.52) (xy 50.8 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df55dd84-ef69-439a-b541-b2e9fa955ec9")
+		(uuid "a0e0acd5-41f7-4f43-b76e-cee13263cb69")
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 88.9 127)
+			(xy 151.13 139.7) (xy 151.13 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0150c9f-c93a-496c-90fb-5a486971c60b")
+		(uuid "a2bba4b7-b63b-4d0b-abe7-bc2b15f634fd")
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 173.99 78.74)
+			(xy 177.8 76.2) (xy 184.15 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1c980fe-cc21-460b-9383-ba4772d6d8ab")
+		(uuid "a4009c0d-76a1-4528-a159-49d1ca496806")
 	)
 	(wire
 		(pts
-			(xy 45.72 90.17) (xy 52.07 90.17)
+			(xy 165.1 120.65) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e41f7d73-b925-4c47-bb09-3aeae666c660")
+		(uuid "a5da11e2-1f3b-4f67-b087-283192b149a2")
 	)
 	(wire
 		(pts
-			(xy 33.02 72.39) (xy 40.64 72.39)
+			(xy 62.23 142.24) (xy 62.23 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e45562f0-41f0-4326-b6be-8bb69b7294ab")
+		(uuid "a88f5bbb-8eac-4ce4-bd5a-3ae36f0fd8c2")
 	)
 	(wire
 		(pts
-			(xy 52.07 90.17) (xy 52.07 99.06)
+			(xy 165.1 67.31) (xy 172.72 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec7006bc-dedc-47bb-816a-caa3c46cc060")
+		(uuid "a90a3785-0332-4c63-836c-ed4f59c13d81")
 	)
 	(wire
 		(pts
-			(xy 45.72 107.95) (xy 52.07 107.95)
+			(xy 151.13 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee3eb464-474f-40e8-bca4-4db3e8ed05e1")
+		(uuid "a98f0829-ea47-4175-8ed1-e8f35f6a0a93")
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 140.97 96.52)
+			(xy 151.13 67.31) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef6ef844-f333-4255-8120-0ae17c6a380a")
+		(uuid "ae38dbb9-9de1-494f-9993-9e82035d762f")
 	)
 	(wire
 		(pts
-			(xy 154.94 87.63) (xy 162.56 87.63)
+			(xy 165.1 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f180fd13-a6e3-4126-a73e-8acad30505f1")
+		(uuid "ae868e33-9e27-46b9-b577-d84c77d9ded1")
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 162.56 123.19)
+			(xy 55.88 132.08) (xy 62.23 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f183e03a-171e-4a29-a961-520a01723e36")
+		(uuid "af0b1659-ca5c-4f2b-89df-626d0bd6a8cb")
 	)
 	(wire
 		(pts
-			(xy 19.05 116.84) (xy 19.05 125.73)
+			(xy 43.18 69.85) (xy 50.8 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f19daff9-3491-4681-bdef-a3f81109662e")
+		(uuid "af9f6584-0fe6-407f-bad8-756989c8de8f")
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 147.32 114.3)
+			(xy 177.8 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1e968a5-f9ce-4f6a-a993-572893787258")
+		(uuid "afefebba-d098-4ff8-8992-fb092aaad704")
 	)
 	(wire
 		(pts
-			(xy 140.97 123.19) (xy 140.97 133.35)
+			(xy 62.23 105.41) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f37272b5-73f7-41da-95fc-876a7c8dfc01")
+		(uuid "b00821d9-debb-4b2f-a42b-e7f567c1e056")
 	)
 	(wire
 		(pts
-			(xy 167.64 142.24) (xy 173.99 142.24)
+			(xy 43.18 87.63) (xy 50.8 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3ca235c-ae65-4120-bbdc-0bf548376abc")
+		(uuid "b21477fb-cdfa-419c-a845-3e5a5769c79b")
 	)
 	(wire
 		(pts
-			(xy 19.05 26.67) (xy 19.05 30.48)
+			(xy 151.13 93.98) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f818b783-f3ea-46d9-a99f-fe475abd045a")
+		(uuid "b3100317-4ec5-4e5a-97c0-a796a064bffa")
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 40.64 116.84)
+			(xy 62.23 78.74) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9e5c0bd-f14a-483f-a237-a86c4b4425af")
+		(uuid "b5be5065-041a-4184-8375-f8809acc35eb")
 	)
-	(text "RED LEDS ARRAY"
-		(exclude_from_sim no)
-		(at 32.766 17.272 0)
-		(effects
-			(font
-				(size 2.66 2.66)
-			)
+	(wire
+		(pts
+			(xy 29.21 62.23) (xy 29.21 69.85)
 		)
-		(uuid "b20f49e9-aea9-4ecb-a19a-945a50dd26d4")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b894dd08-7a65-47a4-a61c-f27da057e6a4")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5be4e43-cf43-47a0-8379-bc4802920c8b")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 184.15 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f4ddcc-ad00-40ee-afbe-5d8b209a20f0")
+	)
+	(wire
+		(pts
+			(xy 184.15 67.31) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f84d7b-4800-429c-a561-a9af255c1e1e")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0d41ff-aac2-405b-8702-5ff4de69932e")
+	)
+	(wire
+		(pts
+			(xy 151.13 120.65) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde3675c-3414-41d3-aaf5-0f56361bfc20")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 172.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1c7d5e-0445-443f-bdb3-fb545d942abf")
+	)
+	(wire
+		(pts
+			(xy 29.21 132.08) (xy 35.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1200023-5b7c-4cb0-b156-56aa1bc14075")
+	)
+	(wire
+		(pts
+			(xy 43.18 105.41) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aa78b6-faa8-4c1c-b100-77fd75d1e3f2")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d412ad4c-6558-4af8-9798-34a8eb7ce76b")
+	)
+	(wire
+		(pts
+			(xy 55.88 123.19) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e1eb18-2734-4ec5-8b8e-69136bdc0c97")
+	)
+	(wire
+		(pts
+			(xy 151.13 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da34d13a-da80-435e-9b83-241cb0de66cc")
+	)
+	(wire
+		(pts
+			(xy 55.88 142.24) (xy 62.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de37de9a-b134-461d-924a-2e539d1f23e9")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 62.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d07fa-054b-47bc-93ff-6184fe67d0cf")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 29.21 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e720e6b5-ff64-409e-a690-b6bdc0bba18f")
+	)
+	(wire
+		(pts
+			(xy 43.18 151.13) (xy 50.8 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae933df-51b6-460e-907d-15669575aa33")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec160db4-3624-4b30-92bb-50475f7ee7e3")
+	)
+	(wire
+		(pts
+			(xy 151.13 139.7) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8db3a3-c1fe-4837-87d8-ed619b71f9a9")
+	)
+	(wire
+		(pts
+			(xy 29.21 69.85) (xy 29.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f612eff9-23d4-43f3-9468-4199cd117fd4")
+	)
+	(wire
+		(pts
+			(xy 55.88 151.13) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f625f075-bb3e-44f0-936a-9bc17fc3695a")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f7f3f1-6115-4edc-9719-a498a02f5352")
+	)
+	(wire
+		(pts
+			(xy 184.15 93.98) (xy 184.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f839f71d-1260-4778-8e77-80df9bdfa6d0")
 	)
 	(text "ORANGE LEDS ARRAY"
 		(exclude_from_sim no)
-		(at 158.242 17.272 0)
+		(at 168.402 23.622 0)
 		(effects
 			(font
 				(size 2.66 2.66)
 			)
 		)
-		(uuid "bdc68c45-43f5-42ed-9a3c-4d6413a247a2")
+		(uuid "2d239be9-1b5b-43fc-8857-504e9d72b584")
+	)
+	(text "RED LEDS ARRAY"
+		(exclude_from_sim no)
+		(at 42.926 23.622 0)
+		(effects
+			(font
+				(size 2.66 2.66)
+			)
+		)
+		(uuid "6d9d43db-1a1c-494a-a2d8-605accf61070")
 	)
 	(label "O_Signal"
-		(at 140.97 22.86 0)
+		(at 151.13 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1843,10 +1835,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "86982022-1be0-4135-9b7a-dc07ff10d6bb")
+		(uuid "0edec5ce-fa5c-4843-a2bb-b992fedfdb21")
 	)
 	(label "R_Signal"
-		(at 19.05 26.67 0)
+		(at 29.21 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1854,10 +1846,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8dfce491-0d46-4659-8f59-19e14e884d2a")
+		(uuid "36cac8a0-591f-433d-b55b-b426605b3993")
 	)
 	(label "O_Signal"
-		(at 140.97 53.34 0)
+		(at 151.13 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1865,10 +1857,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8f8a8a63-c652-4861-a197-5e3529bb1533")
+		(uuid "440994bf-c95a-4505-b906-3eacf6e502b3")
 	)
 	(label "R_Signal"
-		(at 19.05 55.88 0)
+		(at 29.21 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1876,3557 +1868,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ccc73ea2-4087-4b09-be60-fb345b6140a6")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0efde5a7-34d5-40fa-80c3-13df7e43e0a0")
-		(property "Reference" "R12"
-			(at 164.846 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3164db1-3d71-4499-b30a-da6390e1db92")
-		)
-		(pin "2"
-			(uuid "e1d59e56-cc53-489c-b05d-511ac1e35c63")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f077b56-bb0e-48e1-84ee-8b0566dcf092")
-		(property "Reference" "#PWR04"
-			(at 140.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01efaf90-6616-4dd5-bfd6-da242c576d97")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12da5123-bcb1-4851-a5b3-c17e022884da")
-		(property "Reference" "D18"
-			(at 151.13 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN9"
-			(at 151.638 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c04aebc6-a7e9-4e78-bbdd-d2af980f6583")
-		)
-		(pin "2"
-			(uuid "c0728d19-d892-410f-a8f3-e564776e3d45")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12dc9ebc-3ba8-4609-bb05-9abf8fc023b2")
-		(property "Reference" "R14"
-			(at 164.846 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "928a350c-d0dc-4e1d-8e44-9dcb690fd5cf")
-		)
-		(pin "2"
-			(uuid "e3c6f8a7-ba1a-410f-9cb3-ed881806e962")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "143af3ee-a819-4af2-bead-e873250c0d7f")
-		(property "Reference" "D8"
-			(at 151.13 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN4"
-			(at 151.638 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d32c083f-2272-4be4-98bf-bfc8ed6da516")
-		)
-		(pin "2"
-			(uuid "f520d578-e253-4634-8eef-7dc7409f713c")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1468b92a-9ca7-47cf-a605-668f0feb282e")
-		(property "Reference" "R6"
-			(at 164.846 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 81.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df3321b5-8c82-42c6-9803-8adc8f1c7fe2")
-		)
-		(pin "2"
-			(uuid "bc20cfd6-c69f-4966-a42a-c71886ae4795")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18141927-a53c-4eee-82e4-952992fc3b06")
-		(property "Reference" "R16"
-			(at 164.846 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8dbbf13-82f9-47a6-820a-d2c8495e2dbf")
-		)
-		(pin "2"
-			(uuid "ea9f1a47-5d3b-453f-8e6d-5e63e0a2ffdb")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "196d0485-a16f-4ee0-913a-df778df1f0d1")
-		(property "Reference" "#PWR02"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7218351-da74-4269-b021-da06ab13e72f")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e16c80a-ecd8-4ede-9ba6-5d339e4794e3")
-		(property "Reference" "D19"
-			(at 29.21 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED10"
-			(at 29.718 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13c0da0e-493b-4151-848f-4f24aa8f436c")
-		)
-		(pin "2"
-			(uuid "bb0ef376-9947-40e7-b5db-e8949847a1d0")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a4bf1aa-c49a-42ab-99bb-2c623150b7af")
-		(property "Reference" "R1"
-			(at 42.926 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35cf4eb2-1780-4b27-a639-9b43a623fcd6")
-		)
-		(pin "2"
-			(uuid "ce229b9a-fdf6-445b-bdf3-455d1317a973")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cef6e72-3b58-494c-87f5-8d7381a49e37")
-		(property "Reference" "D1"
-			(at 29.21 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED1"
-			(at 29.718 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59a1cd9d-46c0-4ff8-9181-829d74d60ca7")
-		)
-		(pin "2"
-			(uuid "0af34403-c3fb-417f-9b00-a0da00b43a18")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f030d29-71b9-4ce4-b801-3442f03172da")
-		(property "Reference" "R11"
-			(at 42.926 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f651b41-4d08-42dd-b66e-615b6bb0e1fb")
-		)
-		(pin "2"
-			(uuid "34046b3b-98c3-4213-b151-0db2f2f99ec3")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46c7f92c-2533-4559-ba88-cf6b393dfd94")
-		(property "Reference" "R13"
-			(at 42.926 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 119.634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60284c49-aab1-4600-9620-c873bcf8e566")
-		)
-		(pin "2"
-			(uuid "5fc588e7-21ca-4bae-9441-5059b1938f03")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47a0646d-8ae8-4e2f-b944-b5e88c279e3a")
-		(property "Reference" "D9"
-			(at 29.21 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED5"
-			(at 29.718 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ffc3080-4b76-4692-b7ea-e8a6967171c1")
-		)
-		(pin "2"
-			(uuid "f317e292-2f8d-4d89-aebf-55917c58da8b")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b99a3f3-89ec-4fc4-9161-a136bfcee012")
-		(property "Reference" "D12"
-			(at 151.13 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN6"
-			(at 151.638 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b9c801c-00f8-48ea-ad80-0dff180d5aae")
-		)
-		(pin "2"
-			(uuid "12705262-4165-4ff0-965a-ce38e804eaef")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bd25db2-ee63-45a6-9c0d-56a58cb92876")
-		(property "Reference" "R19"
-			(at 42.926 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 147.574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e52f3b4b-3016-4ca2-a90d-f4cea12880fd")
-		)
-		(pin "2"
-			(uuid "17cc231e-d0bf-47bf-add3-88e81a1e3fbc")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "612db17d-a5ca-4e87-9b8f-9911748e87a1")
-		(property "Reference" "D7"
-			(at 29.21 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED4"
-			(at 29.718 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ab83679-ad17-4c10-8155-064a1a824760")
-		)
-		(pin "2"
-			(uuid "281d3af5-cb89-4444-812b-78e1b52feb47")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "615cb389-fea9-4916-a3d0-1bacf6a11d95")
-		(property "Reference" "R17"
-			(at 42.926 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6bde046-016c-47de-aa9c-0043287d13a7")
-		)
-		(pin "2"
-			(uuid "f54e8c52-5554-41a3-872c-ba74d6296e8c")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64bf49e1-2f05-4624-b341-2ba83b944170")
-		(property "Reference" "D13"
-			(at 29.21 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED7"
-			(at 29.718 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fa0915f-78a9-4695-a144-ff2324b3cb17")
-		)
-		(pin "2"
-			(uuid "1a9a0310-8c8f-4bac-8b3f-c7a420f34efa")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c9ccbd0-dd00-4d38-aa15-bb8c36955fd1")
-		(property "Reference" "R8"
-			(at 164.846 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d760820-c4d2-4601-96db-8c6a66814196")
-		)
-		(pin "2"
-			(uuid "54b15534-0848-47b0-9cd8-065e492625ff")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7deb0ecd-a2a7-4ca5-8847-58dec5e2146f")
-		(property "Reference" "D14"
-			(at 151.13 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN7"
-			(at 151.638 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01cb5837-273d-432a-8f28-4a39ccb7ab25")
-		)
-		(pin "2"
-			(uuid "39c47642-b121-44ff-8a32-2b883f0d21f8")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ebc34e4-ae63-413d-a4c8-38ea93b3d876")
-		(property "Reference" "R4"
-			(at 164.846 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a29484c-a322-429e-957a-a7de97956c98")
-		)
-		(pin "2"
-			(uuid "dc9e12de-eb01-42b1-94b8-ff0315009090")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "9cf8e154-6057-409d-b6ac-2e7a5f364847")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 19.05 35.56 270)
+		(at 151.13 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "95349e4d-27a9-4a0f-8902-ff92dd9cea02")
-		(property "Reference" "J1"
-			(at 16.51 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RedL_Conn"
-			(at 21.844 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C295747"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa0b108c-daca-4f34-a5f9-f9306b96fc8e")
-		)
-		(pin "2"
-			(uuid "cbc51c80-754c-4270-bd83-dd2627be4557")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "962ce0da-1360-4dd6-b359-9f26deea551a")
-		(property "Reference" "D11"
-			(at 29.21 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED6"
-			(at 29.718 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fb9fb47-0122-4c6c-a55f-7e4e8e037d87")
-		)
-		(pin "2"
-			(uuid "2843105a-2760-404c-af1f-11e78e81385b")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "986ef8aa-e1ce-442a-ae5e-0854c4dd189f")
-		(property "Reference" "D16"
-			(at 151.13 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN8"
-			(at 151.638 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "300f5280-3460-4ebd-9699-729ed9863b52")
-		)
-		(pin "2"
-			(uuid "eb334e43-12cd-4a1f-aa55-934b8e9b80c6")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "996e1795-d75d-48d2-8c5a-cd5c84341826")
-		(property "Reference" "D3"
-			(at 29.21 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED2"
-			(at 29.718 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39968111-6d4f-451d-833b-077344a91362")
-		)
-		(pin "2"
-			(uuid "d8935293-f579-4d5d-8549-08992cb617d4")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9da9d413-b44e-4358-9ef7-e6b8c18bc99a")
-		(property "Reference" "R15"
-			(at 42.926 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9b9f2d6-9704-4b9b-8488-d5bc812671b6")
-		)
-		(pin "2"
-			(uuid "53ebaaea-060c-48e1-af5c-54c6769c6d94")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e55bee4-8477-4f5b-8cb6-26e697b7968a")
-		(property "Reference" "D10"
-			(at 151.13 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN5"
-			(at 151.638 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cbca61f-2ec7-46a2-af79-797fcc465ad3")
-		)
-		(pin "2"
-			(uuid "783e47c1-e307-4747-93bb-0032d35ca7c3")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 135.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ed204f0-3db7-4512-8b9d-d262e0f00ec9")
-		(property "Reference" "D17"
-			(at 29.21 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED9"
-			(at 29.718 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29db68ab-db08-49a2-aedb-e95a96263ee5")
-		)
-		(pin "2"
-			(uuid "24ccdab2-80ce-4daa-9135-2b9f4e5860af")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a953f5f8-d282-4f39-9f10-cbd990ebb688")
-		(property "Reference" "R2"
-			(at 164.846 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a1eaee9-c40f-4890-976b-7b2fe811994b")
-		)
-		(pin "2"
-			(uuid "f009884d-a5c5-4cc4-a635-18f62ba2d8d5")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a98a7107-ffbb-4086-8de2-0ef3883ec979")
-		(property "Reference" "R20"
-			(at 164.846 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc6fce6b-5c9b-4a9b-9609-3d40240f8c1e")
-		)
-		(pin "2"
-			(uuid "a776c9cd-8203-4d8d-af7b-4d6afdae217f")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afb2124a-0bf4-47f6-93f3-3a35b835f3ec")
-		(property "Reference" "R9"
-			(at 42.926 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6285a00c-aa2f-4d3a-bfac-8d56375f301e")
-		)
-		(pin "2"
-			(uuid "e52369d3-6546-4dd8-8583-c91db1118f42")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc36acb3-4241-4960-9797-6346cb44595a")
-		(property "Reference" "D20"
-			(at 151.13 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN10"
-			(at 151.638 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "919875d3-1479-4292-8ca4-9058b54d8e0a")
-		)
-		(pin "2"
-			(uuid "b675f720-8812-4b99-9135-671aa26288ed")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf2e328a-fb16-4e41-9efe-a1289a1f14e7")
-		(property "Reference" "D4"
-			(at 151.13 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN2"
-			(at 151.638 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f74424-bea2-40b8-bcce-6a9e34751848")
-		)
-		(pin "2"
-			(uuid "2b918373-51b6-4383-8ff7-1348153bc8b2")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c07199be-5e62-4d93-a3e9-67579dc70175")
-		(property "Reference" "D5"
-			(at 29.21 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED3"
-			(at 29.718 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88b6726b-6e43-4825-ba31-6315bc92ff50")
-		)
-		(pin "2"
-			(uuid "b0e2334d-e7bd-4595-92d5-8e9907e9daba")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 29.21 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c38d24bc-1ac3-44e1-a390-6e4a91cfc4a6")
-		(property "Reference" "D15"
-			(at 29.21 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED8"
-			(at 29.718 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 29.21 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
-			(at 29.21 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 29.21 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C130114"
-			(at 29.21 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" " D-R080508L3-KS2"
-			(at 29.21 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22c2b0cc-9620-4629-b44f-cc0f4a6abd9e")
-		)
-		(pin "2"
-			(uuid "110d46e8-6ce8-4266-b0fd-61d0b35030e9")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5715a21-2e1b-4faf-b052-ff61269989f8")
-		(property "Reference" "D6"
-			(at 151.13 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN3"
-			(at 151.638 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19e964b0-f53c-4afd-bf58-ce4b75cebecc")
-		)
-		(pin "2"
-			(uuid "1eed9be4-d1aa-4c23-b62d-9da15905b598")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cebc8e20-9810-4d86-8416-e53c602c6ced")
-		(property "Reference" "D2"
-			(at 151.13 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ORAN1"
-			(at 151.638 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C84262"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "NCD0805O1"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9694e9d-5ea5-4d3c-ac16-314e094269dc")
-		)
-		(pin "2"
-			(uuid "e2370f56-923f-420a-aa4f-053b90166aef")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d326df09-86b7-49f4-a160-5214c0e4733f")
-		(property "Reference" "R3"
-			(at 42.926 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1aecbff2-fb08-4107-a5de-a3946c78e76b")
-		)
-		(pin "2"
-			(uuid "b9a4ac81-a5da-4c9b-9ef7-e259a16cf813")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9746c12-6232-470b-837e-c907ce3e43f3")
-		(property "Reference" "R18"
-			(at 164.846 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 136.144 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8797a6b-e29a-4602-9b4a-4092699360cf")
-		)
-		(pin "2"
-			(uuid "e583cb97-80c3-4c6d-a033-da6f2d18e6a7")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2d33789-92ad-41c9-8cdb-00a4c5cf2f9c")
-		(property "Reference" "R7"
-			(at 42.926 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 42.926 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33e21fb4-3514-4bb2-8f24-0f8cb36eeb2c")
-		)
-		(pin "2"
-			(uuid "0a06f4b0-7f63-48d4-8d4f-cab630779ff7")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 165.1 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3868547-10fc-432e-b5f5-34b98260e6d1")
-		(property "Reference" "R10"
-			(at 164.846 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 164.846 99.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C119075"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "RS-05K331JT"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d84a536f-a7af-4c14-8d4f-9a2a1f3e86ef")
-		)
-		(pin "2"
-			(uuid "eefa9fa4-ba3e-4015-b490-6544a1758975")
-		)
-		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 140.97 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea5abf94-ee16-47d4-9123-4ba3fa4ae146")
+		(uuid "04d02634-ab4e-4d72-9288-57c95a536189")
 		(property "Reference" "J2"
-			(at 138.43 32.004 0)
+			(at 148.59 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +1889,7 @@
 			)
 		)
 		(property "Value" "OranL_Conn"
-			(at 143.764 28.194 0)
+			(at 153.924 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +1898,7 @@
 			)
 		)
 		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 140.97 31.75 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +1907,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 140.97 31.75 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +1916,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 31.75 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +1925,7 @@
 			)
 		)
 		(property "LCSC#" "C295747"
-			(at 140.97 31.75 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +1934,7 @@
 			)
 		)
 		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 140.97 31.75 0)
+			(at 151.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,14 +1943,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b2a2af5-d33f-4618-9da2-34bc4ea92ba3")
+			(uuid "b8b3f7f5-439c-416a-87bb-f2e18dddad9d")
 		)
 		(pin "2"
-			(uuid "68a1c57e-e472-47cd-aecf-8444037e3ec4")
+			(uuid "c4d78ce0-0553-4fd5-9587-bfd58887c379")
 		)
 		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
 					(reference "J2")
 					(unit 1)
 				)
@@ -5504,16 +1958,271 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 43.18 81.28 270)
+		(lib_id "Device:LED")
+		(at 161.29 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed913fc4-9b32-4e58-ad33-79a5c269e828")
-		(property "Reference" "R5"
-			(at 42.926 78.74 90)
+		(uuid "0816f913-5a52-45fd-890a-73936ad3422d")
+		(property "Reference" "D18"
+			(at 161.29 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN9"
+			(at 161.798 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ead747f2-2d16-41a1-bfb3-561375156a2c")
+		)
+		(pin "2"
+			(uuid "dac6c73c-2e5b-4e55-895c-90a3b3f648ae")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1204773c-1117-405b-8a73-f1faaba30de9")
+		(property "Reference" "D3"
+			(at 39.37 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED2"
+			(at 39.878 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb9a97b-793e-446e-8f8e-21e39b2325f1")
+		)
+		(pin "2"
+			(uuid "f7bbe226-5171-4582-bb7d-8dc171415e5b")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1492e4dc-ded4-47de-8b61-e4ba60ccae2c")
+		(property "Reference" "D15"
+			(at 39.37 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED8"
+			(at 39.878 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f58677-8c46-43d6-8be8-b625705ed111")
+		)
+		(pin "2"
+			(uuid "97e23837-0c68-4eab-a271-38aecf4c20a6")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19f16e28-3466-471a-8afc-037bed101f76")
+		(property "Reference" "R19"
+			(at 53.086 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,15 +2230,16 @@
 			)
 		)
 		(property "Value" "330"
-			(at 42.926 84.074 90)
+			(at 53.086 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 43.18 81.28 0)
+			(at 53.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +2248,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
-			(at 43.18 81.28 0)
+			(at 53.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +2257,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 43.18 81.28 0)
+			(at 53.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +2266,7 @@
 			)
 		)
 		(property "LCSC#" "C119075"
-			(at 43.18 81.28 0)
+			(at 53.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +2275,7 @@
 			)
 		)
 		(property "manf#" "RS-05K331JT"
-			(at 43.18 81.28 0)
+			(at 53.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,14 +2284,1761 @@
 			)
 		)
 		(pin "1"
-			(uuid "455bedbd-7ebe-4f56-8fb7-38f14d1bce19")
+			(uuid "a7165dd8-dd0a-4355-85db-5ea99eb3fc57")
 		)
 		(pin "2"
-			(uuid "387d8beb-e28d-4804-9068-5292b31b92e6")
+			(uuid "69c54ffd-aa26-49b0-a4c4-ca8ec21e16b7")
 		)
 		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d1cd73a-3359-48a4-b7c1-9f1e50ebd7fe")
+		(property "Reference" "R12"
+			(at 175.006 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a43bc779-e608-4767-9bbe-6fd1e885700a")
+		)
+		(pin "2"
+			(uuid "fe75d307-78fe-4f57-8f98-7dfe62b0fb2d")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "215850b4-1931-4646-ae5f-d4b32120564f")
+		(property "Reference" "R18"
+			(at 175.006 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c251a88f-7363-47b2-8cca-65bbef19b41a")
+		)
+		(pin "2"
+			(uuid "f58d04d0-d204-4a1b-a1a6-710171a6f549")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a622a8a-c2c2-4708-9f2a-32f86f5aecb4")
+		(property "Reference" "D13"
+			(at 39.37 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED7"
+			(at 39.878 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e286c2bb-8cc2-4a06-b0d4-e4a7e0090f64")
+		)
+		(pin "2"
+			(uuid "e866edb9-3ac3-4c1d-98bd-4ae9930961ce")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ec28e9f-ffe8-4d31-af2e-8e6df977954a")
+		(property "Reference" "R11"
+			(at 53.086 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf364822-e233-4896-af40-7f921a0ae38f")
+		)
+		(pin "2"
+			(uuid "10b02ab8-d179-4ffe-98ea-5e44637ddb80")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed6dbfe-cd0a-4f56-b8bd-6d2fd4459cc4")
+		(property "Reference" "D4"
+			(at 161.29 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN2"
+			(at 161.798 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0bd80c4-a1eb-41b5-aa72-7505b82dcdbf")
+		)
+		(pin "2"
+			(uuid "28182e33-a515-4dfe-8a4d-917c32eb046c")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32917d61-15c0-4656-96e0-c48316f81c78")
+		(property "Reference" "#PWR04"
+			(at 220.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1afd10f-bb65-4304-8f66-f6b9b547f5a2")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4281159f-977c-482e-90ab-250ffe45169a")
+		(property "Reference" "R9"
+			(at 53.086 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3104fd-9ce6-4bb8-980d-6bf6dfc91e45")
+		)
+		(pin "2"
+			(uuid "16122ff3-bd8c-42aa-b258-02da98a133ba")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46f3cd5a-345a-4fce-b4ec-9e62482ef70a")
+		(property "Reference" "R2"
+			(at 175.006 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe372e2-a369-4571-88f6-a5e9d96ae241")
+		)
+		(pin "2"
+			(uuid "b40e0308-4713-4e8d-801f-4c2e8071b396")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a8e0b4c-a604-4cb7-817d-aa3b1d76b6b6")
+		(property "Reference" "D10"
+			(at 161.29 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN5"
+			(at 161.798 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a56326d5-72bf-4665-9c19-fb5ae0834990")
+		)
+		(pin "2"
+			(uuid "3039d314-0f50-4949-af15-5bb2058806f6")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4e0030-e2d7-4159-9322-4f689045d161")
+		(property "Reference" "D8"
+			(at 161.29 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN4"
+			(at 161.798 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b63c77-943b-43b9-b1be-86b98ddd4825")
+		)
+		(pin "2"
+			(uuid "1111a591-77c0-46bf-a193-3b2088892fb4")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "557ed1a6-4daf-4a70-b8e3-aa400452c82f")
+		(property "Reference" "D20"
+			(at 161.29 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN10"
+			(at 161.798 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64aed9f1-24aa-4212-84ee-2c1f7ed60d1b")
+		)
+		(pin "2"
+			(uuid "39c0034e-ca5f-4838-9530-29b4cd2e52d2")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5638aa6c-3667-416a-a23b-9e3fd5e4756f")
+		(property "Reference" "D5"
+			(at 39.37 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED3"
+			(at 39.878 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc156fa7-7733-4704-b6df-3007a325ea99")
+		)
+		(pin "2"
+			(uuid "68545f45-dfb0-4170-b7cd-9b9d0b738dfb")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c32ba80-da87-411f-9e54-b2e9f5bea089")
+		(property "Reference" "R8"
+			(at 175.006 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf941d48-9af9-4167-82a7-a7518681fb15")
+		)
+		(pin "2"
+			(uuid "082c756a-a76e-4ab8-a781-cfe8f75dda2a")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66f9e074-170d-468c-be0d-3d07706a3d20")
+		(property "Reference" "D17"
+			(at 39.37 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED9"
+			(at 39.878 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6edeef0f-971d-4c12-885b-325b751bf38c")
+		)
+		(pin "2"
+			(uuid "61185948-7e76-4756-b12b-3112edca2de4")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c9a5ddc-69be-41c6-92ac-7c69f3345348")
+		(property "Reference" "D1"
+			(at 39.37 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED1"
+			(at 39.878 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ba9992d-8cce-44cc-9bb9-7ee2da2e8a32")
+		)
+		(pin "2"
+			(uuid "217fb904-b53f-4570-84d7-5b4676b00a22")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "745f7422-1eaa-4bbb-a7b3-e8e2def785d6")
+		(property "Reference" "D7"
+			(at 39.37 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED4"
+			(at 39.878 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3ea5274-59f4-444f-b519-a66eccb56fb4")
+		)
+		(pin "2"
+			(uuid "d16e0cd7-b487-49de-8676-093b684b0bf2")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "763632dd-2b54-4235-9e7d-4c9aa14816ab")
+		(property "Reference" "R7"
+			(at 53.086 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe439f4-19c6-44c2-9453-ef9890bb19c3")
+		)
+		(pin "2"
+			(uuid "9a401e8b-90de-4cb4-9ad3-b7bb66be510f")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76e2144e-15af-4cbe-bed7-80fb235368a7")
+		(property "Reference" "R1"
+			(at 53.086 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68653e4-4d38-4c9d-ae1f-bd8c96fc6f80")
+		)
+		(pin "2"
+			(uuid "205f766d-e15c-4195-bed8-8b4bd8ea13b6")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77569bd9-c283-4075-99d5-ed2d52e51994")
+		(property "Reference" "D16"
+			(at 161.29 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN8"
+			(at 161.798 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2025c81-8ead-42a7-8a64-064688d86016")
+		)
+		(pin "2"
+			(uuid "6871ee0d-1a58-4056-9cf5-1a4145f62b79")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b8c425-f4b0-4b29-9c1e-a85c5100d956")
+		(property "Reference" "#PWR01"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4a83ba7-459a-440c-88b1-e1d3da8b690a")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c2f849-93fa-49ec-b40f-d1b56068c2c5")
+		(property "Reference" "R5"
+			(at 53.086 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa23ad7-64ed-4fc1-bb69-4ff29f67d185")
+		)
+		(pin "2"
+			(uuid "e6ded873-7b75-49db-bd17-612a4a69a9f6")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
 					(reference "R5")
 					(unit 1)
 				)
@@ -5589,17 +4046,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 19.05 48.26 0)
+		(lib_id "Device:LED")
+		(at 161.29 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee3ee3a6-73b5-4f71-b07c-b5932f1bf368")
-		(property "Reference" "#PWR03"
-			(at 19.05 54.61 0)
+		(uuid "95ce32b5-e82c-42fc-abc9-b1cde7ac8fbb")
+		(property "Reference" "D14"
+			(at 161.29 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN7"
+			(at 161.798 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,16 +4079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 19.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 48.26 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,8 +4088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 19.05 48.26 0)
+		(property "Description" "Light emitting diode"
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,8 +4097,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 48.26 0)
+		(property "LCSC#" "C84262"
+			(at 161.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,12 +4116,270 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c7ec81f-7b56-4543-81e0-43d1d611cd11")
+			(uuid "6338679e-0e94-49b9-951b-3066752537a9")
+		)
+		(pin "2"
+			(uuid "d800df1a-15f8-4208-9f7b-1bf46d131843")
 		)
 		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "#PWR03")
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9658f4f8-4a8c-4418-8869-c62350f51f36")
+		(property "Reference" "D2"
+			(at 161.29 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN1"
+			(at 161.798 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c543d630-3b0b-4139-8c18-418fa86049dc")
+		)
+		(pin "2"
+			(uuid "1dce3ea5-d5d7-491c-baf5-561b04f7cc30")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a558c175-788e-4d8c-9b23-c881af518064")
+		(property "Reference" "R4"
+			(at 175.006 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda2003a-8ffa-4efd-b351-771ecd1bc9ed")
+		)
+		(pin "2"
+			(uuid "ff9db7bb-cb68-4887-8c6a-db5622a8350d")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa706f6e-e308-4505-8586-ed431214c59d")
+		(property "Reference" "D12"
+			(at 161.29 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN6"
+			(at 161.798 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c59b4a5c-65b8-4dc5-b15a-33f9af9d7c6e")
+		)
+		(pin "2"
+			(uuid "338cba26-2111-4ff5-8d91-ae503f4c45c2")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5656,16 +4387,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 127 0)
+		(at 99.06 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8accb36-7569-4e2b-83de-1186258e5f94")
-		(property "Reference" "#PWR01"
-			(at 88.9 133.35 0)
+		(uuid "ac005222-11ff-41a7-a58c-93a7c9a90bdd")
+		(property "Reference" "#PWR02"
+			(at 99.06 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +4405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 132.08 0)
+			(at 99.06 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +4413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 127 0)
+			(at 99.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +4422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 127 0)
+			(at 99.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +4431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 127 0)
+			(at 99.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,12 +4440,1271 @@
 			)
 		)
 		(pin "1"
-			(uuid "90285685-87bf-4fcf-9e3f-367f99405712")
+			(uuid "67285742-a260-4e81-a854-33b459f4b351")
 		)
 		(instances
-			(project "VeinFinder_SMDLedBoard"
-				(path "/73387af9-184c-40fc-945f-86f7bd06be0b"
-					(reference "#PWR01")
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 161.29 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae9341d8-5217-42a8-9032-ac59bcb083a5")
+		(property "Reference" "D6"
+			(at 161.29 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORAN3"
+			(at 161.798 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201032_Foshan-NationStar-Optoelectronics-NCD0805O1_C84262.pdf"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C84262"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "NCD0805O1"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8b101b8-42c1-4524-9d96-3f9bd0d75edd")
+		)
+		(pin "2"
+			(uuid "8592d200-e78f-4ff5-8832-914a4fb15cc7")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b54d689b-7705-4513-b060-d69d95b24727")
+		(property "Reference" "R10"
+			(at 175.006 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2c406a0-3864-446a-8173-6426baa3b135")
+		)
+		(pin "2"
+			(uuid "52aeb048-7bca-4124-a0ce-8be5ee9e758f")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f2ad5c-b791-403c-95c5-6db561b4aea3")
+		(property "Reference" "R13"
+			(at 53.086 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfcbab19-3f9c-446e-b067-ed7953f23c1a")
+		)
+		(pin "2"
+			(uuid "dd915389-037e-4a60-9c80-4572c29f6908")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x01")
+		(at 29.21 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11d5870-05fb-4da7-9f29-6d3842bfea11")
+		(property "Reference" "J1"
+			(at 26.67 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RedL_Conn"
+			(at 32.004 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C295747"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e04e5d2-d04a-447b-902e-5e166c2243c2")
+		)
+		(pin "2"
+			(uuid "3bd3599a-d5d4-4961-973a-70f94ff51050")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c882a809-19b0-4542-a3a2-d09b1dd15e06")
+		(property "Reference" "D9"
+			(at 39.37 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED5"
+			(at 39.878 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167746db-be6b-46c2-baa0-64173d9d3d7b")
+		)
+		(pin "2"
+			(uuid "c0d46184-9f3c-4cfc-8053-7c13615654ee")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c97944b9-beb5-4720-a1fc-0acd7c5a634a")
+		(property "Reference" "D11"
+			(at 39.37 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED6"
+			(at 39.878 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28805759-dc9c-43b9-8679-110cf0a07374")
+		)
+		(pin "2"
+			(uuid "38df3672-332d-4236-90b4-dfb6b299f70a")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d14d2ebf-9499-4193-bc09-21e561288ebe")
+		(property "Reference" "R17"
+			(at 53.086 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ccfeb1b-2332-466a-aeb3-89c2d3125220")
+		)
+		(pin "2"
+			(uuid "5109537b-9ee9-4daf-b810-c9d3547d09fb")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4243b23-17cc-449d-95ee-8a4bdabcb1e6")
+		(property "Reference" "R20"
+			(at 175.006 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a5fcda-5a24-46be-9fe2-247636df09a6")
+		)
+		(pin "2"
+			(uuid "3d22b981-4319-418d-b081-cfb641da057a")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d47f9feb-c2de-4e6b-abcd-224dfb005c0c")
+		(property "Reference" "R6"
+			(at 175.006 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d91298-c989-4eb8-9bff-64ae6ffb2147")
+		)
+		(pin "2"
+			(uuid "f65961c3-2781-4629-8876-6b68c1f972f7")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4b7913e-acbf-4d8c-8ac5-77f720f287ec")
+		(property "Reference" "R14"
+			(at 175.006 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8835197f-af5e-4a3b-bd6f-ddf5de8706d1")
+		)
+		(pin "2"
+			(uuid "ab38f30c-dfd3-4881-841c-7dee1f24f754")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4955b78-e233-4a29-9eae-e262d37c9e68")
+		(property "Reference" "R16"
+			(at 175.006 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 175.006 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cbbe66e-5547-4c35-95e6-a86ddb872199")
+		)
+		(pin "2"
+			(uuid "438c3d91-4be9-4347-aef1-1901e43a2a78")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 39.37 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e99ff9ae-94ab-4bd8-8eff-9ab3e54d2391")
+		(property "Reference" "D19"
+			(at 39.37 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED10"
+			(at 39.878 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011911_ARKLED-Wuxi-ARK-Tech-Elec-D-R080508L3-KS2_C130114.pdf"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C130114"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" " D-R080508L3-KS2"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a21bb757-7c2f-456b-9fe1-af1726bf291c")
+		)
+		(pin "2"
+			(uuid "4f70eb5e-0fe2-4f99-8b27-1372eb0fd9ea")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef507514-2bfa-4daa-abca-211c6f21f79a")
+		(property "Reference" "R3"
+			(at 53.086 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47863b55-5a39-41c9-aac4-e5d21b23f5b2")
+		)
+		(pin "2"
+			(uuid "8d482921-3bfe-48c2-a875-f1d0e5a1bfc3")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f45a0e45-3b7d-40f2-89c0-b34088351b36")
+		(property "Reference" "R15"
+			(at 53.086 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 53.086 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811111122_FH--Guangdong-Fenghua-Advanced-Tech-RS-05K331JT_C119075.pdf"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C119075"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RS-05K331JT"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e8df38-2b04-402d-bf66-0d9d2b3f776c")
+		)
+		(pin "2"
+			(uuid "327a36fc-9e45-4875-b3d3-388b957d8cec")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b413d1-2577-4115-8bda-1dfabf94bbe9")
+		(property "Reference" "#PWR03"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abdf117d-fc88-4a12-9ac1-ae1c4522102e")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

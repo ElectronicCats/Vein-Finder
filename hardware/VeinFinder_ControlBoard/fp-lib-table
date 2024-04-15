@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Vein_Finder")(type "KiCad")(uri "C:/Users/suppo/Downloads/Library.pretty/Vein_Finder.pretty")(options "")(descr ""))
+)

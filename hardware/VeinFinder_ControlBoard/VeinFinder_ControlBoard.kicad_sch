@@ -4479,7 +4479,7 @@
 		)
 		(uuid "721e668f-0168-40c4-a10b-c9b778ccc90b")
 	)
-	(label "ORANGE"
+	(label "DOWN"
 		(at 199.39 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4490,7 +4490,7 @@
 		)
 		(uuid "75a20b66-1423-480f-b0cb-4e7dbc1316a6")
 	)
-	(label "RED"
+	(label "UP"
 		(at 115.57 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4501,7 +4501,7 @@
 		)
 		(uuid "81eb889a-3985-4313-abaa-b19891700224")
 	)
-	(label "RED"
+	(label "UP"
 		(at 199.39 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4523,7 +4523,7 @@
 		)
 		(uuid "d779b8e1-f62e-498d-9247-fd2e0f23a20b")
 	)
-	(label "ORANGE"
+	(label "DOWN"
 		(at 111.76 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5293,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SMD_USBC"
+		(property "Footprint" "Vein_Finder:SMD_USBC"
 			(at 30.48 41.91 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 110.49 24.13 0)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:JST_S2B-PH-SM4-TB(LF)(SN)"
+		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -6296,7 +6296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:JST_S2B-PH-SM4-TB(LF)(SN)"
+		(property "Footprint" "Vein_Finder:BAT_BK-18650-PC2"
 			(at 44.45 189.23 0)
 			(effects
 				(font
@@ -6795,7 +6795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vein_Finder:OS102011MA1QN1"
 			(at 35.56 109.22 0)
 			(effects
 				(font
@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Value" "RED_BR"
+		(property "Value" "BR_UP"
 			(at 106.934 46.228 0)
 			(effects
 				(font
@@ -7732,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 106.68 39.37 0)
 			(effects
 				(font
@@ -7809,7 +7809,7 @@
 				)
 			)
 		)
-		(property "Value" "ORANGE_BR"
+		(property "Value" "BR_DOWN"
 			(at 102.616 61.214 0)
 			(effects
 				(font
@@ -7817,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -9262,7 +9262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:JST_S2B-PH-SM4-TB(LF)(SN)"
+		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
 			(at 177.8 78.74 0)
 			(effects
 				(font

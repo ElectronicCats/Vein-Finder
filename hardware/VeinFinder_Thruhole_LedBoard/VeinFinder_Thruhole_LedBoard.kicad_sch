@@ -5,26 +5,27 @@
 	(uuid "d4ba6bb6-d969-451b-baf6-947e76a296d3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x01"
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x01"
-				(at 1.27 -2.54 0)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -45,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +73,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x01_1_1"
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 0.127)
 					(end 0 -0.127)
@@ -85,19 +97,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -106,8 +107,39 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -125,7 +157,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -135,6 +167,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,16 +806,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 29.21 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001e07fe-a413-4599-a75d-fb606b2d30a5")
-	)
-	(wire
-		(pts
 			(xy 177.8 129.54) (xy 184.15 129.54)
 		)
 		(stroke
@@ -798,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 59.69) (xy 151.13 67.31)
+			(xy 151.13 54.61) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1298,6 +1356,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 54.61) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9ed303-ce77-4e78-80bd-7cf320beeda3")
+	)
+	(wire
+		(pts
 			(xy 177.8 67.31) (xy 184.15 67.31)
 		)
 		(stroke
@@ -1338,26 +1406,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 45.72) (xy 151.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833c5637-8026-41d1-94a5-108784e1a43b")
-	)
-	(wire
-		(pts
-			(xy 151.13 29.21) (xy 151.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89634074-c0f3-4735-9594-829ff11973d4")
-	)
-	(wire
-		(pts
 			(xy 99.06 123.19) (xy 99.06 133.35)
 		)
 		(stroke
@@ -1385,6 +1433,16 @@
 			(type default)
 		)
 		(uuid "8f9607a9-68aa-4780-a193-5dceaa11edb0")
+	)
+	(wire
+		(pts
+			(xy 29.21 54.61) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa2357f-c69e-42b1-9ab8-59b9b4867828")
 	)
 	(wire
 		(pts
@@ -1588,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 62.23) (xy 29.21 69.85)
+			(xy 29.21 54.61) (xy 29.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1728,16 +1786,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 33.02) (xy 29.21 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e720e6b5-ff64-409e-a690-b6bdc0bba18f")
-	)
-	(wire
-		(pts
 			(xy 43.18 151.13) (xy 50.8 151.13)
 		)
 		(stroke
@@ -1826,17 +1874,6 @@
 		)
 		(uuid "6d9d43db-1a1c-494a-a2d8-605accf61070")
 	)
-	(label "O_Signal"
-		(at 151.13 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0edec5ce-fa5c-4843-a2bb-b992fedfdb21")
-	)
 	(label "R_Signal"
 		(at 29.21 62.23 0)
 		(fields_autoplaced yes)
@@ -1859,107 +1896,9 @@
 		)
 		(uuid "440994bf-c95a-4505-b906-3eacf6e502b3")
 	)
-	(label "R_Signal"
-		(at 29.21 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cf8e154-6057-409d-b6ac-2e7a5f364847")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 151.13 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04d02634-ab4e-4d72-9288-57c95a536189")
-		(property "Reference" "J2"
-			(at 148.59 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OranL_Conn"
-			(at 153.924 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C295747"
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 151.13 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8b3f7f5-439c-416a-87bb-f2e18dddad9d")
-		)
-		(pin "2"
-			(uuid "c4d78ce0-0553-4fd5-9587-bfd58887c379")
-		)
-		(instances
-			(project "VeinFinder_Thruhole_LedBoard"
-				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 139.7 180)
+		(at 161.29 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1967,7 +1906,7 @@
 		(dnp no)
 		(uuid "0816f913-5a52-45fd-890a-73936ad3422d")
 		(property "Reference" "D18"
-			(at 161.29 136.652 0)
+			(at 161.29 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1914,7 @@
 			)
 		)
 		(property "Value" "ORAN9"
-			(at 161.798 142.748 0)
+			(at 160.782 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +1983,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 78.74 180)
+		(at 39.37 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2052,7 +1991,7 @@
 		(dnp no)
 		(uuid "1204773c-1117-405b-8a73-f1faaba30de9")
 		(property "Reference" "D3"
-			(at 39.37 75.692 0)
+			(at 39.37 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +1999,7 @@
 			)
 		)
 		(property "Value" "RED2"
-			(at 39.878 81.788 0)
+			(at 38.862 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2068,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 132.08 180)
+		(at 39.37 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2137,7 +2076,7 @@
 		(dnp no)
 		(uuid "1492e4dc-ded4-47de-8b61-e4ba60ccae2c")
 		(property "Reference" "D15"
-			(at 39.37 129.032 0)
+			(at 39.37 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2084,7 @@
 			)
 		)
 		(property "Value" "RED8"
-			(at 39.878 135.128 0)
+			(at 38.862 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2409,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 123.19 180)
+		(at 39.37 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2478,7 +2417,7 @@
 		(dnp no)
 		(uuid "2a622a8a-c2c2-4708-9f2a-32f86f5aecb4")
 		(property "Reference" "D13"
-			(at 39.37 120.142 0)
+			(at 39.37 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2425,7 @@
 			)
 		)
 		(property "Value" "RED7"
-			(at 39.878 126.238 0)
+			(at 38.862 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2579,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 76.2 180)
+		(at 161.29 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2648,7 +2587,7 @@
 		(dnp no)
 		(uuid "2ed6dbfe-cd0a-4f56-b8bd-6d2fd4459cc4")
 		(property "Reference" "D4"
-			(at 161.29 73.152 0)
+			(at 161.29 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2595,7 @@
 			)
 		)
 		(property "Value" "ORAN2"
-			(at 161.798 79.248 0)
+			(at 160.782 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,12 +2681,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 220.98 135.89 0)
+		(property "Value" "VBAT"
+			(at 223.52 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2961,7 +2901,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 102.87 180)
+		(at 161.29 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2969,7 +2909,7 @@
 		(dnp no)
 		(uuid "4a8e0b4c-a604-4cb7-817d-aa3b1d76b6b6")
 		(property "Reference" "D10"
-			(at 161.29 99.822 0)
+			(at 161.29 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2917,7 @@
 			)
 		)
 		(property "Value" "ORAN5"
-			(at 161.798 105.918 0)
+			(at 160.782 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +2986,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 93.98 180)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3054,7 +2994,7 @@
 		(dnp no)
 		(uuid "4e4e0030-e2d7-4159-9322-4f689045d161")
 		(property "Reference" "D8"
-			(at 161.29 90.932 0)
+			(at 161.29 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3002,7 @@
 			)
 		)
 		(property "Value" "ORAN4"
-			(at 161.798 97.028 0)
+			(at 160.782 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3071,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 148.59 180)
+		(at 161.29 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3139,7 +3079,7 @@
 		(dnp no)
 		(uuid "557ed1a6-4daf-4a70-b8e3-aa400452c82f")
 		(property "Reference" "D20"
-			(at 161.29 145.542 0)
+			(at 161.29 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3087,7 @@
 			)
 		)
 		(property "Value" "ORAN10"
-			(at 161.798 151.638 0)
+			(at 160.782 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3156,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 87.63 180)
+		(at 39.37 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3224,7 +3164,7 @@
 		(dnp no)
 		(uuid "5638aa6c-3667-416a-a23b-9e3fd5e4756f")
 		(property "Reference" "D5"
-			(at 39.37 84.582 0)
+			(at 39.37 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3172,7 @@
 			)
 		)
 		(property "Value" "RED3"
-			(at 39.878 90.678 0)
+			(at 38.862 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3326,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 142.24 180)
+		(at 39.37 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3394,7 +3334,7 @@
 		(dnp no)
 		(uuid "66f9e074-170d-468c-be0d-3d07706a3d20")
 		(property "Reference" "D17"
-			(at 39.37 139.192 0)
+			(at 39.37 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3342,7 @@
 			)
 		)
 		(property "Value" "RED9"
-			(at 39.878 145.288 0)
+			(at 38.862 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3411,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 69.85 180)
+		(at 39.37 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +3419,7 @@
 		(dnp no)
 		(uuid "6c9a5ddc-69be-41c6-92ac-7c69f3345348")
 		(property "Reference" "D1"
-			(at 39.37 66.802 0)
+			(at 39.37 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3427,7 @@
 			)
 		)
 		(property "Value" "RED1"
-			(at 39.878 72.898 0)
+			(at 38.862 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3496,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 96.52 180)
+		(at 39.37 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3564,7 +3504,7 @@
 		(dnp no)
 		(uuid "745f7422-1eaa-4bbb-a7b3-e8e2def785d6")
 		(property "Reference" "D7"
-			(at 39.37 93.472 0)
+			(at 39.37 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3512,7 @@
 			)
 		)
 		(property "Value" "RED4"
-			(at 39.878 99.568 0)
+			(at 38.862 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3751,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 129.54 180)
+		(at 161.29 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3819,7 +3759,7 @@
 		(dnp no)
 		(uuid "77569bd9-c283-4075-99d5-ed2d52e51994")
 		(property "Reference" "D16"
-			(at 161.29 126.492 0)
+			(at 161.29 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3767,7 @@
 			)
 		)
 		(property "Value" "ORAN8"
-			(at 161.798 132.588 0)
+			(at 160.782 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,17 +3835,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 29.21 54.61 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 118.11 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84b8c425-f4b0-4b29-9c1e-a85c5100d956")
-		(property "Reference" "#PWR01"
-			(at 29.21 60.96 0)
+		(uuid "94b26159-7f10-4898-b12d-d10147d33244")
+		(property "Reference" "J1"
+			(at 118.4656 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 118.4656 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,16 +3869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 29.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 54.61 0)
+		(property "Datasheet" "~"
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,17 +3878,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 29.21 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 54.61 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,12 +3888,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4a83ba7-459a-440c-88b1-e1d3da8b690a")
+			(uuid "0e23ad08-337a-4ba0-af9a-efb557cceee9")
+		)
+		(pin "3"
+			(uuid "8e5fe8de-43c3-4380-a0a2-c3e20d5b54fd")
+		)
+		(pin "2"
+			(uuid "48e7c35d-6e7a-488e-8d04-84724d5856f0")
+		)
+		(pin "MP"
+			(uuid "46820520-6498-4a8c-8cc3-48ad11962c20")
 		)
 		(instances
 			(project "VeinFinder_Thruhole_LedBoard"
 				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
-					(reference "#PWR01")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4047,7 +3995,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 120.65 180)
+		(at 161.29 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4055,7 +4003,7 @@
 		(dnp no)
 		(uuid "95ce32b5-e82c-42fc-abc9-b1cde7ac8fbb")
 		(property "Reference" "D14"
-			(at 161.29 117.602 0)
+			(at 161.29 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4011,7 @@
 			)
 		)
 		(property "Value" "ORAN7"
-			(at 161.798 123.698 0)
+			(at 160.782 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4080,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 67.31 180)
+		(at 161.29 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +4088,7 @@
 		(dnp no)
 		(uuid "9658f4f8-4a8c-4418-8869-c62350f51f36")
 		(property "Reference" "D2"
-			(at 161.29 64.262 0)
+			(at 161.29 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4096,7 @@
 			)
 		)
 		(property "Value" "ORAN1"
-			(at 161.798 70.358 0)
+			(at 160.782 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4250,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 111.76 180)
+		(at 161.29 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4310,7 +4258,7 @@
 		(dnp no)
 		(uuid "aa706f6e-e308-4505-8586-ed431214c59d")
 		(property "Reference" "D12"
-			(at 161.29 108.712 0)
+			(at 161.29 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4266,7 @@
 			)
 		)
 		(property "Value" "ORAN6"
-			(at 161.798 114.808 0)
+			(at 160.782 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBAT"
 			(at 99.06 138.43 0)
 			(effects
 				(font
@@ -4453,7 +4401,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 85.09 180)
+		(at 161.29 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4461,7 +4409,7 @@
 		(dnp no)
 		(uuid "ae9341d8-5217-42a8-9032-ac59bcb083a5")
 		(property "Reference" "D6"
-			(at 161.29 82.042 0)
+			(at 161.29 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4417,7 @@
 			)
 		)
 		(property "Value" "ORAN3"
-			(at 161.798 88.138 0)
+			(at 160.782 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,95 +4655,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 29.21 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c11d5870-05fb-4da7-9f29-6d3842bfea11")
-		(property "Reference" "J1"
-			(at 26.67 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RedL_Conn"
-			(at 32.004 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C295747"
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 29.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e04e5d2-d04a-447b-902e-5e166c2243c2")
-		)
-		(pin "2"
-			(uuid "3bd3599a-d5d4-4961-973a-70f94ff51050")
-		)
-		(instances
-			(project "VeinFinder_Thruhole_LedBoard"
-				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 105.41 180)
+		(at 39.37 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4803,7 +4664,7 @@
 		(dnp no)
 		(uuid "c882a809-19b0-4542-a3a2-d09b1dd15e06")
 		(property "Reference" "D9"
-			(at 39.37 102.362 0)
+			(at 39.37 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4672,7 @@
 			)
 		)
 		(property "Value" "RED5"
-			(at 39.878 108.458 0)
+			(at 38.862 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 114.3 180)
+		(at 39.37 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4888,7 +4749,7 @@
 		(dnp no)
 		(uuid "c97944b9-beb5-4720-a1fc-0acd7c5a634a")
 		(property "Reference" "D11"
-			(at 39.37 111.252 0)
+			(at 39.37 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4757,7 @@
 			)
 		)
 		(property "Value" "RED6"
-			(at 39.878 117.348 0)
+			(at 38.862 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5251,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 151.13 180)
+		(at 39.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5398,7 +5259,7 @@
 		(dnp no)
 		(uuid "e99ff9ae-94ab-4bd8-8eff-9ab3e54d2391")
 		(property "Reference" "D19"
-			(at 39.37 148.082 0)
+			(at 39.37 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5267,7 @@
 			)
 		)
 		(property "Value" "RED10"
-			(at 39.878 154.178 0)
+			(at 38.862 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,6 +5421,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efe2b6a2-8fc5-4b8b-a3c7-f862d64a4961")
+		(property "Reference" "#PWR01"
+			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 120.65 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2135bab5-f14a-42a4-a5c3-910025fc0fa1")
+		)
+		(instances
+			(project "VeinFinder_Thruhole_LedBoard"
+				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 53.34 132.08 270)
 		(unit 1)
@@ -5639,72 +5567,6 @@
 			(project "VeinFinder_Thruhole_LedBoard"
 				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9b413d1-2577-4115-8bda-1dfabf94bbe9")
-		(property "Reference" "#PWR03"
-			(at 151.13 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abdf117d-fc88-4a12-9ac1-ae1c4522102e")
-		)
-		(instances
-			(project "VeinFinder_Thruhole_LedBoard"
-				(path "/d4ba6bb6-d969-451b-baf6-947e76a296d3"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

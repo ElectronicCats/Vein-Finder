@@ -903,6 +903,213 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3436,6 +3643,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 80.01) (xy 204.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb7838e-8bbf-46a3-b961-f4f2316bd377")
+	)
+	(wire
+		(pts
 			(xy 16.51 109.22) (xy 16.51 111.76)
 		)
 		(stroke
@@ -3493,6 +3710,16 @@
 			(type default)
 		)
 		(uuid "284d45f7-488c-46db-8ba1-9f7b8f018c18")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cf4156-b013-48a2-b104-88b8665b35c7")
 	)
 	(wire
 		(pts
@@ -3603,6 +3830,26 @@
 			(type default)
 		)
 		(uuid "3ebf80f8-780f-4fbf-9e6b-94f4c81f658b")
+	)
+	(wire
+		(pts
+			(xy 199.39 82.55) (xy 194.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402ebd5b-1360-4c18-ad66-06e23923da67")
+	)
+	(wire
+		(pts
+			(xy 194.31 82.55) (xy 194.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421d2481-9364-4589-80ae-2ffb5874a931")
 	)
 	(wire
 		(pts
@@ -3786,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 58.42) (xy 212.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5ff250-8a3d-4752-8b05-a32a024294ee")
+	)
+	(wire
+		(pts
 			(xy 48.26 156.21) (xy 60.96 156.21)
 		)
 		(stroke
@@ -3866,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 86.36) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80559a4a-714c-466f-bd88-f46aaf914dda")
+	)
+	(wire
+		(pts
 			(xy 102.87 29.21) (xy 102.87 31.75)
 		)
 		(stroke
@@ -3893,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "896c9024-4fa8-42b3-9c1a-83709fd17980")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 204.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aef2fba-3efb-44b6-8850-9e57c893fa8e")
 	)
 	(wire
 		(pts
@@ -4046,16 +4323,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 69.85) (xy 228.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d6d268-1614-4bf3-b068-789f2a7290f4")
-	)
-	(wire
-		(pts
 			(xy 228.6 100.33) (xy 228.6 105.41)
 		)
 		(stroke
@@ -4194,16 +4461,6 @@
 		)
 		(uuid "d6d38149-1342-439b-9fd4-ce0008d74acd")
 	)
-	(wire
-		(pts
-			(xy 177.8 69.85) (xy 177.8 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ea6fa1-ed8f-4ed0-b69e-ad3d3021bfa3")
-	)
 	(polyline
 		(pts
 			(xy 78.74 123.19) (xy 78.74 196.85)
@@ -4223,6 +4480,16 @@
 			(type default)
 		)
 		(uuid "daace80c-1c0f-4fa6-ad5b-6bf0b8b61f3f")
+	)
+	(wire
+		(pts
+			(xy 212.09 66.04) (xy 204.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3041aa-2db9-457d-9f79-f8c8fb831ae0")
 	)
 	(polyline
 		(pts
@@ -4256,6 +4523,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 86.36) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39fe6bb-e0e6-4cc6-a6e3-d04379f721e9")
+	)
+	(wire
+		(pts
 			(xy 217.17 105.41) (xy 228.6 105.41)
 		)
 		(stroke
@@ -4273,6 +4550,16 @@
 			(type default)
 		)
 		(uuid "e70db736-1a16-4c2c-9986-9e85568e92e7")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7f38ca-f216-4cc6-b502-4ca77ecc904f")
 	)
 	(wire
 		(pts
@@ -4383,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "fe11dfbc-8a1f-4172-a0bb-4ae08df23ea3")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 204.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3bfb5b-16d2-4517-a66b-3a7a8c269bf1")
 	)
 	(text "USB"
 		(exclude_from_sim no)
@@ -6054,93 +6351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 228.6 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51aad807-3476-4e7d-a00f-9270448ad0cd")
-		(property "Reference" "J4"
-			(at 225.552 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OranL_conn"
-			(at 231.394 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS#" "C295747"
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 228.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a75742e2-a72f-4289-b0f0-e694b68c6820")
-		)
-		(pin "1"
-			(uuid "b61bb49b-27bc-4861-af00-fd59bc31d835")
-		)
-		(instances
-			(project "VeinFinder_ControlBoard"
-				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 177.8 109.22 0)
 		(unit 1)
@@ -7609,7 +7819,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 177.8 69.85 0)
+		(at 201.93 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7617,7 +7827,7 @@
 		(dnp no)
 		(uuid "93b45083-1763-40ac-bc82-aa8844077bc4")
 		(property "Reference" "#PWR030"
-			(at 177.8 73.66 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7836,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 175.768 65.278 0)
+			(at 203.962 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 69.85 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 69.85 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 69.85 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,72 +8670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 228.6 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ceaa6e16-0a25-4ccc-816c-390f24a5559a")
-		(property "Reference" "#PWR031"
-			(at 228.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 226.314 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1276742-7196-4ab3-afaa-91606c0e54fb")
-		)
-		(instances
-			(project "VeinFinder_ControlBoard"
-				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 121.92 0)
 		(unit 1)
@@ -8784,6 +8928,79 @@
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 201.93 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea04dbee-cab3-443b-b179-88f4507d5a85")
+		(property "Reference" "J5"
+			(at 202.2856 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 202.2856 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+			(at 202.2856 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb891045-a5b6-4be6-bca6-aef39cbc45b1")
+		)
+		(pin "2"
+			(uuid "26423948-746f-4904-a157-cff1b3a7c481")
+		)
+		(pin "MP"
+			(uuid "f7d7ef1f-660d-47b1-ad55-030971daa168")
+		)
+		(pin "3"
+			(uuid "b967b7f7-7603-4289-9fde-12bcd166809d")
+		)
+		(instances
+			(project "VeinFinder_ControlBoard"
+				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9262,93 +9479,6 @@
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x01")
-		(at 177.8 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f79ecb61-9ea1-4948-9c36-72d107c27a89")
-		(property "Reference" "J3"
-			(at 174.752 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RedL_conn"
-			(at 180.594 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Vein_Finder:JST_S2B-PH-SM4-TB(LF)(SN)"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-Sales-America-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS#" "C295747"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 177.8 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9670da80-7e40-4d6a-a97d-130fc57f9bbb")
-		)
-		(pin "1"
-			(uuid "c73099c9-6818-413d-9853-b236919708c0")
-		)
-		(instances
-			(project "VeinFinder_ControlBoard"
-				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "J3")
 					(unit 1)
 				)
 			)

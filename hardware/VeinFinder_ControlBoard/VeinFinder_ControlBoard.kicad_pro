@@ -534,7 +534,7 @@
           "group_by": false,
           "label": "Do Not Place",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

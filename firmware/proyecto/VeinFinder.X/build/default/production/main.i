@@ -10669,16 +10669,11 @@ extern __bank0 __bit __timeout;
 # 29 "/opt/microchip/xc8/v2.50/pic/include/xc.h" 2 3
 # 24 "main.c" 2
 # 40 "main.c"
-uint8_t red_level = 3;
-uint8_t orange_level = 3;
+uint8_t red_level = 5;
+uint8_t orange_level = 5;
 uint8_t current_color = 0;
 
 void initialize() {
-
-
-
-
-
 
 
     PPSLOCK = 0x55;
@@ -10729,7 +10724,7 @@ void initialize() {
     PWM4DCL = 0;
 
 
-    T2CON = 0x60;
+    T2CON = 0x40;
     T2CLKCON = 0x01;
     T2HLT = 0x00;
     T2RST = 0x00;
@@ -10738,10 +10733,8 @@ void initialize() {
     T2CONbits.TMR2ON = 1;
 
 
-    LATCbits.LATC1 = 1;
+    LATCbits.LATC1 = 0;
     LATCbits.LATC2 = 0;
-
-
 }
 
 void blink() {
@@ -10763,7 +10756,15 @@ void blink() {
 }
 
 void set_pwm_duty(uint8_t pwm, uint8_t level) {
-    uint16_t duty = (level * 85);
+    uint16_t duty;
+
+
+    if (level == 0) {
+        duty = 0;
+    } else {
+        duty = (level * 51);
+    }
+
     if (pwm == 3) {
         PWM3DCH = duty >> 2;
         PWM3DCL = (duty & 0x03) << 6;
@@ -10776,9 +10777,7 @@ void set_pwm_duty(uint8_t pwm, uint8_t level) {
 void update_leds() {
     if (current_color == 0) {
         set_pwm_duty(3, red_level);
-        set_pwm_duty(4, 1);
     } else {
-        set_pwm_duty(3, 1);
         set_pwm_duty(4, orange_level);
     }
 }
@@ -10789,25 +10788,32 @@ void main(void) {
     blink();
     blink();
 
+    current_color = 0;
+    update_leds();
+    current_color = 1;
+    update_leds();
+
+    LATCbits.LATC1 = 1;
+
     while(1) {
 
         if (PORTCbits.RC5 == 0) {
-            _delay((unsigned long)((50)*(1000000/4000.0)));
+            _delay((unsigned long)((30)*(1000000/4000.0)));
             if (PORTCbits.RC5 == 0) {
                 current_color = !current_color;
-                LATCbits.LATC1 = !current_color;
-                LATCbits.LATC2 = current_color;
+                LATCbits.LATC1 = current_color;
+                LATCbits.LATC2 = !current_color;
                 while (PORTCbits.RC5 == 0);
             }
         }
 
 
         if (PORTCbits.RC0 == 0) {
-            _delay((unsigned long)((50)*(1000000/4000.0)));
+            _delay((unsigned long)((30)*(1000000/4000.0)));
             if (PORTCbits.RC0 == 0) {
-                if (current_color == 0 && red_level < 3) {
+                if (current_color == 0 && red_level < 5) {
                     red_level++;
-                } else if (current_color == 1 && orange_level < 3) {
+                } else if (current_color == 1 && orange_level < 5) {
                     orange_level++;
                 }
                 while (PORTCbits.RC0 == 0);
@@ -10816,11 +10822,11 @@ void main(void) {
 
 
         if (PORTAbits.RA2 == 0) {
-            _delay((unsigned long)((50)*(1000000/4000.0)));
+            _delay((unsigned long)((30)*(1000000/4000.0)));
             if (PORTAbits.RA2 == 0) {
-                if (current_color == 0 && red_level > 1) {
+                if (current_color == 0 && red_level > 0) {
                     red_level--;
-                } else if (current_color == 1 && orange_level > 1) {
+                } else if (current_color == 1 && orange_level > 0) {
                     orange_level--;
                 }
                 while (PORTAbits.RA2 == 0);

@@ -11,13 +11,13 @@
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
 "44 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
 [v _initialize initialize `(v  1 e 1 0 ]
-"115
+"108
 [v _blink blink `(v  1 e 1 0 ]
-"133
+"126
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
-"144
+"145
 [v _update_leds update_leds `(v  1 e 1 0 ]
-"154
+"153
 [v _main main `(v  1 e 1 0 ]
 [s S242 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -178,27 +178,28 @@
 [v _orange_level orange_level `uc  1 e 1 0 ]
 "42
 [v _current_color current_color `uc  1 e 1 0 ]
-"154
+"153
 [v _main main `(v  1 e 1 0 ]
 {
-"201
+"207
 } 0
-"144
+"145
 [v _update_leds update_leds `(v  1 e 1 0 ]
 {
-"152
+"151
 } 0
-"133
+"126
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
 {
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
-"134
+"127
 [v set_pwm_duty@duty duty `us  1 a 2 10 ]
-"133
+"126
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
 [v set_pwm_duty@level level `uc  1 p 1 6 ]
+"130
 [v set_pwm_duty@pwm pwm `uc  1 p 1 9 ]
-"142
+"143
 } 0
 "15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
@@ -213,10 +214,10 @@
 "44 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
 [v _initialize initialize `(v  1 e 1 0 ]
 {
-"113
+"106
 } 0
-"115
+"108
 [v _blink blink `(v  1 e 1 0 ]
 {
-"131
+"124
 } 0

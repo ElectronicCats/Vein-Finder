@@ -5,10 +5,10 @@ Linker command line:
 -W-3 --edf=/opt/microchip/xc8/v2.50/pic/dat/20240725155939_en.msgs -cn \
   -h+dist/default/production/VeinFinder.X.production.sym \
   --cmf=dist/default/production/VeinFinder.X.production.cmf -z -Q16F15323 \
-  -o/tmp/xcXLjNlPM/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
+  -o/tmp/xcXgFFNik/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
   --fixupoverflow=error \
   -Mdist/default/production/VeinFinder.X.production.map \
-  --md=/tmp/xcXLjNlPM/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
+  --md=/tmp/xcXgFFNik/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
   -ACODE=00h-07FFh -ASTRCODE=00h-07FFh -ASTRING=00h-0FFhx8 \
   -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 -ACOMMON=070h-07Fh \
   -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
@@ -38,7 +38,7 @@ Linker command line:
   -DCONFIG=2 -AIDLOC=08000h-08003h -DIDLOC=2 -DCODE=2 -DSTRCODE=2 \
   -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry,sivt,init,end_init -ppowerup=CODE -pcinit=CODE \
-  -pfunctab=ENTRY -k /tmp/xcXLjNlPM/driver_tmp_12.o \
+  -pfunctab=ENTRY -k /tmp/xcXgFFNik/driver_tmp_12.o \
   dist/default/production/VeinFinder.X.production.o 
 
 Object code version is 3.11
@@ -48,36 +48,36 @@ Machine type is 16F15323
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXLjNlPM/driver_tmp_12.o
+/tmp/xcXgFFNik/driver_tmp_12.o
                 end_init                              1        1        1        0       0
                 reset_vec                             0        0        1        0       0
                 config                             8007     8007        3        0       4
 dist/default/production/VeinFinder.X.production.o
                 cinit                               7F5      7F5        B      FEA       0
                 config                             8007     8007        3        0       4
-                text5                               679      679       17      CF2       0
-                text4                               6D0      6D0       38      DA0       0
-                text3                               690      690       1F      D20       0
-                text2                               708      708       49      E10       0
-                text1                               6AF      6AF       21      D5E       0
-                maintext                            751      751       A4      EA2       0
+                text5                               689      689       17      D12       0
+                text4                               6BF      6BF       38      D7E       0
+                text3                               6A0      6A0       1F      D40       0
+                text2                               6F7      6F7       51      DEE       0
+                text1                               674      674       15      CE8       0
+                maintext                            748      748       AD      E90       0
                 cstackCOMMON                         70       70        D       70       1
                 dataBANK0                            20       20        2       20       1
                 bssCOMMON                            7D       7D        1       70       1
-                idataBANK0                          677      677        2      CEE       0
+                idataBANK0                          672      672        2      CE4       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
                 end_init                              1        1        1         0
                 cinit                               7F5      7F5        B         0
                 reset_vec                             0        0        1         0
-                text5                               679      679       17         0
-                text4                               6D0      6D0       38         0
-                text3                               690      690       1F         0
-                text2                               708      708       49         0
-                text1                               6AF      6AF       21         0
-                maintext                            751      751       A4         0
-                idataBANK0                          677      677        2         0
+                text5                               689      689       17         0
+                text4                               6BF      6BF       38         0
+                text3                               6A0      6A0       1F         0
+                text2                               6F7      6F7       51         0
+                text1                               674      674       15         0
+                maintext                            748      748       AD         0
+                idataBANK0                          672      672        2         0
 
         CLASS   STRCODE        
 
@@ -371,13 +371,13 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000002  000002         0       0  CODE        2
-                text1                          0006AF  000021  0006D0       D5E       0  CODE        2
-                maintext                       000751  0000A4  0007F5       EA2       0  CODE        2
-                text4                          0006D0  000038  000708       DA0       0  CODE        2
-                text2                          000708  000049  000751       E10       0  CODE        2
-                text5                          000679  000017  000690       CF2       0  CODE        2
-                idataBANK0                     000677  000002  000679       CEE       0  CODE        2
-                text3                          000690  00001F  0006AF       D20       0  CODE        2
+                text3                          0006A0  00001F  0006BF       D40       0  CODE        2
+                maintext                       000748  0000AD  0007F5       E90       0  CODE        2
+                text4                          0006BF  000038  0006F7       D7E       0  CODE        2
+                text2                          0006F7  000051  000748       DEE       0  CODE        2
+                text1                          000674  000015  000689       CE8       0  CODE        2
+                idataBANK0                     000672  000002  000674       CE4       0  CODE        2
+                text5                          000689  000017  0006A0       D12       0  CODE        2
                 dataBANK0                      000020  000002  000022        20       1  BANK0       1
                 cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
                 cinit                          0007F5  00000B  000800       FEA       0  CODE        2
@@ -390,10 +390,10 @@ UNUSED ADDRESS RANGES
         BANK1            000A0-000EF              50           1
         BANK2            00120-0016F              50           1
         BIGRAM           02000-020EF              F0           1
-        CODE             00002-00676             675           2
+        CODE             00002-00671             670           2
         CONFIG           0800A-0800B               2           2
-        CONST            00002-00676             100           2
-        ENTRY            00002-00676             100           2
+        CONST            00002-00671             100           2
+        ENTRY            00002-00671             100           2
         IDLOC            08000-08003               4           2
         RAM              00022-0006F              4E           1
                          000A0-000EF              50
@@ -462,8 +462,8 @@ UNUSED ADDRESS RANGES
         SFR7             00380-003EF              70           1
         SFR8             00400-0046F              70           1
         SFR9             00480-004EF              70           1
-        STRCODE          00002-00676             675           2
-        STRING           00002-00676             100           2
+        STRCODE          00002-00671             670           2
+        STRING           00002-00671             100           2
 
                                   Symbol Table
 
@@ -825,36 +825,36 @@ ___stack_hi              stack        00000
 ___stack_lo              stack        00000
 ___stackhi               (abs)        00000
 ___stacklo               (abs)        00000
-___wmul                  text3        00690
+___wmul                  text3        006A0
 ___wmul@multiplicand     cstackCOMMON 00072
 ___wmul@multiplier       cstackCOMMON 00070
 ___wmul@product          cstackCOMMON 00074
-__end_of___wmul          text3        006AF
+__end_of___wmul          text3        006BF
 __end_of__initialization cinit        007FE
-__end_of_blink           text5        00690
-__end_of_initialize      text4        00708
+__end_of_blink           text5        006A0
+__end_of_initialize      text4        006F7
 __end_of_main            maintext     007F5
-__end_of_set_pwm_duty    text2        00751
-__end_of_update_leds     text1        006D0
+__end_of_set_pwm_duty    text2        00748
+__end_of_update_leds     text1        00689
 __initialization         cinit        007F5
 __pbssCOMMON             bssCOMMON    0007D
 __pcstackCOMMON          cstackCOMMON 00070
 __pdataBANK0             dataBANK0    00020
-__pidataBANK0            idataBANK0   00677
-__pmaintext              maintext     00751
-__ptext1                 text1        006AF
-__ptext2                 text2        00708
-__ptext3                 text3        00690
-__ptext4                 text4        006D0
-__ptext5                 text5        00679
-_blink                   text5        00679
+__pidataBANK0            idataBANK0   00672
+__pmaintext              maintext     00748
+__ptext1                 text1        00674
+__ptext2                 text2        006F7
+__ptext3                 text3        006A0
+__ptext4                 text4        006BF
+__ptext5                 text5        00689
+_blink                   text5        00689
 _current_color           bssCOMMON    0007D
-_initialize              text4        006D0
-_main                    maintext     00751
+_initialize              text4        006BF
+_main                    maintext     00748
 _orange_level            dataBANK0    00020
 _red_level               dataBANK0    00021
-_set_pwm_duty            text2        00708
-_update_leds             text1        006AF
+_set_pwm_duty            text2        006F7
+_update_leds             text1        00674
 btemp                    (abs)        0007E
 end_of_initialization    cinit        007FE
 intlevel0                functab      00000
@@ -876,7 +876,7 @@ MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c
-		___wmul        		CODE           	0690	0000	31
+		___wmul        		CODE           	06A0	0000	31
 
 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c estimated size: 31
 
@@ -886,11 +886,11 @@ shared
 shared estimated size: 9
 
 main.c
-		_main          		CODE           	0751	0000	164
-		_update_leds   		CODE           	06AF	0000	33
-		_initialize    		CODE           	06D0	0000	56
-		_blink         		CODE           	0679	0000	23
-		_set_pwm_duty  		CODE           	0708	0000	73
+		_main          		CODE           	0748	0000	173
+		_update_leds   		CODE           	0674	0000	21
+		_initialize    		CODE           	06BF	0000	56
+		_blink         		CODE           	0689	0000	23
+		_set_pwm_duty  		CODE           	06F7	0000	81
 
-main.c estimated size: 349
+main.c estimated size: 354
 

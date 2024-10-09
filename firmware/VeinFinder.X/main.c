@@ -37,16 +37,11 @@
 //#define ORANGE LATCbits.LATC4
 
 // Variables globales
-uint8_t red_level = 3;
-uint8_t orange_level = 3;
+uint8_t red_level = 5;
+uint8_t orange_level = 5;
 uint8_t current_color = 0; // 0 para rojo, 1 para naranja
 
 void initialize() {
-    
-    // Configuración del oscilador interno a 1 MHz
-    //OSCCON1bits.NOSC = 0b110;   // Oscilador HFINTOSC seleccionado
-    //OSCCON1bits.NDIV = 0b0011;  // Divisor de 8 para reducir la frecuencia a 1 MHz
-    //OSCFRQbits.HFFRQ = 0b000;   // Oscilador interno configurado a 1 MHz
     
     // Desbloquear PPS para permitir cambios
     PPSLOCK = 0x55;
@@ -97,7 +92,7 @@ void initialize() {
     PWM4DCL = 0;           // Ciclo de trabajo bajo inicialmente 0
 
     // --- Configuración de Timer2 según tu solicitud ---
-    T2CON = 0x60;          // Postcaler 1:16, prescaler 1:1
+    T2CON = 0x40;          // Prescaler 1:1 Postcaler 1:1
     T2CLKCON = 0x01;       // Fuente de reloj Fosc/4
     T2HLT = 0x00;          // Modo normal (no modo monostable)
     T2RST = 0x00;          // Sin fuentes de reinicio
@@ -106,10 +101,8 @@ void initialize() {
     T2CONbits.TMR2ON = 1;  // Encender Timer2
 
     // Inicializar LEDs indicadores
-    LRED = 1;
+    LRED = 0;
     LORAN = 0;
-    //RED = 0;
-    //ORANGE = 0;
 }
 
 void blink() {
@@ -131,7 +124,15 @@ void blink() {
 }
 
 void set_pwm_duty(uint8_t pwm, uint8_t level) {
-    uint16_t duty = (level * 85); // 1, 2, 3: 85, 170, 255
+    uint16_t duty;
+    
+    // Calcular el duty cycle según el nivel
+    if (level == 0) {
+        duty = 0;  // Apagar el LED en nivel 0
+    } else {
+        duty = (level * 51);  // Niveles 1 a 5: 51, 102, 153, 204, 255
+    }
+    
     if (pwm == 3) {
         PWM3DCH = duty >> 2;
         PWM3DCL = (duty & 0x03) << 6;
@@ -144,9 +145,7 @@ void set_pwm_duty(uint8_t pwm, uint8_t level) {
 void update_leds() {
     if (current_color == 0) { // Modo rojo
         set_pwm_duty(3, red_level);
-        set_pwm_duty(4, 1); // Apagar LED naranja
     } else { // Modo naranja
-        set_pwm_duty(3, 1); // Apagar LED rojo
         set_pwm_duty(4, orange_level);
     }
 }
@@ -157,14 +156,21 @@ void main(void) {
     blink();
     blink();
     
+    current_color = 0; // LED rojo
+    update_leds();
+    current_color = 1; // LED naranja
+    update_leds();
+    
+    LRED = 1;
+    
     while(1) {
         // Comprobar botón SEL
         if (BTN_SEL == 0) {
             __delay_ms(30); // Debounce
             if (BTN_SEL == 0) {
                 current_color = !current_color;
-                LRED = !current_color;
-                LORAN = current_color;
+                LRED = current_color;
+                LORAN = !current_color;
                 while (BTN_SEL == 0); // Esperar a que el botón se suelte
             }
         }
@@ -173,9 +179,9 @@ void main(void) {
         if (BTN_UP == 0) {
             __delay_ms(30); // Debounce
             if (BTN_UP == 0) {
-                if (current_color == 0 && red_level < 3) {
+                if (current_color == 0 && red_level < 5) {
                     red_level++;
-                } else if (current_color == 1 && orange_level < 3) {
+                } else if (current_color == 1 && orange_level < 5) {
                     orange_level++;
                 }
                 while (BTN_UP == 0); // Esperar a que el botón se suelte
@@ -186,9 +192,9 @@ void main(void) {
         if (BTN_DOWN == 0) {
             __delay_ms(30); // Debounce
             if (BTN_DOWN == 0) {
-                if (current_color == 0 && red_level > 1) {
+                if (current_color == 0 && red_level > 0) {
                     red_level--;
-                } else if (current_color == 1 && orange_level > 1) {
+                } else if (current_color == 1 && orange_level > 0) {
                     orange_level--;
                 }
                 while (BTN_DOWN == 0); // Esperar a que el botón se suelte

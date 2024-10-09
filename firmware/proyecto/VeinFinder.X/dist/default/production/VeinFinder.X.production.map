@@ -5,10 +5,10 @@ Linker command line:
 -W-3 --edf=/opt/microchip/xc8/v2.50/pic/dat/20240725155939_en.msgs -cn \
   -h+dist/default/production/VeinFinder.X.production.sym \
   --cmf=dist/default/production/VeinFinder.X.production.cmf -z -Q16F15323 \
-  -o/tmp/xcXgFFNik/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
+  -o/tmp/xcXLckPka/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
   --fixupoverflow=error \
   -Mdist/default/production/VeinFinder.X.production.map \
-  --md=/tmp/xcXgFFNik/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
+  --md=/tmp/xcXLckPka/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
   -ACODE=00h-07FFh -ASTRCODE=00h-07FFh -ASTRING=00h-0FFhx8 \
   -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 -ACOMMON=070h-07Fh \
   -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
@@ -38,7 +38,7 @@ Linker command line:
   -DCONFIG=2 -AIDLOC=08000h-08003h -DIDLOC=2 -DCODE=2 -DSTRCODE=2 \
   -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry,sivt,init,end_init -ppowerup=CODE -pcinit=CODE \
-  -pfunctab=ENTRY -k /tmp/xcXgFFNik/driver_tmp_12.o \
+  -pfunctab=ENTRY -k /tmp/xcXLckPka/driver_tmp_12.o \
   dist/default/production/VeinFinder.X.production.o 
 
 Object code version is 3.11
@@ -48,7 +48,7 @@ Machine type is 16F15323
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXgFFNik/driver_tmp_12.o
+/tmp/xcXLckPka/driver_tmp_12.o
                 end_init                              1        1        1        0       0
                 reset_vec                             0        0        1        0       0
                 config                             8007     8007        3        0       4

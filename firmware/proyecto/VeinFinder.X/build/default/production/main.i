@@ -7,14 +7,7 @@
 # 1 "/opt/microchip/xc8/v2.50/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-
-
-
-
-
-
-
-
+# 24 "main.c"
 #pragma config FEXTOSC = OFF
 #pragma config RSTOSC = HFINT1
 #pragma config CLKOUTEN = OFF
@@ -10667,8 +10660,8 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "/opt/microchip/xc8/v2.50/pic/include/xc.h" 2 3
-# 24 "main.c" 2
-# 40 "main.c"
+# 39 "main.c" 2
+# 55 "main.c"
 uint8_t red_level = 5;
 uint8_t orange_level = 5;
 uint8_t current_color = 0;
@@ -10740,18 +10733,16 @@ void initialize() {
 void blink() {
 
 
-        LATCbits.LATC1 = 1;
-        LATCbits.LATC2 = 1;
+    LATCbits.LATC1 = 1;
+    LATCbits.LATC2 = 1;
+    _delay((unsigned long)((200)*(1000000/4000.0)));
 
 
-        _delay((unsigned long)((200)*(1000000/4000.0)));
+    LATCbits.LATC1 = 0;
+    LATCbits.LATC2 = 0;
 
 
-        LATCbits.LATC1 = 0;
-        LATCbits.LATC2 = 0;
-
-
-        _delay((unsigned long)((200)*(1000000/4000.0)));
+    _delay((unsigned long)((200)*(1000000/4000.0)));
 
 }
 

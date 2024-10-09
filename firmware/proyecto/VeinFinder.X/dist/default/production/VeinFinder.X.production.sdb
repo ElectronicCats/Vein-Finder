@@ -9,15 +9,15 @@
 [v ___wmul __wmul `(ui  1 e 2 0 ]
 "4 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"44 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
+"59 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
 [v _initialize initialize `(v  1 e 1 0 ]
-"108
+"123
 [v _blink blink `(v  1 e 1 0 ]
-"126
+"139
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
-"145
+"158
 [v _update_leds update_leds `(v  1 e 1 0 ]
-"153
+"166
 [v _main main `(v  1 e 1 0 ]
 [s S242 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -172,34 +172,34 @@
 "17235
 [u S124 . 1 `S117 1 . 1 0 ]
 [v _WPUCbits WPUCbits `VES124  1 e 1 @8015 ]
-"40 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
+"55 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
 [v _red_level red_level `uc  1 e 1 0 ]
-"41
+"56
 [v _orange_level orange_level `uc  1 e 1 0 ]
-"42
+"57
 [v _current_color current_color `uc  1 e 1 0 ]
-"153
+"166
 [v _main main `(v  1 e 1 0 ]
 {
-"207
+"220
 } 0
-"145
+"158
 [v _update_leds update_leds `(v  1 e 1 0 ]
 {
-"151
+"164
 } 0
-"126
+"139
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
 {
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
-"127
+"140
 [v set_pwm_duty@duty duty `us  1 a 2 10 ]
-"126
+"139
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
 [v set_pwm_duty@level level `uc  1 p 1 6 ]
-"130
-[v set_pwm_duty@pwm pwm `uc  1 p 1 9 ]
 "143
+[v set_pwm_duty@pwm pwm `uc  1 p 1 9 ]
+"156
 } 0
 "15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
@@ -211,13 +211,13 @@
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"44 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
+"59 /home/calvin/MPLABXProjects/VeinFinder.X/main.c
 [v _initialize initialize `(v  1 e 1 0 ]
 {
-"106
+"121
 } 0
-"108
+"123
 [v _blink blink `(v  1 e 1 0 ]
 {
-"124
+"137
 } 0

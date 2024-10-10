@@ -3912,6 +3912,10 @@
 		(uuid "4fb44bc1-322b-4e2e-a3c6-7bb52df6dfa0")
 	)
 	(no_connect
+		(at 210.82 60.96)
+		(uuid "719efaf2-9278-4db5-b196-baba5f0db764")
+	)
+	(no_connect
 		(at 48.26 39.37)
 		(uuid "8b54fbd2-dbac-4c93-8307-664a8967b291")
 	)
@@ -3937,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 95.25) (xy 207.01 95.25)
+			(xy 194.31 95.25) (xy 217.17 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3947,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 156.21 95.25)
+			(xy 146.05 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4227,6 +4231,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 60.96) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33916f5b-7a3b-4695-a052-eb86b0289f60")
+	)
+	(wire
+		(pts
 			(xy 58.42 31.75) (xy 58.42 34.29)
 		)
 		(stroke
@@ -4474,16 +4488,6 @@
 			(type default)
 		)
 		(uuid "6438635e-6c7a-460e-94f3-dd7467ab54f6")
-	)
-	(wire
-		(pts
-			(xy 161.29 95.25) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646daf13-80d9-4022-b781-d80fb4b7857f")
 	)
 	(wire
 		(pts
@@ -5197,16 +5201,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 95.25) (xy 217.17 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed69a9ee-8aa7-432c-9f92-3308a2a90ace")
-	)
-	(wire
-		(pts
 			(xy 95.25 59.69) (xy 95.25 62.23)
 		)
 		(stroke
@@ -5325,7 +5319,7 @@
 		)
 		(uuid "043f5437-f1f8-4457-9e63-8e3d4ffdc804")
 	)
-	(text "BUTTONS AND INDICATORS"
+	(text "BOTONES E INDICADORES"
 		(exclude_from_sim no)
 		(at 109.728 16.51 0)
 		(effects
@@ -5335,7 +5329,7 @@
 		)
 		(uuid "1d3b35b3-ccc5-45ba-9ad9-6d8f9f6772a8")
 	)
-	(text "POWER AND FILTERING"
+	(text "PODER Y FILTRADO"
 		(exclude_from_sim no)
 		(at 44.45 77.978 0)
 		(effects
@@ -5345,7 +5339,7 @@
 		)
 		(uuid "23b3b626-ae7e-4813-a483-ce7a8b1c9a96")
 	)
-	(text "LIPO CHARGING"
+	(text "CARGA DE LIPO"
 		(exclude_from_sim no)
 		(at 46.228 136.906 0)
 		(effects
@@ -5355,7 +5349,7 @@
 		)
 		(uuid "541b555c-7aa3-4215-993a-f453f1c41b07")
 	)
-	(text "MICROCONTROLLER AND OUTPUTS"
+	(text "MICROCONTROLADOR Y SALIDAS"
 		(exclude_from_sim no)
 		(at 206.502 16.256 0)
 		(effects
@@ -5365,7 +5359,7 @@
 		)
 		(uuid "77be9a3e-ecfa-4753-8e26-b078ee1cd07f")
 	)
-	(text "ICSP PINS"
+	(text "PINES ICSP"
 		(exclude_from_sim no)
 		(at 108.966 138.43 0)
 		(effects
@@ -6085,7 +6079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1194e5ed-a2a1-4255-9fb8-b43fe94e9586")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 99.568 157.988 90)
 			(effects
 				(font
@@ -6157,7 +6151,7 @@
 		(instances
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6928,93 +6922,6 @@
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 209.55 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e4950e1-4c49-43b5-9f45-3cd9440002ff")
-		(property "Reference" "R10"
-			(at 211.582 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 210.82 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0805W8J0102T5E_C25623.pdf"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS#" "C25623"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "0805W8J0102T5E"
-			(at 209.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1733d7f9-69ec-495f-a8b0-94626c834983")
-		)
-		(pin "1"
-			(uuid "612c8aee-fdb8-4e51-b725-b852c12c4948")
-		)
-		(instances
-			(project "VeinFinder_ControlBoard"
-				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8708,93 +8615,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852537a4-6396-48a8-af7a-be5037328514")
-		(property "Reference" "R8"
-			(at 160.02 92.964 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 160.02 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0805W8J0102T5E_C25623.pdf"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LSCS#" "C25623"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "0805W8J0102T5E"
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ebc97735-97f8-4e4a-be63-d6d453080af0")
-		)
-		(pin "1"
-			(uuid "5dc17fa8-a72f-4f28-ba58-6f202b5dd89c")
-		)
-		(instances
-			(project "VeinFinder_ControlBoard"
-				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 217.17 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8802,7 +8622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85fa5f7f-b254-4882-9d2b-3397c4c82780")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 222.25 99.314 0)
 			(effects
 				(font
@@ -8874,7 +8694,7 @@
 		(instances
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9780,7 +9600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cad45e26-4d28-4e9d-a87e-678db3252c2f")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 87.376 154.432 0)
 			(effects
 				(font
@@ -9852,7 +9672,7 @@
 		(instances
 			(project "VeinFinder_ControlBoard"
 				(path "/1b314914-9bf6-4cbb-be85-ae6154e94ac4"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)

@@ -804,6 +804,10 @@
 		(color 0 0 0 0)
 		(uuid "fdc3b7ef-54f6-411b-881b-ff5adb1a9bca")
 	)
+	(no_connect
+		(at 128.27 49.53)
+		(uuid "a987beeb-ed57-411a-928b-b872bf1e2d24")
+	)
 	(wire
 		(pts
 			(xy 177.8 129.54) (xy 184.15 129.54)
@@ -1063,16 +1067,6 @@
 			(type default)
 		)
 		(uuid "355696e3-e352-47c9-aa35-0fbd49f52697")
-	)
-	(polyline
-		(pts
-			(xy 127 19.05) (xy 127 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ee472e-62e0-4b08-aaa2-6c826c2a2b56")
 	)
 	(wire
 		(pts
@@ -1836,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c006d8-7a0e-4798-b9b9-2111edfe990c")
+	)
+	(wire
+		(pts
 			(xy 43.18 114.3) (xy 50.8 114.3)
 		)
 		(stroke
@@ -1854,7 +1858,7 @@
 		)
 		(uuid "f839f71d-1260-4778-8e77-80df9bdfa6d0")
 	)
-	(text "ORANGE LEDS ARRAY"
+	(text "ARREGLO LEDS NARANJAS"
 		(exclude_from_sim no)
 		(at 168.402 23.622 0)
 		(effects
@@ -1864,7 +1868,7 @@
 		)
 		(uuid "2d239be9-1b5b-43fc-8857-504e9d72b584")
 	)
-	(text "RED LEDS ARRAY"
+	(text "ARREGLO LEDS ROJOS"
 		(exclude_from_sim no)
 		(at 42.926 23.622 0)
 		(effects

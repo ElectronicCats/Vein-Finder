@@ -130,8 +130,6 @@ void blink() {
     // Turn off the LEDs
     LRED = 0;
     LORAN = 0;
-    //RED = 0;
-    //ORANGE = 0;
     __delay_ms(200); // Wait 1/5 second
 
 }
@@ -158,7 +156,7 @@ void set_pwm_duty(uint8_t pwm, uint8_t level) {
 void update_leds() {
     if (current_color == 0) { // Red mode
         set_pwm_duty(3, red_level);
-    } else { // Orange mode
+    } else if (current_color == 1){ // Orange mode
         set_pwm_duty(4, orange_level);
     }
 }
@@ -169,12 +167,13 @@ void main(void) {
     blink();
     blink();
     
-    current_color = 0; // Red LED
-    update_leds();
     current_color = 1; // Orange LED
     update_leds();
+    current_color = 0; // Red LED
+    update_leds();
     
-    LRED = 1;
+    LORAN = 1;
+    current_color = 1; // Orange LED
     
     while(1) {
         // Check SEL button
@@ -182,8 +181,8 @@ void main(void) {
             __delay_ms(30); // Debounce
             if (BTN_SEL == 0) {
                 current_color = !current_color;
-                LRED = current_color;
-                LORAN = !current_color;
+                LRED = !current_color;
+                LORAN = current_color;
                 while (BTN_SEL == 0); // Wait for button release
             }
         }

@@ -13,11 +13,11 @@
 [v _initialize initialize `(v  1 e 1 0 ]
 "123
 [v _blink blink `(v  1 e 1 0 ]
-"139
+"137
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
-"158
+"156
 [v _update_leds update_leds `(v  1 e 1 0 ]
-"166
+"164
 [v _main main `(v  1 e 1 0 ]
 [s S242 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -178,28 +178,28 @@
 [v _orange_level orange_level `uc  1 e 1 0 ]
 "57
 [v _current_color current_color `uc  1 e 1 0 ]
-"166
+"164
 [v _main main `(v  1 e 1 0 ]
 {
-"220
+"219
 } 0
-"158
+"156
 [v _update_leds update_leds `(v  1 e 1 0 ]
 {
-"164
+"162
 } 0
-"139
+"137
 [v _set_pwm_duty set_pwm_duty `(v  1 e 1 0 ]
 {
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
-"140
+"138
 [v set_pwm_duty@duty duty `us  1 a 2 10 ]
-"139
+"137
 [v set_pwm_duty@pwm pwm `uc  1 p 1 wreg ]
 [v set_pwm_duty@level level `uc  1 p 1 6 ]
-"143
+"141
 [v set_pwm_duty@pwm pwm `uc  1 p 1 9 ]
-"156
+"154
 } 0
 "15 /opt/microchip/xc8/v2.50/pic/sources/c99/common/Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
@@ -219,5 +219,5 @@
 "123
 [v _blink blink `(v  1 e 1 0 ]
 {
-"137
+"135
 } 0

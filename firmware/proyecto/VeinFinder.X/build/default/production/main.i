@@ -10740,8 +10740,6 @@ void blink() {
 
     LATCbits.LATC1 = 0;
     LATCbits.LATC2 = 0;
-
-
     _delay((unsigned long)((200)*(1000000/4000.0)));
 
 }
@@ -10768,7 +10766,7 @@ void set_pwm_duty(uint8_t pwm, uint8_t level) {
 void update_leds() {
     if (current_color == 0) {
         set_pwm_duty(3, red_level);
-    } else {
+    } else if (current_color == 1){
         set_pwm_duty(4, orange_level);
     }
 }
@@ -10779,12 +10777,13 @@ void main(void) {
     blink();
     blink();
 
-    current_color = 0;
-    update_leds();
     current_color = 1;
     update_leds();
+    current_color = 0;
+    update_leds();
 
-    LATCbits.LATC1 = 1;
+    LATCbits.LATC2 = 1;
+    current_color = 1;
 
     while(1) {
 
@@ -10792,8 +10791,8 @@ void main(void) {
             _delay((unsigned long)((30)*(1000000/4000.0)));
             if (PORTCbits.RC5 == 0) {
                 current_color = !current_color;
-                LATCbits.LATC1 = current_color;
-                LATCbits.LATC2 = !current_color;
+                LATCbits.LATC1 = !current_color;
+                LATCbits.LATC2 = current_color;
                 while (PORTCbits.RC5 == 0);
             }
         }

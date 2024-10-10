@@ -1230,288 +1230,293 @@ Version 4.0 HI-TECH Software Intermediate Code
 "132
 [; ;main.c: 132:     LATCbits.LATC2 = 0;
 [e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
-"135
-[; ;main.c: 135:     _delay((unsigned long)((200)*(1000000/4000.0)));
+"133
+[; ;main.c: 133:     _delay((unsigned long)((200)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 200 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"137
-[; ;main.c: 137: }
+"135
+[; ;main.c: 135: }
 [e :UE 836 ]
 }
-"139
-[; ;main.c: 139: void set_pwm_duty(uint8_t pwm, uint8_t level) {
+"137
+[; ;main.c: 137: void set_pwm_duty(uint8_t pwm, uint8_t level) {
 [v _set_pwm_duty `(v ~T0 @X0 1 ef2`uc`uc ]
 {
 [e :U _set_pwm_duty ]
 [v _pwm `uc ~T0 @X0 1 r1 ]
 [v _level `uc ~T0 @X0 1 r2 ]
 [f ]
-"140
-[; ;main.c: 140:     uint16_t duty;
+"138
+[; ;main.c: 138:     uint16_t duty;
 [v _duty `us ~T0 @X0 1 a ]
-"143
-[; ;main.c: 143:     if (level == 0) {
+"141
+[; ;main.c: 141:     if (level == 0) {
 [e $ ! == -> _level `i -> 0 `i 838  ]
 {
-"144
-[; ;main.c: 144:         duty = 0;
+"142
+[; ;main.c: 142:         duty = 0;
 [e = _duty -> -> 0 `i `us ]
-"145
-[; ;main.c: 145:     } else {
+"143
+[; ;main.c: 143:     } else {
 }
 [e $U 839  ]
 [e :U 838 ]
 {
-"146
-[; ;main.c: 146:         duty = (level * 51);
+"144
+[; ;main.c: 144:         duty = (level * 51);
 [e = _duty -> * -> _level `i -> 51 `i `us ]
-"147
-[; ;main.c: 147:     }
+"145
+[; ;main.c: 145:     }
 }
 [e :U 839 ]
-"149
-[; ;main.c: 149:     if (pwm == 3) {
+"147
+[; ;main.c: 147:     if (pwm == 3) {
 [e $ ! == -> _pwm `i -> 3 `i 840  ]
 {
-"150
-[; ;main.c: 150:         PWM3DCH = duty >> 2;
+"148
+[; ;main.c: 148:         PWM3DCH = duty >> 2;
 [e = _PWM3DCH -> >> -> _duty `ui -> 2 `i `uc ]
-"151
-[; ;main.c: 151:         PWM3DCL = (duty & 0x03) << 6;
+"149
+[; ;main.c: 149:         PWM3DCL = (duty & 0x03) << 6;
 [e = _PWM3DCL -> << & -> _duty `ui -> -> 3 `i `ui -> 6 `i `uc ]
-"152
-[; ;main.c: 152:     } else if (pwm == 4) {
+"150
+[; ;main.c: 150:     } else if (pwm == 4) {
 }
 [e $U 841  ]
 [e :U 840 ]
 [e $ ! == -> _pwm `i -> 4 `i 842  ]
 {
-"153
-[; ;main.c: 153:         PWM4DCH = duty >> 2;
+"151
+[; ;main.c: 151:         PWM4DCH = duty >> 2;
 [e = _PWM4DCH -> >> -> _duty `ui -> 2 `i `uc ]
-"154
-[; ;main.c: 154:         PWM4DCL = (duty & 0x03) << 6;
+"152
+[; ;main.c: 152:         PWM4DCL = (duty & 0x03) << 6;
 [e = _PWM4DCL -> << & -> _duty `ui -> -> 3 `i `ui -> 6 `i `uc ]
-"155
-[; ;main.c: 155:     }
+"153
+[; ;main.c: 153:     }
 }
 [e :U 842 ]
 [e :U 841 ]
-"156
-[; ;main.c: 156: }
+"154
+[; ;main.c: 154: }
 [e :UE 837 ]
 }
-"158
-[; ;main.c: 158: void update_leds() {
+"156
+[; ;main.c: 156: void update_leds() {
 [v _update_leds `(v ~T0 @X0 1 ef ]
 {
 [e :U _update_leds ]
 [f ]
-"159
-[; ;main.c: 159:     if (current_color == 0) {
+"157
+[; ;main.c: 157:     if (current_color == 0) {
 [e $ ! == -> _current_color `i -> 0 `i 844  ]
 {
-"160
-[; ;main.c: 160:         set_pwm_duty(3, red_level);
+"158
+[; ;main.c: 158:         set_pwm_duty(3, red_level);
 [e ( _set_pwm_duty (2 , -> -> 3 `i `uc _red_level ]
-"161
-[; ;main.c: 161:     } else {
+"159
+[; ;main.c: 159:     } else if (current_color == 1){
 }
 [e $U 845  ]
 [e :U 844 ]
+[e $ ! == -> _current_color `i -> 1 `i 846  ]
 {
-"162
-[; ;main.c: 162:         set_pwm_duty(4, orange_level);
+"160
+[; ;main.c: 160:         set_pwm_duty(4, orange_level);
 [e ( _set_pwm_duty (2 , -> -> 4 `i `uc _orange_level ]
-"163
-[; ;main.c: 163:     }
+"161
+[; ;main.c: 161:     }
 }
+[e :U 846 ]
 [e :U 845 ]
-"164
-[; ;main.c: 164: }
+"162
+[; ;main.c: 162: }
 [e :UE 843 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"166
-[; ;main.c: 166: void main(void) {
+"164
+[; ;main.c: 164: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"167
-[; ;main.c: 167:     initialize();
+"165
+[; ;main.c: 165:     initialize();
 [e ( _initialize ..  ]
+"166
+[; ;main.c: 166:     blink();
+[e ( _blink ..  ]
+"167
+[; ;main.c: 167:     blink();
+[e ( _blink ..  ]
 "168
 [; ;main.c: 168:     blink();
 [e ( _blink ..  ]
-"169
-[; ;main.c: 169:     blink();
-[e ( _blink ..  ]
 "170
-[; ;main.c: 170:     blink();
-[e ( _blink ..  ]
+[; ;main.c: 170:     current_color = 1;
+[e = _current_color -> -> 1 `i `uc ]
+"171
+[; ;main.c: 171:     update_leds();
+[e ( _update_leds ..  ]
 "172
 [; ;main.c: 172:     current_color = 0;
 [e = _current_color -> -> 0 `i `uc ]
 "173
 [; ;main.c: 173:     update_leds();
 [e ( _update_leds ..  ]
-"174
-[; ;main.c: 174:     current_color = 1;
-[e = _current_color -> -> 1 `i `uc ]
 "175
-[; ;main.c: 175:     update_leds();
-[e ( _update_leds ..  ]
-"177
-[; ;main.c: 177:     LATCbits.LATC1 = 1;
-[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
-"179
-[; ;main.c: 179:     while(1) {
-[e :U 848 ]
+[; ;main.c: 175:     LATCbits.LATC2 = 1;
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+"176
+[; ;main.c: 176:     current_color = 1;
+[e = _current_color -> -> 1 `i `uc ]
+"178
+[; ;main.c: 178:     while(1) {
+[e :U 849 ]
 {
-"181
-[; ;main.c: 181:         if (PORTCbits.RC5 == 0) {
-[e $ ! == -> . . _PORTCbits 0 5 `i -> 0 `i 850  ]
-{
-"182
-[; ;main.c: 182:             _delay((unsigned long)((30)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"183
-[; ;main.c: 183:             if (PORTCbits.RC5 == 0) {
+"180
+[; ;main.c: 180:         if (PORTCbits.RC5 == 0) {
 [e $ ! == -> . . _PORTCbits 0 5 `i -> 0 `i 851  ]
 {
-"184
-[; ;main.c: 184:                 current_color = !current_color;
+"181
+[; ;main.c: 181:             _delay((unsigned long)((30)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"182
+[; ;main.c: 182:             if (PORTCbits.RC5 == 0) {
+[e $ ! == -> . . _PORTCbits 0 5 `i -> 0 `i 852  ]
+{
+"183
+[; ;main.c: 183:                 current_color = !current_color;
 [e = _current_color -> -> ! != -> _current_color `i -> 0 `i `i `uc ]
+"184
+[; ;main.c: 184:                 LATCbits.LATC1 = !current_color;
+[e = . . _LATCbits 0 1 -> -> ! != -> _current_color `i -> 0 `i `i `uc ]
 "185
-[; ;main.c: 185:                 LATCbits.LATC1 = current_color;
-[e = . . _LATCbits 0 1 _current_color ]
+[; ;main.c: 185:                 LATCbits.LATC2 = current_color;
+[e = . . _LATCbits 0 2 _current_color ]
 "186
-[; ;main.c: 186:                 LATCbits.LATC2 = !current_color;
-[e = . . _LATCbits 0 2 -> -> ! != -> _current_color `i -> 0 `i `i `uc ]
-"187
-[; ;main.c: 187:                 while (PORTCbits.RC5 == 0);
-[e $U 852  ]
-[e :U 853 ]
-[e :U 852 ]
-[e $ == -> . . _PORTCbits 0 5 `i -> 0 `i 853  ]
+[; ;main.c: 186:                 while (PORTCbits.RC5 == 0);
+[e $U 853  ]
 [e :U 854 ]
+[e :U 853 ]
+[e $ == -> . . _PORTCbits 0 5 `i -> 0 `i 854  ]
+[e :U 855 ]
+"187
+[; ;main.c: 187:             }
+}
+[e :U 852 ]
 "188
-[; ;main.c: 188:             }
+[; ;main.c: 188:         }
 }
 [e :U 851 ]
-"189
-[; ;main.c: 189:         }
-}
-[e :U 850 ]
-"192
-[; ;main.c: 192:         if (PORTCbits.RC0 == 0) {
-[e $ ! == -> . . _PORTCbits 0 0 `i -> 0 `i 855  ]
-{
-"193
-[; ;main.c: 193:             _delay((unsigned long)((30)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"194
-[; ;main.c: 194:             if (PORTCbits.RC0 == 0) {
+"191
+[; ;main.c: 191:         if (PORTCbits.RC0 == 0) {
 [e $ ! == -> . . _PORTCbits 0 0 `i -> 0 `i 856  ]
 {
+"192
+[; ;main.c: 192:             _delay((unsigned long)((30)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"193
+[; ;main.c: 193:             if (PORTCbits.RC0 == 0) {
+[e $ ! == -> . . _PORTCbits 0 0 `i -> 0 `i 857  ]
+{
+"194
+[; ;main.c: 194:                 if (current_color == 0 && red_level < 5) {
+[e $ ! && == -> _current_color `i -> 0 `i < -> _red_level `i -> 5 `i 858  ]
+{
 "195
-[; ;main.c: 195:                 if (current_color == 0 && red_level < 5) {
-[e $ ! && == -> _current_color `i -> 0 `i < -> _red_level `i -> 5 `i 857  ]
-{
-"196
-[; ;main.c: 196:                     red_level++;
+[; ;main.c: 195:                     red_level++;
 [e ++ _red_level -> -> 1 `i `uc ]
-"197
-[; ;main.c: 197:                 } else if (current_color == 1 && orange_level < 5) {
+"196
+[; ;main.c: 196:                 } else if (current_color == 1 && orange_level < 5) {
 }
-[e $U 858  ]
-[e :U 857 ]
-[e $ ! && == -> _current_color `i -> 1 `i < -> _orange_level `i -> 5 `i 859  ]
-{
-"198
-[; ;main.c: 198:                     orange_level++;
-[e ++ _orange_level -> -> 1 `i `uc ]
-"199
-[; ;main.c: 199:                 }
-}
-[e :U 859 ]
+[e $U 859  ]
 [e :U 858 ]
-"200
-[; ;main.c: 200:                 while (PORTCbits.RC0 == 0);
-[e $U 860  ]
-[e :U 861 ]
+[e $ ! && == -> _current_color `i -> 1 `i < -> _orange_level `i -> 5 `i 860  ]
+{
+"197
+[; ;main.c: 197:                     orange_level++;
+[e ++ _orange_level -> -> 1 `i `uc ]
+"198
+[; ;main.c: 198:                 }
+}
 [e :U 860 ]
-[e $ == -> . . _PORTCbits 0 0 `i -> 0 `i 861  ]
+[e :U 859 ]
+"199
+[; ;main.c: 199:                 while (PORTCbits.RC0 == 0);
+[e $U 861  ]
 [e :U 862 ]
+[e :U 861 ]
+[e $ == -> . . _PORTCbits 0 0 `i -> 0 `i 862  ]
+[e :U 863 ]
+"200
+[; ;main.c: 200:             }
+}
+[e :U 857 ]
 "201
-[; ;main.c: 201:             }
+[; ;main.c: 201:         }
 }
 [e :U 856 ]
-"202
-[; ;main.c: 202:         }
-}
-[e :U 855 ]
-"205
-[; ;main.c: 205:         if (PORTAbits.RA2 == 0) {
-[e $ ! == -> . . _PORTAbits 0 2 `i -> 0 `i 863  ]
-{
-"206
-[; ;main.c: 206:             _delay((unsigned long)((30)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"207
-[; ;main.c: 207:             if (PORTAbits.RA2 == 0) {
+"204
+[; ;main.c: 204:         if (PORTAbits.RA2 == 0) {
 [e $ ! == -> . . _PORTAbits 0 2 `i -> 0 `i 864  ]
 {
+"205
+[; ;main.c: 205:             _delay((unsigned long)((30)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"206
+[; ;main.c: 206:             if (PORTAbits.RA2 == 0) {
+[e $ ! == -> . . _PORTAbits 0 2 `i -> 0 `i 865  ]
+{
+"207
+[; ;main.c: 207:                 if (current_color == 0 && red_level > 0) {
+[e $ ! && == -> _current_color `i -> 0 `i > -> _red_level `i -> 0 `i 866  ]
+{
 "208
-[; ;main.c: 208:                 if (current_color == 0 && red_level > 0) {
-[e $ ! && == -> _current_color `i -> 0 `i > -> _red_level `i -> 0 `i 865  ]
-{
-"209
-[; ;main.c: 209:                     red_level--;
+[; ;main.c: 208:                     red_level--;
 [e -- _red_level -> -> 1 `i `uc ]
-"210
-[; ;main.c: 210:                 } else if (current_color == 1 && orange_level > 0) {
+"209
+[; ;main.c: 209:                 } else if (current_color == 1 && orange_level > 0) {
 }
-[e $U 866  ]
-[e :U 865 ]
-[e $ ! && == -> _current_color `i -> 1 `i > -> _orange_level `i -> 0 `i 867  ]
-{
-"211
-[; ;main.c: 211:                     orange_level--;
-[e -- _orange_level -> -> 1 `i `uc ]
-"212
-[; ;main.c: 212:                 }
-}
-[e :U 867 ]
+[e $U 867  ]
 [e :U 866 ]
-"213
-[; ;main.c: 213:                 while (PORTAbits.RA2 == 0);
-[e $U 868  ]
-[e :U 869 ]
+[e $ ! && == -> _current_color `i -> 1 `i > -> _orange_level `i -> 0 `i 868  ]
+{
+"210
+[; ;main.c: 210:                     orange_level--;
+[e -- _orange_level -> -> 1 `i `uc ]
+"211
+[; ;main.c: 211:                 }
+}
 [e :U 868 ]
-[e $ == -> . . _PORTAbits 0 2 `i -> 0 `i 869  ]
+[e :U 867 ]
+"212
+[; ;main.c: 212:                 while (PORTAbits.RA2 == 0);
+[e $U 869  ]
 [e :U 870 ]
+[e :U 869 ]
+[e $ == -> . . _PORTAbits 0 2 `i -> 0 `i 870  ]
+[e :U 871 ]
+"213
+[; ;main.c: 213:             }
+}
+[e :U 865 ]
 "214
-[; ;main.c: 214:             }
+[; ;main.c: 214:         }
 }
 [e :U 864 ]
-"215
-[; ;main.c: 215:         }
-}
-[e :U 863 ]
-"217
-[; ;main.c: 217:         update_leds();
+"216
+[; ;main.c: 216:         update_leds();
 [e ( _update_leds ..  ]
-"218
-[; ;main.c: 218:         _delay((unsigned long)((10)*(1000000/4000.0)));
+"217
+[; ;main.c: 217:         _delay((unsigned long)((10)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 10 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"219
-[; ;main.c: 219:     }
+"218
+[; ;main.c: 218:     }
 }
-[e :U 847 ]
-[e $U 848  ]
-[e :U 849 ]
-"220
-[; ;main.c: 220: }
-[e :UE 846 ]
+[e :U 848 ]
+[e $U 849  ]
+[e :U 850 ]
+"219
+[; ;main.c: 219: }
+[e :UE 847 ]
 }

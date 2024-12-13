@@ -12,6 +12,12 @@ In the healthcare field, nursing staff frequently encounter difficulties when in
 
 This is a device that, using LEDs, helps to contrast veins through the skin, making them visible, even those that are not deep, but also not the superficial ones that we observe with the naked eye. This is achieved thanks to hemoglobin, which absorbs the light that attempts to pass through the veins, making them visible.
 
+Testing and Trials: 
+
+Risk and Usage Assessment: 
+
+Calibration and Design Details: 
+
 ## How to contribute <img src="https://electroniccats.com/wp-content/uploads/2018/01/fav.png" height="35"><img src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif" height="30">
  Contributions are welcome! 
 
